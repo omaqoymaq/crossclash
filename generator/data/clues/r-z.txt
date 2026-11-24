@@ -1,0 +1,569 @@
+RESORT|Holiday spot
+REST|Relax|Remainder
+RESUME|Carry on
+RETAIN|Keep
+RETIRE|Stop working
+RETURN|Come back
+REVEAL|Disclose
+REVIEW|Critique
+RICE|Grain staple
+RICH|Wealthy
+RID|Free of
+RIDE|Journey|Travel on
+RIDER|Jockey
+RIFLE|Gun|Rummage
+RIGHT|Correct
+RIGHTS|Entitlements
+RING|Band|Phone
+RIP|Tear
+RISE|Climb
+RISING|Ascending
+RISKY|Dangerous
+ROAD|Street
+ROADS|Streets
+ROB|Steal from
+ROBOT|Android
+ROBOTS|Androids
+ROBUST|Sturdy
+ROCK|Stone|Sway
+ROCKET|Spacecraft
+ROD|Pole|Stick
+ROLE|Part
+ROLES|Parts
+ROLL|Bun|Turn over
+ROOF|Top of a house
+ROOKIE|Newcomer
+ROOM|Chamber|Space
+ROOMS|Chambers
+ROOT|Origin|Plant base
+ROOTS|Origins
+ROSE|Flower|Got up
+ROSTER|Rota
+ROUGH|Coarse
+ROUTE|Way
+ROYAL|Regal
+RUB|Massage
+RUDE|Impolite
+RUIN|Wreck
+RUINS|Remains
+RULE|Govern|Law
+RULED|Governed
+RUMORS|Gossip (US)
+RUN|Sprint|Manage
+RURAL|Rustic
+SACK|Bag|Fire
+SACRED|Holy
+SAD|Unhappy
+SAFELY|Without harm
+SAID|Spoke
+SAIL|Canvas|Voyage
+SAINT|Holy person
+SALAD|Leafy dish
+SALE|Bargain event
+SALES|Bargain events
+SALMON|Pink fish
+SALT|Seasoning
+SAME|Identical
+SAMPLE|Specimen
+SAND|Beach grains
+SANDY|Gritty
+SAVE|Rescue
+SAW|Cutting tool|Spotted
+SAY|Speak
+SAYS|Speaks
+SCALE|Size|Climb
+SCAM|Fraud
+SCAN|Examine
+SCARE|Frighten
+SCENE|View|Episode
+SCHEME|Plan
+SCHOOL|Academy
+SCOPE|Range
+SCORES|Points
+SCOUT|Spotter
+SCREAM|Shriek
+SCREEN|Display|Hide
+SCRIPT|Text|Handwriting
+SEA|Ocean
+SEAL|Close|Marine mammal
+SEAS|Oceans
+SEAT|Chair
+SECOND|Next after first|Moment
+SECRET|Hidden
+SECTOR|Area
+SEE|Look|Notice
+SEEK|Look for
+SEEM|Appear
+SEEMED|Appeared
+SEEMS|Appears
+SEES|Spots
+SELECT|Choose
+SELF|Ego
+SELL|Trade
+SENATE|Upper house
+SENDS|Dispatches
+SENIOR|Elder
+SENSE|Feeling
+SENSES|Feelings
+SENSOR|Detector
+SENT|Dispatched
+SERIAL|Series
+SERIES|Sequence
+SERIOUS|Grave
+SERVE|Wait on
+SET|Group|Place
+SETS|Groups
+SEVEN|Days in a week
+SHADE|Shadow|Hue
+SHAME|Disgrace
+SHAPE|Form
+SHARE|Portion
+SHARK|Toothy fish
+SHARP|Keen-edged
+SHED|Hut
+SHEEP|Flock animal
+SHEER|Utter|Steep
+SHEET|Bedlinen|Page
+SHEETS|Bedlinen
+SHELF|Ledge
+SHIFT|Move|Work period
+SHIP|Vessel
+SHIRT|Top
+SHOE|Footwear
+SHOES|Footwear
+SHOOT|Fire|Sprout
+SHOP|Store
+SHOT|Fired|Attempt
+SHOW|Display|Performance
+SHOWS|Displays
+SHUT|Closed
+SHY|Timid
+SIDE|Edge|Team
+SIEGE|Blockade
+SIGH|Exhale sadly
+SIGN|Signal|Autograph
+SIGNAL|Sign
+SIGNS|Signals
+SILENT|Quiet
+SILK|Fine fabric
+SILLY|Foolish
+SIMPLE|Easy
+SIMPLY|Just
+SIN|Wrongdoing
+SING|Croon
+SINGER|Vocalist
+SINK|Basin|Go under
+SIR|Knight's title
+SISTER|Sibling
+SIT|Be seated
+SITE|Location
+SITES|Locations
+SITS|Is seated
+SIX|Half a dozen
+SKI|Glide on snow
+SKILL|Talent
+SKILLS|Talents
+SKIN|Hide
+SKIP|Hop|Miss out
+SKY|Heavens
+SLAM|Bang shut
+SLAVE|Drudge
+SLEEP|Slumber
+SLEEVE|Arm cover
+SLICE|Piece
+SLIDE|Glide
+SLIM|Thin
+SLOPE|Incline
+SLOT|Opening
+SLOW|Sluggish
+SMALL|Little
+SMART|Clever
+SMELL|Odour
+SMELLS|Odours
+SMILES|Grins
+SMOOTH|Even|Silky
+SNAP|Break|Photo
+SNEAK|Creep
+SNOW|Winter flakes
+SOAP|Cleanser
+SOCCER|Football
+SOCIAL|Sociable
+SODA|Fizzy drink
+SOIL|Earth
+SOLAR|Of the sun
+SOLD|Traded
+SOLE|Only|Flatfish
+SOLO|Alone
+SOLVED|Worked out
+SOME|A few
+SON|Male child
+SONG|Tune
+SONIC|Of sound
+SOON|Shortly
+SOONER|Earlier
+SORE|Painful
+SOUGHT|Looked for
+SOUL|Spirit
+SOULS|Spirits
+SOUP|Broth
+SOURCE|Origin
+SOVIET|Of the USSR
+SPA|Health resort
+SPACE|Room|Cosmos
+SPAM|Junk mail
+SPAN|Extent
+SPARE|Extra
+SPARK|Flash
+SPEAK|Talk
+SPEED|Pace
+SPEEDS|Paces
+SPELL|Charm|Period
+SPEND|Pay out
+SPENT|Paid out
+SPHERE|Ball
+SPIN|Twirl
+SPITE|Malice
+SPORT|Game
+SPOT|Place|See
+SPOTS|Places
+SPOUSE|Partner
+SPRAY|Mist
+SPREAD|Scatter
+SPY|Agent
+SQUAD|Team
+STAFF|Employees
+STAGE|Platform|Phase
+STAIRS|Steps
+STANCE|Position
+STAND|Rise|Booth
+STAR|Celebrity
+STARE|Gaze
+STARS|Celebrities
+START|Begin
+STATE|Nation|Condition
+STATES|Nations
+STATIC|Still
+STATUS|Standing
+STAY|Remain
+STEADY|Stable
+STEAK|Beef cut
+STEAL|Pinch
+STEEL|Alloy
+STEEP|Sheer
+STEM|Stalk
+STEP|Stride|Stair
+STEPS|Stairs
+STERN|Strict|Back of a ship
+STICK|Twig|Glue
+STILL|Motionless
+STIR|Mix
+STOLE|Pinched|Shawl
+STONE|Rock
+STONES|Rocks
+STOP|Halt
+STORE|Shop
+STORM|Tempest
+STORMS|Tempests
+STRAW|Hay|Drinking tube
+STREAK|Stripe|Run
+STREAM|Brook
+STREET|Road
+STRICT|Stern
+STRIP|Band|Undress
+STROKE|Caress
+STRONG|Powerful
+STRUCK|Hit
+STUDIO|Workshop
+STUFF|Things
+STYLE|Fashion
+STYLES|Fashions
+SUB|Substitute
+SUBWAY|Underground railway
+SUCH|So
+SUE|Take to court
+SUED|Took to court
+SUGAR|Sweetener
+SUIT|Outfit
+SUITE|Set of rooms
+SUM|Total
+SUMS|Totals
+SUN|Our star
+SUNNY|Bright
+SUPERB|Excellent
+SURE|Certain
+SWAP|Exchange
+SWEAR|Vow
+SWEEP|Brush
+SWEPT|Brushed
+SWIM|Bathe
+SWING|Sway
+SWORD|Blade
+SYMBOL|Sign
+TAB|Bill|Flap
+TABLE|Desk|Chart
+TABLES|Desks
+TABLET|Pill
+TACKLE|Gear|Take on
+TAG|Label
+TAIL|Follow|Rear
+TAKE|Grab
+TAKEN|Grabbed
+TAKES|Grabs
+TAKING|Grabbing
+TALE|Story
+TALENT|Gift
+TALKED|Chatted
+TAN|Bronze
+TAP|Faucet|Knock
+TAPE|Ribbon|Record
+TASK|Job
+TASKS|Jobs
+TASTE|Flavour
+TASTES|Flavours
+TATTOO|Ink design
+TAX|Levy
+TAXI|Cab
+TEA|Brew
+TEACH|Instruct
+TEAM|Side
+TEAMS|Sides
+TEAR|Rip|Teardrop
+TECH|Technology, briefly
+TEEN|Adolescent
+TEENS|Adolescents
+TEETH|Molars
+TELL|Inform
+TEN|Decade number
+TEND|Care for
+TENDER|Gentle
+TENDS|Cares for
+TENNIS|Racket sport
+TENSE|Taut
+TENT|Canvas shelter
+TENTH|Ordinal after ninth
+TENURE|Term of office
+TERM|Word|Period
+TERMS|Conditions
+TERROR|Fear
+TEST|Exam|Trial
+TESTED|Tried
+TESTS|Exams
+TEXT|Message
+TEXTS|Messages
+THEME|Topic
+THEN|Next
+THERE|In that place
+THIN|Slender
+THIRD|Bronze position
+THOU|You, archaic
+THREAT|Menace
+THRONE|Royal seat
+THROW|Toss
+THROWN|Tossed
+THUS|Therefore
+TIDE|Ebb and flow
+TIED|Knotted
+TIER|Level
+TIGER|Striped cat
+TIGERS|Striped cats
+TIME|Era|Clock reading
+TIMES|Eras
+TIN|Can|Metal
+TINY|Minute
+TIP|Point|Gratuity
+TIRE|Weary|Tyre (US)
+TIRED|Weary
+TIRES|Wearies
+TISSUE|Hanky
+TITLE|Name
+TITLED|Named
+TITLES|Names
+TODAY|This day
+TOE|Foot digit
+TOES|Foot digits
+TOILET|Loo
+TOLL|Fee
+TON|Weight unit
+TONE|Pitch
+TONS|Lots
+TOO|Also
+TOP|Peak
+TOPIC|Subject
+TOPICS|Subjects
+TORN|Ripped
+TOTAL|Sum
+TOUR|Trip
+TOWERS|Spires
+TOWN|Borough
+TOY|Plaything
+TOYS|Playthings
+TRACK|Path|Song
+TRADE|Commerce
+TRADED|Swapped
+TRAIL|Path
+TRAILS|Paths
+TRAIN|Coach|Railway
+TRAINS|Railways
+TRAP|Snare
+TRASH|Rubbish
+TRAUMA|Shock
+TREAT|Delight
+TREE|Oak, e.g.
+TREES|Woodland
+TREK|Hike
+TREND|Fashion
+TRIAL|Test|Court case
+TRIALS|Tests
+TRIBE|Clan
+TRIBES|Clans
+TRICKS|Stunts
+TRIO|Three
+TRIP|Journey|Stumble
+TRIPS|Journeys
+TROOPS|Soldiers
+TRUE|Correct
+TRUST|Faith
+TRUTH|Fact
+TRY|Attempt
+TUBES|Pipes
+TUMOR|Growth (US)
+TUNE|Melody
+TUNNEL|Underpass
+TWEET|Chirp
+TWEETS|Chirps
+TWIN|Double
+TWINS|Pair
+TWO|Pair
+TYPE|Kind
+TYPES|Kinds
+UGLY|Unattractive
+ULTRA|Extreme
+UNABLE|Incapable
+UNCLEAR|Vague
+UNDER|Below
+UNION|Alliance
+UNIQUE|One-off
+UNITE|Join
+UNITED|Joined
+UNITY|Oneness
+UPDATE|Refresh
+UPLOAD|Send online
+UPPER|Higher
+UPSIDE|Benefit
+URBAN|Of the city
+URGE|Impulse
+URGED|Pressed
+URGENT|Pressing
+USAGE|Use
+USE|Utilise
+USED|Second-hand
+USEFUL|Handy
+USER|Consumer
+USERS|Consumers
+USES|Purposes
+USING|Utilising
+USUAL|Normal
+VALID|Sound
+VALUE|Worth
+VALUES|Principles
+VAN|Lorry|Vanguard
+VARIES|Changes
+VARY|Change
+VAST|Huge
+VAULT|Leap|Strongroom
+VECTOR|Direction
+VEGAN|Plant eater
+VENUE|Place
+VERY|Extremely
+VESSEL|Ship
+VET|Animal doctor
+VIBE|Mood
+VICE|Bad habit
+VIDEO|Film
+VIDEOS|Films
+VIEW|Sight
+VILLA|Country house
+VINYL|Record material
+VIRAL|Spreading fast
+VISA|Travel permit
+VISION|Sight
+VISIT|Call on
+VISUAL|Seen
+VITAL|Essential
+VOICE|Speech
+VOTE|Ballot
+VOTED|Cast a ballot
+VOTER|Elector
+VOTES|Ballots
+WADE|Paddle
+WAGE|Pay
+WAGES|Pay
+WAITED|Stayed
+WALES|Part of the UK
+WALK|Stroll
+WALKER|Hiker
+WALL|Partition
+WALLS|Partitions
+WANT|Desire
+WANTED|Desired
+WANTS|Desires
+WAR|Conflict
+WARM|Toasty
+WARN|Alert
+WARS|Conflicts
+WASH|Clean
+WASTE|Squander
+WATER|H2O
+WATERS|Seas
+WAVES|Breakers
+WAX|Polish|Grow
+WAY|Route
+WAYS|Routes
+WEAK|Feeble
+WEAPON|Arm
+WEAR|Dress in
+WEB|Net
+WEED|Wild plant
+WEEK|Seven days
+WEEKLY|Every week
+WEIGH|Measure
+WELL|Healthy|Water source
+WELLS|Water sources
+WEST|Sunset direction
+WET|Damp
+WHILE|During
+WHIP|Lash
+WHITE|Snowy
+WHY|For what reason
+WIDE|Broad
+WIDELY|Broadly
+WIFE|Spouse
+WILL|Testament
+WIN|Victory
+WINDOW|Pane
+WIPE|Clean
+WISE|Sage
+WISH|Hope
+WIT|Humour
+WITHIN|Inside
+WOMAN|Lady
+WON|Triumphed
+WONDER|Marvel
+WOOL|Fleece
+WORD|Term
+WORLD|Earth
+WORST|Poorest
+WOW|Amazing!
+WRAP|Cover
+WRONG|Incorrect
+YARD|Garden
+YARDS|Gardens
+YEAR|Twelve months
+YEARS|Ages
+YELLOW|Lemon colour
+YES|Agreement
+YET|Still
+YOGA|Stretching exercise
+YOUNG|Youthful
+ZERO|Nought
+ZOO|Animal park

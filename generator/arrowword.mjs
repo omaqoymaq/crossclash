@@ -19,8 +19,8 @@
 
 export const SIZES = {
   regular: { w: 9, h: 9, maxLen: 7, label: 'Regular' },
-  large: { w: 11, h: 12, maxLen: 7, label: 'Large' },
-  xl: { w: 13, h: 15, maxLen: 7, label: 'ExtraLarge' },
+  large: { w: 11, h: 12, maxLen: 6, label: 'Large' },
+  xl: { w: 13, h: 15, maxLen: 6, label: 'ExtraLarge' },
 };
 
 const RARE = new Set(['J', 'Q', 'X', 'Z']);
@@ -66,11 +66,12 @@ const popcount = (x) => {
  * Prepares a lexicon ({ WORD: { f, c: [clues] } }) for fast pattern lookups.
  * Reuse the returned index across many generatePuzzle calls.
  */
-export function buildIndex(lexiconWords, { minLen = 2, maxLen = 10 } = {}) {
+export function buildIndex(lexiconWords, { minLen = 2, maxLen = 10, handOnly = false } = {}) {
   const byLen = new Map();
   for (const [word, entry] of Object.entries(lexiconWords)) {
     if (!/^[A-Z]+$/.test(word) || word.length < minLen || word.length > maxLen) continue;
     if (!entry.c || !entry.c.length) continue;
+    if (handOnly && !entry.hand) continue;
     if (word.length > 2 && !/[AEIOUY]/.test(word)) continue; // skip abbreviations
     if (!byLen.has(word.length)) byLen.set(word.length, []);
     byLen.get(word.length).push(word);
@@ -90,9 +91,11 @@ export function buildIndex(lexiconWords, { minLen = 2, maxLen = 10 } = {}) {
       for (let p = 0; p < len; p++) bits[p][w.charCodeAt(p) - 65][i >>> 5] |= 1 << (i & 31);
     });
     const freq = words.map((w) => lexiconWords[w].f || 0);
-    index.set(len, { words, bits, nWords32, freq });
+    const hand = words.map((w) => !!lexiconWords[w].hand);
+    index.set(len, { words, bits, nWords32, freq, hand });
   }
-  return { index, lexicon: lexiconWords };
+  const allowed = new Set([...byLen.values()].flat());
+  return { index, lexicon: lexiconWords, allowed };
 }
 
 /** Returns a bitset of words of length len that match pattern (array of letters or null). */
@@ -297,7 +300,8 @@ function fill(slots, w, h, idx, rand, opts) {
       const word = entry.words[i];
       const f = entry.freq[i];
       const penalty = avoid.get(word) || 0;
-      return { word, key: Math.log2(2 + f) * 0.6 + rand() * 2.2 - penalty * 1.5 - (word.length === 2 ? 1 : 0) };
+      // prefer common words and words with hand-written clues
+      return { word, key: Math.log2(2 + f) * 0.6 + rand() * 2.2 - penalty * 0.6 - (word.length === 2 ? 1 : 0) + (entry.hand[i] ? 3 : 0) };
     });
     scored.sort((a, b) => b.key - a.key);
     return scored.slice(0, opts.branch || 24).map((x) => x.word);
@@ -340,7 +344,7 @@ function fill(slots, w, h, idx, rand, opts) {
           if (pat.every(Boolean)) {
             const wd = pat.join('');
             const entry = idx.index.get(wd.length);
-            if (!entry || usedWords.has(wd) || !idx.lexicon[wd]) { ok = false; break; }
+            if (!entry || usedWords.has(wd) || !idx.allowed.has(wd)) { ok = false; break; }
             assigned[si] = wd; usedWords.add(wd); completed.push(si);
           }
         }

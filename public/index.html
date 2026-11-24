@@ -46,6 +46,16 @@
           <button data-size="xl">ExtraLarge<small>13×15</small></button>
         </div>
       </div>
+      <div class="group">
+        <h3>Turn timer</h3>
+        <div class="seg" id="timer-seg" role="radiogroup">
+          <button data-timer="0">Off</button>
+          <button data-timer="30">30 s</button>
+          <button data-timer="60" class="on">1 min</button>
+          <button data-timer="120">2 min</button>
+          <button data-timer="300">5 min</button>
+        </div>
+      </div>
       <div class="group" id="level-group">
         <h3>Bot level</h3>
         <div class="seg" id="level-seg" role="radiogroup">
@@ -69,6 +79,7 @@
         <button id="share-link">Share…</button>
       </div>
       <p class="mono small" id="lobby-link"></p>
+      <p class="small" id="lobby-rules"></p>
       <p class="waiting" id="lobby-status"><span class="dot"></span> Waiting for your friend…</p>
     </section>
 
@@ -78,6 +89,7 @@
         <div class="player" id="p0"><div class="pname"></div><div class="pscore">0</div><div class="ptag"></div></div>
         <div class="mid">
           <div class="timer"><div class="bar" id="timer-bar"></div></div>
+          <div class="timer-text" id="timer-text"></div>
           <div class="turn-label" id="turn-label"></div>
           <div class="bag" id="bag-label"></div>
         </div>
@@ -89,7 +101,8 @@
       <div class="actions">
         <button id="btn-menu" class="ghost" aria-label="Menu">☰</button>
         <button id="btn-swap">Swap</button>
-        <button id="btn-end" class="primary">End turn</button>
+        <button id="btn-recall">Recall</button>
+        <button id="btn-submit" class="primary">Pass</button>
       </div>
       <div class="toast" id="toast"></div>
       <div class="coach hidden" id="coach"></div>
@@ -101,10 +114,11 @@
     <h2>How to play</h2>
     <ol class="howto">
       <li><b>Same grid, two players.</b> You and your opponent fill one arrowword together. Clues sit inside the shaded squares; the arrow shows where the answer goes.</li>
-      <li><b>Tiles.</b> You hold 6 letter tiles. Every tile belongs somewhere in this grid. Tap a tile, then tap the square where you think it goes (or tap a square and type).</li>
-      <li><b>Right or wrong.</b> A correct tile stays and scores its points. A wrong tile bounces back and ends your turn, so think before you guess.</li>
-      <li><b>Bonuses.</b> Finish a word and you score its length on top. Use all 6 tiles in one turn for +10.</li>
-      <li><b>Turns.</b> You have 60 seconds. End your turn any time, or swap your whole rack instead of placing. Tiles refill at the end of each turn.</li>
+      <li><b>Tiles.</b> Each turn starts with exactly 5 letter tiles in your hand, and every tile belongs somewhere in this grid. Tap a tile, then the square where you think it goes (or tap a square and type). Nothing is checked until you submit; tap a laid tile to take it back.</li>
+      <li><b>Submit.</b> Right tiles stay on the board for +1 each. Wrong tiles come back to your hand and cost −1 each.</li>
+      <li><b>Words.</b> For every word your submission completes you get +1, plus +1 for each letter in that word.</li>
+      <li><b>Full hand.</b> All 5 tiles right in one turn: +5.</li>
+      <li><b>Turns.</b> Submitting ends your turn. You can also pass or swap your whole hand. The turn timer (if one was chosen) submits whatever you laid out when it runs out.</li>
       <li><b>Winning.</b> When the grid is full, the higher score wins.</li>
     </ol>
     <form method="dialog"><button class="primary">Got it</button></form>

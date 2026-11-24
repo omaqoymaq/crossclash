@@ -9,17 +9,18 @@ Two players fill the **same arrowword grid**. Clues sit inside the shaded square
 | ↳ | answer starts in the square below and runs right |
 | ⤵ | answer starts in the square to the right and runs down |
 
-**Tiles.** The bag holds exactly the letters still missing from the grid, so every tile you draw has a home. Each player holds 6 tiles. A few starter letters are revealed at the beginning.
+**Tiles.** The bag holds exactly the letters still missing from the grid, so every tile has a home. Every turn starts with exactly **5 tiles** in your hand (fewer only when the bag runs out). A few starter letters are revealed at the beginning.
 
-**A turn (60 seconds).** Place tiles one at a time on empty squares.
-- Correct: the tile stays, in your colour, and scores its letter value.
-- Wrong: the tile bounces back and your turn ends at once.
-- You can end your turn whenever you like, or swap your whole rack instead of placing anything.
-- When the timer runs out the turn passes. Tiles refill at the end of each turn.
+**A turn.** Lay any tiles you like on empty squares. Nothing is checked until you press **Submit**; until then you can take tiles back. Submitting ends your turn. You can also pass, or swap your whole hand.
 
-**Scoring.**
-- Letter values: A E I O N R S T = 1 · U L D = 2 · G C M P B H = 3 · F W Y = 4 · V K = 5 · J X = 8 · Q Z = 9
-- Completing a word (placing its last missing letter): + the word's length. One tile can finish two words.
-- Using all 6 tiles in one turn: +10.
+**Scoring, per submission.**
+- +1 for each correct tile (it stays on the board, in your colour)
+- −1 for each wrong tile (it goes back to your hand)
+- +1 for each word your submission completes, plus +1 for every letter in each of those words
+- +5 when all 5 tiles were placed correctly
 
-**End.** The game ends when the grid is full (higher score wins), when a player resigns, or after 12 turns in a row with no correct tile.
+Example: 4 right, 1 wrong, finishing a 5-letter word → 4 − 1 + 1 + 5 = **9**.
+
+**Timer.** Chosen before the game: off, 30 s, 1 min, 2 min or 5 min per turn. When time runs out, whatever you laid out is submitted.
+
+**End.** The game ends when the grid is full (higher score wins), when a player resigns, or after 20 turns in a row with no correct tile.

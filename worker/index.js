@@ -1,14 +1,14 @@
 // CrossClash server: one Cloudflare Worker that serves the static game from
 // /public and hosts private 1v1 rooms, one Durable Object per room.
 //
-//   POST /api/rooms            {size}  -> {code}
+//   POST /api/rooms            {size, timer}  -> {code}
 //   GET  /api/rooms/:code              -> {exists, size, seats}
 //   GET  /api/rooms/:code/ws           WebSocket (see public/js/net.js for the protocol)
 //
 // Rooms use the WebSocket Hibernation API, so an idle room costs nothing while
 // players think. Turn timers and room expiry use Durable Object alarms.
 
-import { newGame, place, endTurn, swap, resign, tick, viewFor } from '../public/js/engine.js';
+import { newGame, submit, swap, resign, tick, viewFor, TIMER_CHOICES, TIMEOUT_GRACE_MS } from '../public/js/engine.js';
 import regular from '../puzzles/regular.json';
 import large from '../puzzles/large.json';
 import xl from '../puzzles/xl.json';
@@ -33,12 +33,13 @@ export default {
     if (parts[1] === 'rooms' && parts.length === 2 && request.method === 'POST') {
       const body = await request.json().catch(() => ({}));
       const size = ROOM_PUZZLES[body.size] ? body.size : 'regular';
+      const timer = TIMER_CHOICES.includes(Number(body.timer)) ? Number(body.timer) : 60;
       for (let attempt = 0; attempt < 5; attempt++) {
         const bytes = crypto.getRandomValues(new Uint8Array(6));
         const code = [...bytes].map((b) => CODE_ALPHABET[b % CODE_ALPHABET.length]).join('');
         const stub = env.ROOMS.get(env.ROOMS.idFromName(code));
-        const res = await stub.fetch(`https://room/init?code=${code}&size=${size}`, { method: 'POST' });
-        if (res.ok) return json({ code, size });
+        const res = await stub.fetch(`https://room/init?code=${code}&size=${size}&timer=${timer}`, { method: 'POST' });
+        if (res.ok) return json({ code, size, timer });
       }
       return json({ error: 'Could not create a room, please try again' }, 503);
     }
@@ -74,7 +75,7 @@ export class Room {
   async schedule() {
     const r = this.room;
     const expiry = r.touched + ROOM_TTL_MS;
-    const next = r.game && r.game.status === 'playing' ? Math.min(r.game.deadline + 250, expiry) : expiry;
+    const next = r.game && r.game.status === 'playing' && r.game.deadline ? Math.min(r.game.deadline + TIMEOUT_GRACE_MS + 100, expiry) : expiry;
     await this.ctx.storage.setAlarm(next);
   }
 
@@ -85,6 +86,7 @@ export class Room {
       this.room = {
         code: url.searchParams.get('code'),
         size: url.searchParams.get('size'),
+        timer: Number(url.searchParams.get('timer')),
         created: Date.now(),
         seats: [], // [{token, name}]
         game: null,
@@ -97,7 +99,7 @@ export class Room {
     const room = await this.load();
     if (url.pathname === '/info') {
       if (!room) return json({ exists: false }, 404);
-      return json({ exists: true, size: room.size, seats: room.seats.length, playing: !!room.game });
+      return json({ exists: true, size: room.size, timer: room.timer, seats: room.seats.length, playing: !!room.game });
     }
     if (url.pathname === '/ws') {
       if (request.headers.get('Upgrade') !== 'websocket') return new Response('Expected WebSocket', { status: 426 });
@@ -137,6 +139,7 @@ export class Room {
         t: 'room',
         code: r.code,
         size: r.size,
+        timer: r.timer,
         seat,
         seats: r.seats.map((s, i) => ({ name: s.name, online: online[i] })),
         rematch: r.rematch,
@@ -152,7 +155,7 @@ export class Room {
     const list = unplayed.length ? unplayed : pool;
     const puzzle = list[Math.floor(Math.random() * list.length)];
     r.played.push(puzzle.id);
-    r.game = newGame(puzzle, r.seats.map((s) => ({ name: s.name, kind: 'human' })), crypto.getRandomValues(new Uint32Array(1))[0]);
+    r.game = newGame(puzzle, r.seats.map((s) => ({ name: s.name, kind: 'human' })), { seed: crypto.getRandomValues(new Uint32Array(1))[0], turnSeconds: r.timer });
     r.rematch = [false, false];
   }
 
@@ -201,11 +204,10 @@ export class Room {
       if (room.rematch[0] && room.rematch[1]) this.startGame();
     } else if (!g) {
       return;
-    } else if (msg.t === 'place') {
-      tick(g, now);
-      res = place(g, seat, Number(msg.i), Number(msg.r), Number(msg.c), now);
-    } else if (msg.t === 'end') {
-      res = endTurn(g, seat, now, 'done');
+    } else if (msg.t === 'submit') {
+      tick(g, now, TIMEOUT_GRACE_MS);
+      const list = Array.isArray(msg.placements) ? msg.placements.slice(0, 5).map((x) => ({ i: Number(x.i), r: Number(x.r), c: Number(x.c) })) : [];
+      res = submit(g, seat, list, now);
     } else if (msg.t === 'swap') {
       res = swap(g, seat, now);
     } else if (msg.t === 'resign') {
@@ -237,7 +239,7 @@ export class Room {
       this.room = null;
       return;
     }
-    if (room.game && tick(room.game, now)) {
+    if (room.game && tick(room.game, now, TIMEOUT_GRACE_MS)) {
       await this.save();
       this.broadcast();
     } else {

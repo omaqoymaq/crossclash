@@ -6,7 +6,7 @@ A free, ad-free, browser-based **arrowword duel**. Two players race to fill the 
 
 | Path | What it is |
 |---|---|
-| `generator/` | **Standalone puzzle generator.** No dependencies; runs in Node or a browser. `build-lexicon.mjs` turns WordNet into a word+clue list, `arrowword.mjs` builds and fills arrowword grids, `cli.mjs` makes puzzle packs. |
+| `generator/` | **Standalone puzzle generator.** No dependencies; runs in Node or a browser. `build-lexicon.mjs` builds the answer list (common words only) and attaches the hand-written clues in `generator/data/clues/*.txt`; `arrowword.mjs` builds and fills arrowword grids; `cli.mjs` makes puzzle packs. |
 | `puzzles/` | Generated packs (full answers). Bundled into the server for rooms; never served publicly. |
 | `public/` | The game (plain HTML/CSS/JS modules, no build step). `public/puzzles/solo-*.json` is the bot-mode subset. |
 | `public/js/engine.js` | Game rules, shared by browser and server. |
@@ -28,7 +28,9 @@ npm run dev          # http://localhost:8787  (bot mode + rooms, all local)
 npm run generate -- --size regular --count 100     # or large | xl | all
 npm run generate -- --print --size xl              # preview one as text
 ```
-New puzzles are appended; duplicates are skipped and words already common in the pack are avoided. Every 4th puzzle is copied to the public solo pack and excluded from rooms, so a room's answers never sit on the public site. Fix bad words/clues in `generator/data/custom-words.json` (overrides) or `generator/data/blocklist.txt`, then `npm run lexicon` and regenerate.
+New puzzles are appended; duplicates are skipped and words already common in the pack are avoided. Every 4th puzzle is copied to the public solo pack and excluded from rooms, so a room's answers never sit on the public site.
+
+**Word and clue quality.** Answers come only from the ~4,500 most common English words (ranked by wordfreq, checked against WordNet so names and abbreviations drop out). By default the generator only uses answers that have a **hand-written clue** (about 2,500 today, in `generator/data/clues/*.txt`, one `WORD|Clue|Another clue` per line). To improve or add clues: edit those files (or `blocklist.txt` to ban a word), run `npm run lexicon`, then `npm run generate -- --reclue` to refresh clue text in existing packs, or regenerate. `npm run generate -- --report` lists any answers still lacking a hand-written clue.
 
 ## Deploy (free)
 
@@ -45,4 +47,4 @@ Optional: attach your own domain in the Cloudflare dashboard (Workers → crossc
 - One provider for static site + realtime, no database to run, no servers to patch, and a free tier that doesn't expire. (PartyKit now runs on the same Durable Objects underneath.)
 
 ## Credits & licences
-Word list and clues are derived from **WordNet 3.0** © Princeton University (permissive licence, `generator/data/WORDNET-LICENSE`). Short words in `custom-words.json` are hand-written. Game code: yours.
+Clues are hand-written for CrossClash. The common-word ranking comes from **wordfreq** (data CC BY-SA 4.0, `generator/data/common-words.txt`), and **WordNet 3.0** © Princeton University (permissive licence, `generator/data/WORDNET-LICENSE`) is used to check that answers are real dictionary words. Game code: yours.

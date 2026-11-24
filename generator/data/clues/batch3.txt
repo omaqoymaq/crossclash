@@ -1,0 +1,236 @@
+ACTED|Performed
+ADDING|Totting up
+ADULT|Grown-up
+AFFAIR|Matter|Fling
+AGING|Growing old
+ALBUMS|LPs
+ALLEY|Lane
+AMOUNT|Quantity
+ANGEL|Cherub
+AWAKE|Not asleep
+BACKUP|Spare copy
+BAKER|Bread maker
+BEARS|Grizzlies|Carries
+BEATS|Defeats|Rhythms
+BEDROOM|Sleeping room
+BELLS|Chimes
+BENCH|Seat
+BERLIN|German capital
+BLOGS|Online diaries
+BOLD|Brave
+BOOTH|Kiosk
+BOOTS|Wellingtons, e.g.
+BOSS|Manager
+BOXING|Ring sport
+BREAST|Chest
+BREED|Kind|Reproduce
+BRONZE|Third-place medal
+BUYER|Purchaser
+BUYS|Purchases
+BUZZ|Hum
+CAMPS|Bases
+CANDLE|Wax light
+CANYON|Gorge
+CASTLE|Fortress|Rook
+CEMENT|Mortar
+CENTER|Middle (US)
+CHAPTER|Book section
+CHARM|Allure
+CHASE|Pursue
+CHEAP|Inexpensive
+CHEER|Applaud
+CHOOSE|Pick
+CHOSEN|Picked
+CIRCLE|Ring
+CITIES|Metropolises
+CLIFF|Bluff
+CLOSET|Cupboard
+COLONY|Settlement
+COOLER|Chillier
+COOPER|Barrel maker
+COUCH|Sofa
+COVER|Lid|Hide
+CREDIT|Loan|Praise
+CREEPY|Eerie
+CROWDS|Throngs
+CRUEL|Unkind
+CUPS|Mugs
+CURVE|Bend
+DAIRY|Milk farm
+DALE|Valley
+DANCE|Ball|Jig
+DANISH|Pastry
+DAWN|Daybreak
+DIFFER|Disagree
+DONATED|Given
+DRAGON|Fire breather
+DRAWN|Sketched|Tied
+DRUNK|Tipsy
+DULL|Boring
+DUMB|Mute
+EDITED|Revised
+EFFORT|Attempt
+EMPLOY|Hire
+EQUAL|Same
+FAME|Renown
+FAST|Quick
+FATHER|Dad
+FEEDS|Nourishes
+FIG|Fruit
+FILING|Paperwork
+FILMING|Shooting
+FLAG|Banner
+FLIES|Soars
+FOLK|People
+FOOL|Clown
+FORCE|Power
+FORMED|Shaped
+FORTUNE|Luck|Riches
+FRAMES|Borders
+FREAK|Oddity
+FRIED|Pan-cooked
+FURY|Rage
+FUTURE|Tomorrow
+GEM|Jewel
+GENERAL|Army officer|Overall
+GHOST|Spectre
+GIANTS|Titans
+GIVING|Generous
+GOAT|Billy or nanny
+GOING|Leaving
+GRAND|Splendid|Piano
+GULF|Bay|Chasm
+HANDS|Workers
+HARBOUR|Port
+HATS|Caps
+HEELS|Shoe backs
+HELPING|Portion
+HINT|Clue
+HOLE|Pit
+HONEST|Truthful
+HOPING|Wishing
+HOSTS|Crowds
+ICONIC|Famous
+IMPACT|Effect
+ISSUED|Released
+JOBS|Tasks
+LATTER|Second
+LESSON|Class
+LIFE|Existence
+LIKED|Enjoyed
+LIKELY|Probable
+LIKING|Fondness
+LINEUP|Team list
+LIPS|Mouth edges
+LOCKER|Storage box
+LOOKS|Glances
+LOYAL|Faithful
+LYRICS|Song words
+MAKER|Creator
+MAKES|Creates
+MALE|Masculine
+MATES|Pals
+MERELY|Only
+MINOR|Small
+MIRROR|Looking glass
+MOBILE|Portable
+MOMENTS|Instants
+MOUSE|Rodent
+NOBODY|No one
+ORGANS|Body parts
+PALACE|Royal home
+PALE|Pallid
+PARENT|Mother or father
+PARKED|Left the car
+PAST|History
+PATENT|Copyright of invention
+PHASE|Stage
+PHONE|Call
+POPE|Pontiff
+POPS|Bursts
+PORK|Pig meat
+PORT|Harbour
+POSTAL|Of the mail
+PRETTY|Attractive
+PRONE|Lying flat
+PROPER|Correct
+PULLS|Tugs
+PURELY|Simply
+PURSE|Handbag
+QUANTUM|Tiny amount
+RAIDS|Attacks
+RAPPER|Hip-hop artist
+REALISE|Understand
+RELAXED|Calm
+REMOVE|Take away
+RHYTHM|Beat
+RITUAL|Ceremony
+ROGUE|Rascal
+ROLLED|Turned over
+ROLLS|Buns
+ROUTES|Paths
+RUBY|Red gem
+SADLY|Unhappily
+SAKE|Benefit
+SEATS|Chairs
+SEND|Dispatch
+SEVERE|Harsh
+SHADES|Sunglasses
+SHADOW|Silhouette
+SHIELD|Protect
+SHINE|Glow
+SHIPS|Vessels
+SHORT|Brief
+SINGLE|Unmarried
+SNAKE|Serpent
+SOBER|Not drunk
+SOFT|Gentle
+SOLELY|Only
+SONGS|Tunes
+SORTS|Kinds
+SPACES|Gaps
+SPEECH|Address
+SPIRIT|Ghost
+STEAM|Vapour
+STIFF|Rigid
+STORES|Shops
+STRAIN|Stress
+STRESS|Tension
+STUPID|Daft
+SUMMIT|Peak
+SUPER|Excellent
+SWEAT|Perspire
+TABLETS|Pills
+TALES|Stories
+TALKS|Speaks
+THEMED|Styled
+THEORY|Hypothesis
+THESIS|Dissertation
+THREE|Trio
+THROWS|Tosses
+THUMB|Digit
+TOAST|Grilled bread
+TRACE|Track down
+TRADES|Crafts
+TRAILER|Preview
+TRAITS|Features
+TRAVEL|Journey
+TRIBAL|Of a clan
+TRIM|Cut
+TRIPLE|Threefold
+TURKEY|Festive bird
+TURTLE|Shelled reptile
+TWENTY|Score
+TWICE|Two times
+UNCLE|Aunt's husband
+UNIONS|Alliances
+UPSET|Distressed
+VICTIMS|Casualties
+WAGON|Cart
+WEBSITE|Web page
+WEEKEND|Saturday and Sunday
+WHEELS|Rollers
+WHITES|Cricket clothing
+WRECK|Ruin
+WRITES|Pens
+YIELD|Harvest

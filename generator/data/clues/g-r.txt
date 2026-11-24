@@ -1,0 +1,666 @@
+GRASP|Grip|Understand
+GRAY|Ash colour (US)
+GREAT|Huge|Excellent
+GREEN|Grass colour|Eco-friendly
+GREY|Ash colour
+GRIP|Hold tightly
+GROUP|Set|Band
+GROW|Increase|Sprout
+GUARD|Sentry|Protect
+GUARDS|Sentries
+GUESS|Estimate
+GUEST|Visitor
+GUIDES|Leads|Handbooks
+GUILTY|Blameworthy
+GUITAR|Strummed instrument
+GUM|Chewy sweet
+GUN|Firearm
+GUT|Belly|Instinct
+GUY|Fellow|Tent rope
+GUYS|Fellows
+GYM|Fitness centre
+HAIL|Icy rain|Greet
+HAIR|Locks|Tresses
+HALF|Fifty per cent
+HALL|Corridor|Large room
+HALT|Stop
+HAM|Pork leg|Overactor
+HAND|Palm and fingers|Help
+HANDLE|Grip|Cope with
+HANDLED|Dealt with
+HANG|Suspend
+HAPPEN|Occur
+HAPPY|Glad
+HARD|Tough|Difficult
+HARDER|Tougher
+HARDLY|Barely
+HARM|Hurt|Damage
+HARSH|Severe
+HAT|Cap|Bonnet
+HATE|Loathe
+HATED|Loathed
+HATES|Loathes
+HAVE|Own|Possess
+HAVEN|Refuge
+HAY|Dried grass
+HEADED|Went toward
+HEAL|Cure
+HEAR|Listen
+HEARD|Listened
+HEARTS|Card suit
+HEAT|Warmth
+HEIR|Inheritor
+HELD|Gripped
+HELLO|Greeting
+HELMET|Head protector
+HELP|Aid
+HELPED|Aided
+HELPS|Aids
+HENCE|Therefore
+HERALD|Messenger|Announce
+HERE|In this place
+HERO|Champion|Idol
+HEROES|Champions
+HIDDEN|Concealed
+HIGH|Tall|Lofty
+HIP|Joint|Trendy
+HIRE|Rent|Employ
+HIRED|Employed
+HOLD|Grip|Keep
+HOLDS|Grips
+HOLES|Gaps|Pits
+HOLY|Sacred
+HOME|House
+HOMES|Houses
+HONEY|Bee product|Darling
+HONOR|Respect (US)
+HOOD|Cowl
+HOP|Jump on one leg
+HOPE|Wish
+HOPED|Wished
+HOPES|Wishes
+HORROR|Terror|Scary genre
+HORSE|Stallion|Mare
+HORSES|Steeds
+HOST|Entertainer|Crowd
+HOSTED|Entertained
+HOT|Very warm|Spicy
+HOTEL|Inn
+HOUR|Sixty minutes
+HOURS|Times
+HOUSE|Home|Dwelling
+HOUSES|Homes
+HUB|Centre|Wheel middle
+HUG|Embrace
+HUGE|Enormous
+HUMAN|Person
+HUMANS|People
+HUMOR|Wit (US)
+HURT|Injure
+HURTS|Aches
+HYPE|Publicity
+ICE|Frozen water
+ICON|Symbol
+IDEA|Thought|Notion
+IDEAL|Perfect
+IDEAS|Thoughts
+IDOL|Hero|Statue
+ILL|Sick
+IMAGE|Picture
+IMAGES|Pictures
+IMPOSE|Enforce
+INCH|Small measure
+INCOME|Earnings
+INDEED|Truly
+INDEX|List at the back
+INFO|Facts, informally
+INJURY|Wound
+INK|Pen fluid
+INN|Pub|Tavern
+INNER|Inside
+INPUT|Contribution
+INSANE|Crazy
+INSERT|Put in
+INSIDE|Indoors
+INSPIRE|Motivate
+INTACT|Whole|Undamaged
+INTAKE|Consumption
+INTEND|Plan
+INVEST|Put money in
+ION|Charged particle
+IRON|Metal|Press clothes
+ISLAND|Isle
+ISSUE|Edition|Problem
+ITEM|Article|Thing
+JAIL|Prison
+JAM|Jelly|Traffic snarl
+JAPAN|Land of the rising sun
+JAR|Pot|Jolt
+JAVA|Coffee
+JAW|Mouth bone
+JAY|Crow-family bird
+JERK|Jolt|Twitch
+JERSEY|Sweater|Shirt
+JET|Plane|Spurt
+JETS|Planes
+JOB|Work|Task
+JOKE|Jest
+JOY|Delight
+JUNIOR|Younger
+JUST|Fair|Only
+KEEN|Eager
+KEEP|Retain|Castle tower
+KEEPER|Goalie
+KEEPS|Retains
+KEPT|Retained
+KEY|Lock opener|Vital
+KEYS|Lock openers
+KID|Child|Joke
+KIDNEY|Bean shape|Organ
+KIDS|Children
+KIND|Nice|Sort
+KING|Monarch
+KISS|Smooch
+KIT|Gear|Outfit
+KNEE|Leg joint
+KNIFE|Blade
+KNOWN|Famous
+LAB|Science room
+LABEL|Tag
+LABELS|Tags
+LABOUR|Work
+LACK|Shortage
+LAD|Boy
+LADDER|Climbing frame
+LADIES|Women
+LADY|Woman
+LAID|Placed
+LAKE|Lagoon|Pond
+LAMB|Young sheep
+LAMP|Light
+LAND|Ground|Touch down
+LANDED|Touched down
+LANE|Path|Track
+LAP|Circuit|Knees
+LAPTOP|Portable PC
+LARGE|Big
+LAST|Final
+LASTS|Endures
+LATE|Tardy
+LATELY|Recently
+LATER|Afterwards
+LATEST|Newest
+LAUGH|Chuckle
+LAUGHS|Chuckles
+LAW|Rule
+LAWN|Grass
+LAWS|Rules
+LAWYER|Solicitor
+LAY|Place|Put down
+LAYER|Tier|Coat
+LAYOUT|Plan
+LEAD|Guide|Metal
+LEADER|Head|Chief
+LEADS|Guides
+LEAF|Page|Frond
+LEAGUE|Union|Division
+LEAN|Thin|Tilt
+LEAP|Jump
+LEARN|Study
+LEASE|Rent
+LEAST|Smallest
+LEAVE|Go away
+LEAVES|Goes|Foliage
+LEE|Sheltered side
+LEFT|Departed|Not right
+LEG|Limb|Stage
+LEGACY|Inheritance
+LEGAL|Lawful
+LEGEND|Myth
+LEGS|Limbs
+LEMON|Citrus fruit
+LENS|Eye part|Camera glass
+LESS|Fewer
+LESSER|Smaller
+LET|Allow
+LETS|Allows
+LETTER|Note|Character
+LETTERS|Mail
+LEVEL|Flat|Stage
+LEVELS|Stages
+LIABLE|Responsible
+LIAR|Fibber
+LIE|Fib|Recline
+LIED|Fibbed
+LIES|Fibs
+LIFT|Raise|Elevator
+LIGHTS|Lamps
+LIKE|Enjoy|Similar
+LILY|Flower
+LIMIT|Boundary
+LINE|Row|Queue
+LINEAR|Straight
+LINED|Padded
+LINES|Rows
+LINK|Connection
+LION|Big cat
+LIONS|Big cats
+LIP|Rim|Mouth edge
+LISTEN|Hear
+LIT|Ignited
+LIVE|Exist|Not recorded
+LIVING|Alive
+LOAD|Cargo|Burden
+LOAN|Lend
+LOANS|Credits
+LOCALS|Residents
+LOCATE|Find
+LOG|Timber|Record
+LOGIC|Reasoning
+LOGO|Emblem
+LONE|Solitary
+LOOK|See|Glance
+LOOKED|Glanced
+LOOP|Ring|Circuit
+LORDS|Nobles
+LOSE|Mislay
+LOSER|Runner-up
+LOSES|Mislays
+LOT|Plot|Fate
+LOTS|Plenty
+LOUD|Noisy
+LOUNGE|Sitting room
+LOVELY|Charming
+LOW|Not high
+LUCK|Fortune
+LUNG|Breathing organ
+MAD|Crazy|Angry
+MADE|Built
+MAGIC|Sorcery
+MAIL|Post
+MAIN|Chief
+MAKE|Build|Brand
+MAKEUP|Cosmetics
+MAMA|Mum
+MAN|Male|Chap
+MANAGE|Run|Cope
+MANGA|Japanese comics
+MANNER|Way|Style
+MANUAL|Handbook
+MANY|Lots
+MAP|Chart
+MAPS|Charts
+MAR|Spoil
+MARCH|Spring month|Parade
+MARINE|Of the sea
+MARKET|Bazaar
+MASON|Stonecutter
+MASS|Bulk|Church service
+MASSES|Crowds
+MASTER|Expert
+MATH|Sums (US)
+MATRIX|Grid of numbers
+MATURE|Grown-up
+MAY|Spring month
+MAYBE|Perhaps
+MAYOR|Town leader
+MEAL|Dinner
+MEALS|Dinners
+MEANS|Method
+MEAT|Flesh
+MEDAL|Award
+MEDALS|Awards
+MEDIAN|Middle value
+MEDIUM|Average|Psychic
+MEET|Encounter
+MEME|Viral joke
+MEN|Males
+MENTAL|Of the mind
+MENTOR|Adviser
+MENU|Food list
+MERE|Only|Pool
+MERIT|Worth
+MESS|Muddle
+MESSED|Muddled
+METAL|Iron, for one
+METER|Gauge
+METERS|Gauges
+METHOD|Technique
+METHODS|Techniques
+METRES|Lengths
+METRO|Subway
+MIDDLE|Centre
+MIDST|Midpoint
+MILD|Gentle
+MILE|Distance unit
+MILK|Dairy drink
+MILLER|Grain grinder
+MIND|Brain|Object
+MINDS|Brains
+MINE|Pit|Belonging to me
+MINERS|Pit workers
+MINI|Tiny
+MINT|Herb|Coin factory
+MINUS|Less
+MINUTE|Moment|Tiny
+MIX|Blend
+MOB|Crowd
+MODE|Method|Style
+MODEL|Example|Pose
+MODELS|Examples
+MODERN|Up-to-date
+MODES|Methods
+MODULE|Unit
+MOM|Mother (US)
+MONEY|Cash
+MONTH|Calendar division
+MONTHS|Calendar divisions
+MORAL|Ethical
+MORE|Extra
+MOST|Majority
+MOTOR|Engine
+MOTORS|Engines
+MOVE|Shift
+MOVES|Shifts
+MOVIE|Film
+MOVIES|Films
+MUCH|A lot
+MUD|Mire
+MUM|Mother|Silent
+MUSCLE|Brawn
+MUSEUM|Gallery
+MUST|Have to
+MYTH|Legend
+NAIL|Pin|Fingertip
+NAILS|Pins
+NAME|Title
+NAMELY|That is
+NAMES|Titles
+NATIVE|Local
+NATURE|Character|Wildlife
+NAVY|Fleet|Dark blue
+NEAR|Close
+NEARBY|Close at hand
+NEARLY|Almost
+NEAT|Tidy
+NECK|Throat
+NEED|Require
+NEEDED|Required
+NEEDLE|Sewing pin
+NEEDS|Requires
+NEPHEW|Sibling's son
+NERVES|Anxiety
+NEST|Bird's home
+NET|Mesh
+NEVER|Not ever
+NEW|Fresh
+NEWER|Fresher
+NEWEST|Latest
+NEWS|Bulletin
+NEWTON|Unit of force
+NEXT|Following
+NICE|Pleasant
+NICELY|Pleasantly
+NICK|Notch|Steal
+NIGHT|Darkness
+NINE|Three threes
+NOBLE|Aristocrat
+NOISE|Racket
+NONE|Not any
+NOON|Midday
+NORM|Standard
+NORMAL|Usual
+NORTH|Compass point
+NOSE|Snout
+NOT|Negative word
+NOTE|Memo|Tone
+NOTED|Famous
+NOTICE|Sign|See
+NOVA|Exploding star
+NOVEL|Book|New
+NOVELS|Books
+NOW|At present
+NUMBER|Figure
+NURSE|Carer
+NURSES|Carers
+NUT|Bolt partner|Kernel
+NUTS|Crazy
+OAK|Tree
+OCCUPY|Fill|Take over
+OCCUR|Happen
+OCCURS|Happens
+OCEAN|Sea
+ODD|Strange
+ODDS|Chances
+OFF|Away|Gone bad
+OFFER|Bid
+OFFICE|Workplace
+OFTEN|Frequently
+OIL|Lubricant
+OKAY|Fine
+OLD|Aged
+OLDEST|Most ancient
+OLIVE|Green fruit
+ONCE|Formerly
+ONE|Single
+ONES|Units
+ONION|Bulb vegetable
+ONLINE|Connected
+ONLY|Sole
+OPEN|Unlock
+OPENED|Unlocked
+OPENS|Unlocks
+OPERA|Sung drama
+OPT|Choose
+ORAL|Spoken
+ORANGE|Citrus fruit
+ORBIT|Circle round
+ORDER|Command|Tidiness
+ORDERS|Commands
+ORE|Raw metal rock
+ORGAN|Body part|Church instrument
+ORIGIN|Source
+OTHER|Different
+OTHERS|The rest
+OUT|Not in
+OUTER|External
+OUTLET|Shop|Vent
+OVAL|Egg shape
+OVEN|Cooker
+OVER|Above|Ended
+OWE|Be in debt
+OWN|Possess
+OWNED|Possessed
+OWNER|Proprietor
+OWNERS|Proprietors
+OWNS|Possesses
+PACE|Speed|Step
+PAD|Cushion|Flat
+PAGE|Leaf|Sheet
+PAGES|Sheets
+PAIN|Ache
+PAL|Friend
+PALM|Hand part|Tree
+PAN|Pot|Criticise
+PANEL|Board|Committee
+PANIC|Alarm
+PAPA|Dad
+PAPER|Newspaper
+PAPERS|Documents
+PAR|Golf standard
+PARADE|March past
+PART|Portion|Role
+PARTS|Portions
+PARTY|Celebration
+PASS|Go by
+PASSED|Went by
+PASTA|Spaghetti, e.g.
+PAT|Tap
+PATH|Track
+PAY|Wages
+PEACE|Calm|Truce
+PEARL|Gem from an oyster
+PEER|Look closely|Equal
+PEN|Writing tool
+PENNY|Small coin
+PEOPLE|Folk
+PERIOD|Era|Full stop
+PERMIT|Licence|Allow
+PERSON|Individual
+PET|Animal companion
+PETS|Animal companions
+PETTY|Trivial
+PHOTO|Snapshot
+PHOTOS|Snapshots
+PHRASE|Expression
+PIANO|Keyboard instrument
+PIC|Photo, briefly
+PICS|Photos, briefly
+PIE|Pastry dish
+PIECES|Bits
+PIERCE|Puncture
+PIG|Hog
+PILE|Heap
+PILOT|Flier|Trial
+PIN|Needle|Brooch
+PINE|Conifer|Yearn
+PIPE|Tube
+PIRATE|Buccaneer
+PISTOL|Handgun
+PIT|Hole|Stone
+PITCH|Field|Tone
+PITY|Compassion
+PLACE|Spot
+PLAN|Scheme
+PLANS|Schemes
+PLANT|Factory|Flower
+PLASMA|Blood fluid
+PLATE|Dish
+PLATES|Dishes
+PLAY|Drama
+PLAYED|Performed
+PLAYER|Participant
+PLAYS|Dramas
+PLAZA|Town square
+PLEA|Appeal
+PLEASE|Delight
+PLEDGE|Promise
+PLUS|And
+POEM|Verse
+POEMS|Verses
+POET|Bard
+POETRY|Verse
+POINT|Tip|Dot
+POINTS|Tips
+POKER|Card game
+POLAR|Arctic
+POLE|Rod|Post
+POLITE|Courteous
+POLL|Vote|Survey
+POND|Pool
+POOL|Swimming bath
+POOR|Needy
+POP|Burst|Fizzy drink
+PORTS|Harbours
+POSTER|Placard
+POSTS|Mails|Stakes
+POT|Pan
+POTATO|Spud
+POUR|Tip liquid
+POWDER|Dust
+POWER|Strength
+PRAISE|Applaud
+PRAY|Plead
+PRAYER|Plea|Petition
+PREFER|Favour
+PREY|Quarry|Victim
+PRICE|Cost
+PRIEST|Clergyman
+PRIOR|Earlier
+PRISON|Jail
+PRIZE|Award
+PRO|Expert|In favour
+PROF|Professor, briefly
+PROFIT|Gain
+PROOF|Evidence
+PROVE|Confirm
+PUB|Bar|Tavern
+PUBLIC|Open to all
+PULL|Tug
+PULSE|Heartbeat
+PUNISH|Penalise
+PUPILS|Students
+PURSUE|Chase
+PUSH|Shove
+PUT|Place
+PUTS|Places
+QUEST|Search
+QUIET|Hushed
+QUOTE|Cite
+RACE|Contest|Dash
+RACES|Contests
+RACIAL|Ethnic
+RADAR|Tracking system
+RADIO|Wireless
+RAGE|Fury
+RAID|Attack
+RAIL|Bar|Train track
+RAIN|Showers
+RAISE|Lift|Pay rise
+RAISED|Lifted
+RAISES|Lifts
+RAM|Male sheep
+RANGE|Scope|Cooker
+RAP|Knock|Music genre
+RAPID|Fast
+RAPIDLY|Quickly
+RARE|Uncommon
+RAT|Rodent
+RATE|Speed|Price
+RATED|Ranked
+RATES|Prices
+RATHER|Somewhat
+RATIO|Proportion
+RAW|Uncooked
+RAY|Beam
+RAYS|Beams
+REACH|Arrive at
+REACT|Respond
+READ|Peruse
+READER|Bookworm
+READY|Prepared
+REAL|Genuine
+REALM|Kingdom
+REAR|Back|Bring up
+REASON|Cause
+REBEL|Rise up
+REBELS|Insurgents
+RECALL|Remember
+RECIPE|Cooking instructions
+RED|Scarlet
+REDS|Crimsons
+REDUCE|Lessen
+REED|Marsh plant
+REF|Umpire, briefly
+REFER|Mention
+REFERS|Mentions
+REFORM|Improve
+REFUGE|Shelter
+REFUSE|Rubbish|Decline
+REGARD|Esteem
+REGIME|Government
+REGION|Area
+REIGN|Rule
+RELATE|Tell
+RELAX|Unwind
+RELIEF|Comfort
+RELY|Depend
+REMAIN|Stay
+REMOTE|Far-off|TV control
+RENT|Hire|Torn
+REP|Salesperson
+REPAIR|Fix
+REPEAT|Do again
+REPORT|Account
+RESCUE|Save
+RESIST|Oppose

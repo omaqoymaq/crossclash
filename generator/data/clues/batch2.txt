@@ -1,0 +1,348 @@
+ABBEY|Monastery
+ACTIVE|Busy|Lively
+ADAPT|Adjust
+ADJUST|Alter slightly
+ADULTS|Grown-ups
+AFFORD|Pay for
+ANGELS|Heavenly beings
+ANSWER|Reply
+APPEAL|Charm|Plea
+ARCTIC|Freezing|Polar
+ARREST|Detain
+AUDIO|Sound
+AVENUE|Boulevard
+AVOID|Dodge
+AWARD|Prize
+AWARE|Conscious
+BABIES|Infants
+BAND|Group|Strip
+BARON|Nobleman
+BARS|Pubs|Rods
+BASKET|Hamper
+BELLY|Tummy
+BERRY|Small fruit
+BIKE|Cycle
+BINARY|Twofold
+BITE|Nibble
+BLONDE|Fair-haired
+BLOOM|Flower
+BOARDS|Planks
+BOAT|Vessel
+BODY|Torso
+BONDS|Ties
+BOOM|Bang|Upturn
+BORDER|Frontier
+BORED|Uninterested
+BOSSES|Managers
+BREAKS|Pauses
+BREATH|Puff
+BRUTAL|Savage
+BURNT|Charred
+CALM|Serene
+CAROL|Christmas song
+CATCH|Grab|Snag
+CENTS|Pennies
+CHANCE|Luck|Opportunity
+CHAPEL|Small church
+CHASING|Pursuing
+CHEESE|Cheddar, e.g.
+CHEST|Trunk|Torso
+CHOICE|Option
+CHOIR|Singers
+CIRCUS|Big top show
+CLAIM|Assert
+CLICK|Snap|Mouse press
+CLOSE|Near|Shut
+COD|White fish
+COFFEE|Espresso, e.g.
+COIN|Penny, e.g.
+COLLAR|Neckband
+COLORS|Hues (US)
+CONTEXT|Setting
+COOKED|Prepared
+CORPS|Army unit
+CORRUPT|Crooked
+COST|Price
+COSTS|Prices
+COTTON|Fabric
+COURT|Tribunal
+CREAM|Dairy topping
+CREATE|Make
+CRISIS|Emergency
+CRYING|Weeping
+CYCLES|Bikes
+DAILY|Every day
+DAMAGES|Compensation
+DARKER|More shadowy
+DATED|Old-fashioned
+DENIAL|Refusal
+DESERT|Sahara, e.g.|Abandon
+DEVICE|Gadget
+DIRTY|Grubby
+DISEASE|Illness
+DOCTOR|Physician
+DODGE|Evade
+DOWNS|Rolling hills
+DRAKE|Male duck
+DREAM|Vision
+DRILL|Bore
+DRIVER|Motorist
+DRONE|Hum|Male bee
+DROVE|Steered
+DUST|Grime
+EATING|Dining
+EFFECT|Result
+EIGHT|Octet
+EXISTS|Is
+EXPOSE|Reveal
+FACTS|Truths
+FAKE|Phoney
+FAMILY|Relatives
+FATAL|Deadly
+FEED|Nourish
+FIBER|Roughage (US)
+FINALS|Last exams
+FINISH|End
+FIST|Clenched hand
+FLIGHT|Air trip
+FLOOR|Ground|Storey
+FLOW|Stream
+FLUID|Liquid
+FOLLOWS|Comes after
+FOOT|Twelve inches
+FORMAT|Layout
+FRAME|Border
+FRANK|Candid
+FRESH|New
+FRIEND|Pal
+FROST|Rime
+GAMING|Gambling
+GATES|Entrances
+GATHER|Collect
+GAUGE|Meter
+GLOBAL|Worldwide
+GOLDEN|Gilded
+GRAPH|Chart
+GRID|Network
+GROWTH|Increase
+GUESTS|Visitors
+GUIDED|Led
+GUNS|Firearms
+HACK|Chop|Break into
+HARBOR|Port (US)
+HART|Male deer
+HATRED|Loathing
+HAUL|Drag|Booty
+HAWKS|Birds of prey
+HAZARD|Danger
+HEATED|Warmed
+HIDE|Conceal|Pelt
+HILL|Mound
+HILLS|Mounds
+HOCKEY|Stick sport
+HOLLY|Prickly shrub
+IGNORE|Disregard
+INDOOR|Inside
+INFANT|Baby
+ISSUES|Problems
+ITEMS|Articles
+JOKING|Kidding
+KARMA|Fate
+KNEES|Leg joints
+LAME|Limping
+LANCE|Spear
+LEAKED|Seeped out
+LEAKS|Drips
+LEND|Loan
+LENGTH|Extent
+LIGHT|Lamp|Not heavy
+LIMITS|Bounds
+LITTLE|Small
+LONGER|Lengthier
+LOOSE|Slack
+LORD|Noble
+LOSSES|Defeats
+LOWEST|Least
+LUXURY|Opulence
+LYING|Fibbing
+MANILA|Envelope paper
+MARGIN|Edge
+MARK|Stain|Grade
+MEMORY|Recall
+MILES|Long distances
+MISTAKE|Error
+MONK|Friar
+MOSS|Damp plant
+MOUNT|Climb
+MUSIC|Melody
+MUTUAL|Shared
+NAMING|Calling
+NATION|Country
+NEWLY|Recently
+NINTH|After eighth
+NODE|Junction
+NOTION|Idea
+OBJECT|Thing|Protest
+OLDER|More aged
+OPENLY|Frankly
+OPINION|View
+OPPOSE|Resist
+OPTION|Choice
+OUTPUT|Production
+PAID|Settled up
+PARISH|Church district
+PASTOR|Minister
+PATROL|Guard
+PAUSE|Break
+PAYS|Settles up
+PEANUT|Groundnut
+PIECE|Bit
+PILLOW|Cushion
+PIPES|Tubes
+PLACED|Put
+PLANE|Aircraft
+PLANES|Aircraft
+PLANET|Mars, e.g.
+PLOT|Scheme|Storyline
+POLISH|Shine
+PORTAL|Gateway
+PREP|Homework, briefly
+PRESS|Push|Media
+PRICED|Valued
+PRINT|Publish
+PUMP|Inflate
+RACING|Speeding
+RACISM|Prejudice
+RANCH|Farm
+RANDOM|Chance
+RARELY|Seldom
+RECENT|New
+REMIND|Prompt
+REWARD|Prize
+RIDES|Journeys
+RINGS|Circles
+RIOT|Uproar
+RIPPED|Torn
+RISES|Climbs
+ROCKS|Stones
+ROPE|Cord
+ROSES|Flowers
+ROW|Line|Paddle
+RUINED|Wrecked
+RUNS|Sprints
+SALARY|Pay
+SANG|Crooned
+SAUCE|Gravy
+SAVAGE|Fierce
+SCENES|Views
+SCRAP|Bit|Fight
+SEARCH|Hunt
+SEASON|Spring, e.g.
+SEEING|Viewing
+SEIZED|Grabbed
+SELLER|Vendor
+SETTLE|Resolve
+SETUP|Arrangement
+SHAPES|Forms
+SHOOK|Trembled
+SHOTS|Photos
+SHOWER|Rain spell
+SIDED|Took part
+SIXTH|After fifth
+SIZE|Bulk
+SKINNY|Thin
+SKULL|Cranium
+SLAP|Smack
+SLAVES|Drudges
+SLIP|Slide|Error
+SMILE|Grin
+SMITH|Metalworker
+SOLID|Firm
+SORRY|Apologetic
+SOUR|Tart
+SPINE|Backbone
+SPLIT|Divide
+SPOON|Ladle
+SPRING|Season|Coil
+SPURS|Goads
+STABLE|Steady|Horse barn
+STAKE|Post|Bet
+STAKES|Bets
+STAMP|Postage label
+STANDS|Rises
+STARTS|Begins
+STAYED|Remained
+STICKS|Twigs
+STOCKS|Shares
+STORY|Tale
+SUITED|Matched
+SUMMER|Warm season
+SUPPLY|Provide
+SYSTEM|Method
+TAXES|Levies
+TEARS|Rips
+TEDDY|Toy bear
+TEMPLE|Shrine
+THEMES|Topics
+THERAPY|Treatment
+THIEF|Robber
+THREAD|Yarn
+TILL|Cash register
+TIMBER|Wood
+TIPS|Hints
+TOMB|Grave
+TONGUE|Language
+TOOTH|Molar
+TOPPED|Exceeded
+TOPS|Peaks
+TOURIST|Sightseer
+TOURS|Trips
+TOWEL|Drying cloth
+TOXIC|Poisonous
+TRAGIC|Sad
+TREATS|Delights
+TRENDS|Fashions
+TRICKY|Difficult
+TUBE|Pipe
+TWELVE|Dozen
+TWIST|Turn
+UNFAIR|Unjust
+UNLIKE|Different from
+VALLEY|Dale
+VALVE|Tap
+VERIFY|Confirm
+VIEWS|Sights
+VIRTUE|Goodness
+VITAMIN|Nutrient
+VOCAL|Spoken|Outspoken
+VOICES|Speakers
+VOID|Empty
+VOTING|Polling
+WAIST|Middle
+WAIT|Linger
+WAKE|Rouse
+WALKED|Strolled
+WARD|Hospital room
+WARREN|Rabbit burrows
+WASHED|Cleaned
+WATCH|Timepiece|Observe
+WEARS|Dons
+WEEKS|Seven days each
+WEIRD|Strange
+WHALE|Sea giant
+WHEEL|Car part
+WHOLE|Entire
+WIDER|Broader
+WIDOW|Bereaved wife
+WIDTH|Breadth
+WINTER|Cold season
+WISDOM|Sense
+WITCH|Sorceress
+WOODEN|Made of timber
+WORSE|Less good
+WORTHY|Deserving
+WRIST|Arm joint
+WRITE|Pen
+YEARLY|Annual
+YIELDS|Gives way
+ZONES|Areas

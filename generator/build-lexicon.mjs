@@ -1,12 +1,19 @@
 #!/usr/bin/env node
-// Builds generator/data/lexicon.json (answer words + short clues) from the
-// WordNet 3.0 database (Princeton WordNet license, see generator/data/WORDNET-LICENSE).
+// Builds generator/data/lexicon.json, the answer words and clues the generator uses.
 //
-// Usage: node generator/build-lexicon.mjs [path/to/wordnet/dict]
+//   node generator/build-lexicon.mjs [--top 4500] [path/to/wordnet/dict]
 //
-// Output format: { "version": 1, "words": { "WORD": { "f": freq, "c": ["Clue", ...] } } }
-// Hand-written words/clues in generator/data/custom-words.json are merged on top
-// (they win over WordNet), and generator/data/blocklist.txt removes words.
+// Answer words: the most common English words (generator/data/common-words.txt,
+// from wordfreq) that are real dictionary words in WordNet 3.0 or regular
+// forms of one (plurals, -ed, -ing...). Names, abbreviations and anything
+// WordNet marks as offensive are left out, as is generator/data/blocklist.txt.
+//
+// Clues: hand-written clues in generator/data/clues/*.txt (and the short words in
+// custom-words.json) always win. Words without one get an automatic clue from
+// WordNet and are marked "auto"; the puzzle CLI only uses them with --allow-auto.
+// To grow the vocabulary, add lines to a file in generator/data/clues/.
+//
+// Output: { version: 2, words: { WORD: { f, c: [clues], hand?: true, auto?: true } } }
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -16,7 +23,10 @@ import { fileURLToPath } from 'node:url';
 const here = path.dirname(fileURLToPath(import.meta.url));
 const require = createRequire(import.meta.url);
 
-let dictDir = process.argv[2];
+const argv = process.argv.slice(2);
+const topIdx = argv.indexOf('--top');
+const TOP_N = topIdx >= 0 ? Number(argv.splice(topIdx, 2)[1]) : 4500;
+let dictDir = argv[0];
 if (!dictDir) {
   dictDir = path.join(path.dirname(require.resolve('wordnet-db/package.json')), 'dict');
 }
@@ -174,26 +184,76 @@ for (const [lemma, list] of senses) {
 
 for (const [w, v] of plurals) if (!words[w]) words[w] = v;
 
-// --- 4. overrides ----------------------------------------------------------------
+// lemmas WordNet marks as offensive anywhere
+const badLemmas = new Set();
+for (const [lemma, list] of senses) if (list.some((x) => synsets.get(x.key).bad)) badLemmas.add(lemma);
+const lowerLemma = (w) => senses.has(w) && senses.get(w).some((x) => synsets.get(x.key).words.some((f) => f.form === w));
+
+// --- 4. common words -------------------------------------------------------------
+const blocked = new Set();
+const blockPath = path.join(here, 'data', 'blocklist.txt');
+if (fs.existsSync(blockPath)) {
+  for (const line of fs.readFileSync(blockPath, 'utf8').split('\n')) {
+    if (line.startsWith('#')) continue;
+    for (const w of line.split(/\s+/)) if (w) blocked.add(w.toLowerCase());
+  }
+}
+function baseOf(w) {
+  if (lowerLemma(w)) return w;
+  const rules = [['ies', 'y'], ['es', ''], ['s', ''], ['ied', 'y'], ['ed', ''], ['ed', 'e'], ['ing', ''], ['ing', 'e'], ['er', ''], ['er', 'e'], ['est', ''], ['est', 'e'], ['ier', 'y'], ['iest', 'y']];
+  for (const [suf, rep] of rules) {
+    if (!w.endsWith(suf)) continue;
+    const b = w.slice(0, -suf.length) + rep;
+    if (b.length >= 3 && lowerLemma(b)) return b;
+    if ((suf === 'ed' || suf === 'ing' || suf === 'er' || suf === 'est') && b.length > 3 && b.at(-1) === b.at(-2) && lowerLemma(b.slice(0, -1))) return b.slice(0, -1);
+  }
+  return null;
+}
+// hand-written clues: generator/data/clues/*.txt, one "WORD|Clue|Another clue" per line
+const hand = {};
+const clueDir = path.join(here, 'data', 'clues');
+for (const f of fs.existsSync(clueDir) ? fs.readdirSync(clueDir).filter((x) => x.endsWith('.txt')).sort() : []) {
+  for (const line of fs.readFileSync(path.join(clueDir, f), 'utf8').split('\n')) {
+    const t = line.trim();
+    if (!t || t.startsWith('#')) continue;
+    const [w, ...c] = t.split('|').map((x) => x.trim());
+    if (w && c.length) hand[w.toUpperCase()] = c.filter(Boolean);
+  }
+}
+const final = {};
+let rank = 0;
+for (const line of fs.readFileSync(path.join(here, 'data', 'common-words.txt'), 'utf8').split('\n')) {
+  if (!line || line.startsWith('#')) continue;
+  const [w, z] = line.split('\t');
+  if (w.length < 3 || w.length > 7 || !/[aeiouy]/.test(w) || blocked.has(w)) continue;
+  const base = baseOf(w);
+  if (!base || badLemmas.has(base) || badLemmas.has(w) || blocked.has(base)) continue;
+  const W = w.toUpperCase();
+  const f = Math.round(2 ** Number(z));
+  if (hand[W]) final[W] = { f, c: hand[W], hand: true };
+  else if (words[W]) final[W] = { f, c: words[W].c, auto: true };
+  else final[W] = { f, c: [`Form of "${base}"`], auto: true };
+  if (++rank >= TOP_N) break;
+}
+// hand-clued words outside the top list are kept too
+for (const [W, c] of Object.entries(hand)) {
+  if (W.startsWith('_') || final[W] || blocked.has(W.toLowerCase())) continue;
+  final[W] = { f: 30, c, hand: true };
+}
 const customPath = path.join(here, 'data', 'custom-words.json');
 if (fs.existsSync(customPath)) {
   const custom = JSON.parse(fs.readFileSync(customPath, 'utf8'));
   for (const [w, v] of Object.entries(custom)) {
     if (w.startsWith('_')) continue;
-    words[w.toUpperCase()] = { f: v.f ?? 50, c: v.c };
-  }
-}
-const blockPath = path.join(here, 'data', 'blocklist.txt');
-if (fs.existsSync(blockPath)) {
-  for (const w of fs.readFileSync(blockPath, 'utf8').split(/\s+/)) {
-    if (w && !w.startsWith('#')) delete words[w.toUpperCase()];
+    final[w.toUpperCase()] = { f: v.f ?? 50, c: v.c, hand: true };
   }
 }
 
-const out = { version: 1, source: 'WordNet 3.0 (Princeton) + CrossClash custom words', words };
+const out = { version: 2, source: 'wordfreq common words + WordNet 3.0 (Princeton) + CrossClash hand-written clues', words: final };
 const outPath = path.join(here, 'data', 'lexicon.json');
 fs.writeFileSync(outPath, JSON.stringify(out));
 const byLen = {};
-for (const w of Object.keys(words)) byLen[w.length] = (byLen[w.length] || 0) + 1;
-console.log(`lexicon: ${Object.keys(words).length} words (${flagged} flagged as offensive) -> ${path.relative(process.cwd(), outPath)}`);
+for (const w of Object.keys(final)) byLen[w.length] = (byLen[w.length] || 0) + 1;
+const nHand = Object.values(final).filter((x) => x.hand).length;
+console.log(`lexicon: ${Object.keys(final).length} words, ${nHand} with hand-written clues -> ${path.relative(process.cwd(), outPath)}`);
 console.log('by length:', byLen);

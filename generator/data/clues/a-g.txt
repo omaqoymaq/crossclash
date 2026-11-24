@@ -1,0 +1,679 @@
+ABLE|Capable|Competent
+ABOARD|On the ship
+ABOUT|Roughly|Concerning
+ABOVE|Overhead|Higher than
+ABROAD|Overseas
+ABUSE|Misuse
+ABUSED|Mistreated
+ACCEPT|Agree to|Take willingly
+ACCESS|Way in|Entry
+ACE|Top card|Expert
+ACID|Sour substance
+ACRE|Land measure
+ACRES|Land measures
+ACROSS|Over to the other side
+ACT|Do something|Play a role
+ACTING|Stage work
+ACTION|Deed|Film genre
+ACTOR|Film star|Performer
+ACTORS|Cast members
+ACTS|Deeds|Play parts
+ACUTE|Sharp|Severe
+ADD|Sum up|Put in
+ADDED|Put in extra
+ADDS|Totals up
+ADMIRE|Look up to
+ADMIT|Confess|Let in
+ADOPT|Take on|Take in a child
+ADVISE|Counsel
+AERIAL|Antenna|From the air
+AFRAID|Scared
+AFTER|Later than|Behind
+AGE|Era|Grow old
+AGED|Elderly
+AGENCY|Bureau
+AGENDA|Meeting plan
+AGENT|Spy|Representative
+AGENTS|Spies
+AGES|Eras|A long time
+AGO|In the past
+AGREE|Concur
+AGREED|Settled|Okayed
+AGREES|Says yes
+AHEAD|In front
+AID|Help
+AIDS|Helps
+AIM|Goal|Point
+AIMED|Pointed
+AIMS|Goals
+AIR|What we breathe|Tune
+ALARM|Warning bell
+ALBUM|Photo book|Record
+ALIEN|Foreigner|Martian
+ALIENS|UFO visitors
+ALIKE|Similar
+ALL|Every one|Everything
+ALLOW|Permit
+ALLOWS|Permits
+ALLY|Friend in war|Partner
+ALMOST|Nearly
+ALONE|Solo|By oneself
+ALONG|Forward|Beside
+ALPHA|First Greek letter
+ALSO|Too|As well
+ALTER|Change
+ALWAYS|Forever|Every time
+AMAZON|Great river
+AMBER|Fossil resin|Traffic light colour
+AMOUNTS|Quantities
+ANGER|Rage|Fury
+ANIMAL|Creature|Beast
+ANIME|Japanese cartoons
+ANKLE|Foot joint
+ANTHEM|National song
+ANY|Whichever
+ANYWAY|Regardless
+APART|Separated
+APPEAR|Show up
+APPLE|Orchard fruit
+APPLES|Orchard fruit
+ARC|Curve|Part of a circle
+ARCH|Curved doorway
+ARE|Exist
+AREA|Zone|Region
+AREAS|Zones
+ARENA|Stadium
+ARGUE|Quarrel
+ARGUED|Quarrelled
+ARISE|Get up|Come about
+ARM|Limb|Weapon
+ARMED|Carrying weapons
+ARMIES|Military forces
+ARMOR|Knight's suit
+ARMS|Weapons|Limbs
+ARMY|Soldiers
+AROUND|About|Nearby
+ARRAY|Display|Range
+ARRIVE|Get there
+ART|Painting, for one|Skill
+ARTIST|Painter
+ARTS|Culture
+ASH|Fire residue|Tree
+ASHES|Fire residue
+ASIDE|To one side
+ASK|Enquire|Request
+ASKED|Enquired
+ASKING|Requesting
+ASKS|Enquires
+ASLEEP|Dozing
+ASSESS|Evaluate
+ASSET|Valuable thing
+ASSETS|Valuables
+ASSUME|Suppose
+ASSURE|Promise
+ASYLUM|Refuge
+ATOMIC|Nuclear
+ATTEND|Be present at
+AUDIT|Inspect accounts
+AUGUST|Summer month|Majestic
+AUNT|Parent's sister
+AUTHOR|Writer
+AUTO|Car
+AUTUMN|Fall season
+AWARDS|Prizes
+AWAY|Absent|Not home
+AXIS|Pivot line
+BABY|Infant
+BACON|Breakfast meat
+BAD|Not good|Naughty
+BADGE|Pin|Emblem
+BAG|Sack|Handbag
+BAKED|Oven-cooked
+BALL|Dance|Sphere
+BALLOT|Voting paper
+BAN|Forbid
+BANANA|Yellow fruit
+BANK|River edge|Money place
+BANNED|Forbidden
+BAR|Pub|Rod
+BARN|Farm building
+BARREL|Cask
+BASED|Founded
+BASIC|Simple
+BASIN|Sink|Bowl
+BASIS|Foundation
+BAT|Cricket club|Night flier
+BATH|Tub
+BATTLE|Fight
+BAY|Inlet|Howl
+BEAM|Ray|Girder
+BEAST|Animal|Brute
+BEATEN|Defeated
+BECOME|Turn into
+BEE|Honey maker
+BEEF|Cow meat|Complaint
+BEER|Ale|Lager
+BEFORE|Earlier
+BEG|Plead
+BEGINS|Starts
+BEHALF|On ___ of
+BEHAVE|Act properly
+BEHIND|At the back
+BEING|Creature|Existence
+BELIEF|Faith|Conviction
+BELL|Ringer|Chime
+BELONG|Fit in
+BELOW|Under
+BELT|Waist strap
+BENT|Curved|Crooked
+BEST|Finest|Top
+BET|Wager|Gamble
+BETA|Second Greek letter|Test version
+BETTER|Superior|Improve
+BEYOND|Past|Further than
+BIAS|Prejudice
+BID|Offer|Tender
+BIG|Large|Huge
+BIGGER|Larger
+BIKES|Cycles
+BILL|Invoice|Beak
+BIN|Rubbish container
+BIRD|Feathered flier
+BIRTH|Delivery|Start
+BISHOP|Chess piece|Church leader
+BIT|Small piece|Chewed
+BITS|Pieces
+BLADE|Knife edge
+BLAME|Hold responsible
+BLESS|Consecrate
+BLIND|Sightless|Shade
+BLOCKS|Obstructs|Cubes
+BLOG|Online diary
+BLUE|Sky colour|Sad
+BOARD|Plank|Get on
+BOB|Short haircut|Bounce
+BOLT|Lock bar|Dash off
+BOMB|Explosive|Flop
+BONE|Skeleton part
+BONUS|Extra reward
+BOO|Jeer
+BOOT|Footwear|Car trunk
+BORN|Brought into life
+BORROW|Take on loan
+BOTH|The two
+BOTTLE|Glass container|Courage
+BOTTOM|Base|Lowest part
+BOWL|Dish|Roll a ball
+BOX|Carton|Spar
+BOXES|Cartons
+BOY|Lad
+BRANDS|Trademarks
+BRASS|Yellow metal
+BREAK|Rest|Smash
+BRIDE|Wedding woman
+BRIEF|Short
+BROAD|Wide
+BROKEN|Smashed|Bust
+BUD|Flower starter|Pal
+BUILT|Constructed
+BUREAU|Office|Desk
+BURIED|Interred
+BURN|Scorch
+BURST|Pop|Rupture
+BUS|Public coach
+BUSES|Coaches
+BUT|However
+BUY|Purchase
+BYE|Farewell
+CAB|Taxi
+CABINET|Cupboard|Ministers
+CABLE|Wire|Rope
+CAFE|Coffee shop
+CAGE|Bird enclosure
+CALL|Phone|Shout
+CAM|Video camera, briefly
+CAMERA|Photo device
+CAMP|Tent site
+CAMPUS|University grounds
+CAN|Tin|Is able to
+CANAL|Waterway
+CANCEL|Call off
+CANON|Rule|Church law
+CAP|Hat|Lid
+CAPE|Cloak|Headland
+CAR|Vehicle|Auto
+CARD|Playing card
+CARE|Concern|Look after
+CARED|Looked after
+CAREER|Profession
+CARES|Worries
+CARGO|Freight
+CARPET|Floor covering
+CARRY|Bear|Transport
+CARS|Autos
+CART|Wagon|Trolley
+CASE|Box|Lawsuit
+CASES|Lawsuits|Boxes
+CASH|Money
+CASINO|Gambling house
+CAST|Throw|Actors
+CASUAL|Relaxed
+CAT|Feline|Pet
+CATS|Felines
+CAUSE|Reason|Bring about
+CAVE|Cavern
+CEASE|Stop
+CELL|Jail room|Tiny unit of life
+CELLS|Jail rooms
+CENSUS|Population count
+CENT|Penny
+CENTRE|Middle
+CHAD|African country
+CHAINS|Shackles
+CHAIRS|Seats
+CHAMP|Winner
+CHANGE|Alter|Coins
+CHAOS|Disorder
+CHARGE|Fee|Attack
+CHAT|Talk
+CHEF|Cook
+CHI|Greek letter
+CHIEF|Leader|Main
+CHIEFS|Leaders
+CHILE|South American land
+CHIN|Jaw point
+CHINA|Porcelain
+CHROME|Shiny plating
+CINEMA|Movie theatre
+CITED|Quoted
+CITY|Metropolis
+CLAN|Family group
+CLASH|Conflict
+CLASS|Lesson|Style
+CLAUSE|Contract part
+CLEAN|Spotless
+CLEAR|Transparent|Obvious
+CLERK|Office worker
+CLIENT|Customer
+CLIMB|Go up
+CLINIC|Health centre
+CLIP|Fastener|Trim
+CLOSED|Shut
+CLOSER|Nearer
+CLOSES|Shuts
+CLUB|Society|Cudgel
+CLUBS|Card suit|Societies
+CLUE|Hint
+COAL|Black fuel
+COAST|Seashore
+CODE|Cipher
+CODES|Ciphers
+COLD|Chilly|Sniffles
+COLOR|Hue (US)
+COLOUR|Hue|Tint
+COMBAT|Fighting
+COMEDY|Funny show
+COMIC|Funny|Comedian
+COMICS|Cartoon books
+COMMIT|Pledge|Carry out
+CON|Swindle
+CONSOLE|Comfort|Games machine
+COOK|Chef|Prepare food
+COOKIE|Biscuit
+COOL|Chilly|Calm
+COP|Police officer
+COPIES|Duplicates
+COPS|Police
+COPY|Duplicate
+CORE|Centre|Apple middle
+CORN|Maize
+COSTLY|Expensive
+COUP|Takeover|Rebellion
+COURSE|Route|Lessons
+COURTS|Tribunals
+COUSIN|Relative
+COW|Cattle beast
+COWS|Cattle
+CRACK|Split|Fissure
+CRANE|Lifting machine|Wading bird
+CRASH|Collision
+CREW|Ship's staff
+CREWS|Teams
+CRIES|Sobs|Shouts
+CRIME|Offence
+CROP|Harvest
+CRY|Weep|Shout
+CULT|Sect
+CUP|Mug|Trophy
+CURE|Remedy
+CURRY|Spicy dish
+CUTE|Adorable
+CYCLE|Bike|Circuit
+DAD|Father
+DAM|River barrier
+DAMAGE|Harm
+DAME|Lady
+DANCER|Ballerina, e.g.
+DANGER|Peril
+DARE|Challenge
+DASH|Sprint|Hyphen
+DATA|Facts|Figures
+DATE|Day|Romantic outing
+DATES|Calendar days|Sweet fruits
+DAY|Twenty-four hours
+DAYS|Times
+DEAD|Lifeless
+DEADLY|Lethal
+DEAF|Unable to hear
+DEAL|Bargain|Hand out cards
+DEALER|Trader
+DEALS|Bargains
+DEAN|College head
+DEATH|Demise
+DEATHS|Fatalities
+DEBATE|Discussion
+DEBRIS|Rubble
+DEBT|What is owed
+DEBTS|Liabilities
+DEBUT|First appearance
+DECADE|Ten years
+DECIDE|Make up one's mind
+DECK|Ship floor|Pack of cards
+DECLARE|Announce
+DEEMED|Considered
+DEEP|Profound
+DEEPER|More profound
+DEER|Stag
+DEFEAT|Beat|Loss
+DEFEND|Protect
+DEFINE|Explain
+DEGREE|Diploma|Step
+DEGREES|Diplomas
+DELAY|Hold-up
+DELAYS|Hold-ups
+DELETE|Erase
+DELTA|River mouth
+DEMAND|Insist on
+DEMO|Trial version
+DEMON|Devil
+DEMONS|Devils
+DEN|Lair
+DENIED|Refused
+DENSE|Thick
+DENTAL|Of teeth
+DENY|Refuse
+DEPEND|Rely
+DEPOT|Warehouse
+DEPTH|Deepness
+DEPUTY|Second-in-command
+DERBY|Horse race|Bowler hat
+DESIGN|Plan|Pattern
+DESIRE|Want
+DESK|Writing table
+DEVIL|Demon
+DIAL|Clock face|Phone
+DIARY|Journal
+DIE|Pass away|Cube
+DIED|Passed away
+DIES|Passes away
+DIESEL|Fuel
+DIET|Eating plan
+DIG|Excavate
+DIP|Dunk
+DIRECT|Straight
+DISC|Disk|Record
+DISH|Plate
+DISK|Disc
+DIVE|Plunge
+DIVIDE|Split
+DOC|Medic
+DOCK|Pier
+DOES|Performs
+DOG|Hound|Pet
+DOGS|Hounds
+DOLL|Toy figure
+DOLLAR|US money
+DOMAIN|Territory
+DOME|Rounded roof
+DON|Put on
+DONATE|Give
+DONE|Finished
+DONOR|Giver
+DOOR|Entrance
+DOORS|Entrances
+DOT|Point|Speck
+DOUBT|Uncertainty
+DOWN|Feathers|Sad
+DOZEN|Twelve
+DOZENS|Lots
+DRAFT|Sketch
+DRAG|Pull
+DRAMA|Play|Fuss
+DRAW|Sketch|Tie
+DREAMS|Night visions
+DRESS|Frock
+DRINK|Beverage
+DROP|Fall|Bead of liquid
+DROPS|Falls
+DRUG|Medicine
+DRUM|Percussion|Barrel
+DRY|Not wet
+DUAL|Double
+DUCK|Water bird|Bend down
+DUDE|Guy
+DUE|Owed
+DUKE|Nobleman
+DUO|Pair
+DUTY|Obligation
+DYING|Fading
+EACH|Every
+EAGER|Keen
+EAGLES|Birds of prey
+EAR|Organ of hearing
+EARL|Nobleman
+EARLY|Not late
+EARN|Make money
+EARNED|Gained
+EARS|Hearing organs
+EARTH|Planet|Soil
+EASE|Comfort
+EASIER|Simpler
+EAST|Sunrise direction
+EASTER|Spring festival
+EASY|Simple
+EAT|Dine
+EATS|Dines
+ECHO|Repeated sound
+EDGE|Rim|Border
+EDGES|Borders
+EDIT|Revise
+EDITOR|Reviser
+EGG|Hen's product
+EGGS|Breakfast item
+EGO|Self-image
+EITHER|One or other
+ELDER|Senior|Shrub
+ELECT|Vote in
+ELEVEN|Football team
+ELITE|Best|Upper crust
+EMAIL|E-message
+EMAILS|E-messages
+EMERGE|Come out
+EMPIRE|Realm
+EMPTY|Vacant
+ENABLE|Make possible
+END|Finish
+ENDED|Finished
+ENDING|Finale
+ENDS|Finishes
+ENEMY|Foe
+ENERGY|Power|Vigour
+ENGINE|Motor
+ENJOY|Like
+ENJOYS|Likes
+ENOUGH|Sufficient
+ENSURE|Make certain
+ENTER|Go in
+ENTERS|Goes in
+ENTIRE|Whole
+ENTITY|Being
+ENTRIES|Submissions
+ENTRY|Way in
+EPIC|Heroic poem
+ERA|Epoch
+ERROR|Mistake
+ERRORS|Mistakes
+ESCAPE|Break out
+ESCORT|Accompany
+ESSAY|Composition
+ESSAYS|Compositions
+ESTATE|Property
+ESTEEM|Respect
+ETHICS|Morals
+ETHNIC|Cultural
+EURO|European money
+EVE|Night before
+EVEN|Level|Flat
+EVENT|Occasion
+EVENTS|Occasions
+EVER|At any time
+EVERY|Each
+EVIL|Wicked
+EXACT|Precise
+EXAM|Test
+EXAMS|Tests
+EXIST|Be
+EXIT|Way out
+EXOTIC|Foreign|Unusual
+EXTENT|Scope
+EXTRA|Additional
+EYE|Organ of sight
+EYED|Looked at
+EYES|Peepers
+FABRIC|Cloth
+FACE|Visage|Confront
+FACED|Confronted
+FACES|Visages
+FACT|Truth
+FAIL|Flop
+FAIR|Just|Funfair
+FAITH|Belief
+FALL|Drop|Autumn
+FALLEN|Dropped
+FALSE|Untrue
+FAMOUS|Well known
+FAN|Admirer|Cooler
+FANS|Supporters
+FAR|Distant
+FARE|Ticket price
+FARM|Ranch
+FARMER|Grower
+FARMS|Ranches
+FAT|Plump|Lard
+FATE|Destiny
+FAULT|Flaw|Blame
+FAVOR|Kindness (US)
+FAVOUR|Kindness
+FEAR|Dread
+FEARED|Dreaded
+FEAST|Banquet
+FEE|Charge
+FEES|Charges
+FELLOW|Chap|Peer
+FEMALE|Woman
+FENCE|Barrier
+FEW|Not many
+FEWER|Not as many
+FIELD|Meadow|Area
+FIERCE|Ferocious
+FIFTY|Half a hundred
+FIGURE|Number|Shape
+FILE|Folder|Rasp
+FILL|Top up
+FILM|Movie
+FILMS|Movies
+FINAL|Last
+FIND|Discover
+FINEST|Best
+FIRE|Blaze|Dismiss
+FIRED|Dismissed|Shot
+FIRM|Company|Solid
+FIRST|Number one
+FISCAL|Financial
+FIT|Healthy|Suit
+FITS|Suits|Seizures
+FIVE|Number of fingers
+FIX|Repair
+FIXING|Repairing
+FLAMES|Blaze
+FLASH|Instant|Camera light
+FLAT|Level|Apartment
+FLEET|Navy|Swift
+FLESH|Meat
+FLOAT|Drift
+FLOOD|Deluge
+FLOORS|Storeys
+FLU|Influenza
+FLY|Soar|Insect
+FOG|Mist
+FOOD|Nourishment
+FORGET|Fail to recall
+FORM|Shape|Document
+FORMER|Previous
+FORMS|Shapes
+FORUM|Discussion place
+FOUND|Discovered|Establish
+FOUR|Two pairs
+FREE|Gratis|Unrestricted
+FREEZE|Turn to ice
+FROG|Croaker
+FRUIT|Apple or pear
+FRY|Cook in oil
+FUEL|Petrol|Diesel
+FULLY|Completely
+FUN|Enjoyment
+FUR|Pelt
+FUSION|Merging
+GAIN|Profit
+GALAXY|Star system
+GAME|Match|Contest
+GAMES|Matches
+GANG|Group
+GAP|Opening|Hole
+GARAGE|Car shelter
+GARDEN|Yard
+GAS|Fuel|Vapour
+GATE|Entrance
+GEAR|Equipment
+GENE|Unit of heredity
+GENES|DNA units
+GENEVA|Swiss city
+GENRE|Category|Style
+GET|Obtain|Fetch
+GETS|Obtains
+GIANT|Huge|Ogre
+GIFT|Present
+GIFTS|Presents
+GIG|Concert
+GIRL|Lass
+GIRLS|Lasses
+GIVEN|Granted
+GLAD|Happy
+GLASS|Tumbler
+GLOBE|World|Sphere
+GLORY|Fame
+GLOW|Shine
+GOAL|Target
+GOALS|Aims
+GOD|Deity
+GODS|Deities
+GOLD|Precious metal
+GOLF|Sport with tees
+GONE|Departed
+GOOD|Fine
+GOODS|Merchandise
+GOSPEL|Absolute truth
+GRAB|Snatch
+GRACE|Elegance
+GRADE|Mark|Level
+GRADES|Marks

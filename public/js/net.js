@@ -2,10 +2,10 @@
 //
 // Protocol (JSON over one WebSocket per player):
 //   client -> server  {t:'hello', name, token?}  first message; token re-claims a seat after a reload
-//                     {t:'place', i, r, c}       place rack tile i on square (r,c)
-//                     {t:'end'} {t:'swap'} {t:'resign'} {t:'rematch'} {t:'ping'}
+//                     {t:'submit', placements:[{i, r, c}]}  hand tile i on square (r,c); [] = pass
+//                     {t:'swap'} {t:'resign'} {t:'rematch'} {t:'ping'}
 //   server -> client  {t:'welcome', seat, token}
-//                     {t:'room', code, size, seat, seats:[{name, online}], rematch:[bool,bool]}
+//                     {t:'room', code, size, timer, seat, seats:[{name, online}], rematch:[bool,bool]}
 //                     {t:'state', view, now}     view = engine.viewFor(state, seat)
 //                     {t:'error', msg, fatal?}
 
@@ -14,8 +14,8 @@ const store = {
   set(k, v) { try { localStorage.setItem(k, v); } catch { /* private mode */ } },
 };
 
-export async function createRoom(size) {
-  const res = await fetch('/api/rooms', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ size }) });
+export async function createRoom(size, timer) {
+  const res = await fetch('/api/rooms', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ size, timer }) });
   const data = await res.json().catch(() => ({}));
   if (!res.ok) throw new Error(data.error || 'Could not create a room');
   return data;
@@ -72,8 +72,7 @@ export class RemoteGame {
   }
 
   now() { return Date.now() + this.clockOffset; }
-  place(i, r, c) { this.sendRaw({ t: 'place', i, r, c }); }
-  end() { this.sendRaw({ t: 'end' }); }
+  submit(placements) { this.sendRaw({ t: 'submit', placements }); }
   swap() { this.sendRaw({ t: 'swap' }); }
   resign() { this.sendRaw({ t: 'resign' }); }
   rematch() { this.sendRaw({ t: 'rematch' }); }

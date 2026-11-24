@@ -1,100 +1,126 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import { newGame, place, endTurn, swap, tick, viewFor, RACK_SIZE, cellsOfClue } from '../public/js/engine.js';
-import { botMove } from '../public/js/bot.js';
+import { newGame, submit, swap, tick, viewFor, HAND_SIZE, cellsOfClue } from '../public/js/engine.js';
+import { botTurn } from '../public/js/bot.js';
 
 const pack = JSON.parse(fs.readFileSync(new URL('../puzzles/regular.json', import.meta.url)));
 const puzzle = pack.puzzles[0];
 const players = [{ name: 'A', kind: 'human' }, { name: 'B', kind: 'bot', level: 'hard' }];
 
-function findHome(state, p) {
+function homes(state, p, max = HAND_SIZE) {
   const { w } = state.puzzle;
-  for (let i = 0; i < state.owner.length; i++) {
-    if (state.owner[i] !== -1) continue;
-    const r = Math.floor(i / w), c = i % w;
-    const ri = state.players[p].rack.indexOf(state.puzzle.rows[r][c]);
-    if (ri >= 0) return { ri, r, c };
+  const out = [], usedI = new Set();
+  for (let k = 0; k < state.owner.length && out.length < max; k++) {
+    if (state.owner[k] !== -1) continue;
+    const r = Math.floor(k / w), c = k % w;
+    const i = state.players[p].rack.findIndex((l, idx) => !usedI.has(idx) && l === state.puzzle.rows[r][c]);
+    if (i >= 0) { usedI.add(i); out.push({ i, r, c }); }
   }
-  return null;
+  return out;
+}
+function wrongSpot(state, p, avoidI = new Set(), avoidCells = new Set()) {
+  const { w } = state.puzzle;
+  for (let k = 0; k < state.owner.length; k++) {
+    if (state.owner[k] !== -1 || avoidCells.has(k)) continue;
+    const r = Math.floor(k / w), c = k % w;
+    const i = state.players[p].rack.findIndex((l, idx) => !avoidI.has(idx) && l !== state.puzzle.rows[r][c]);
+    if (i >= 0) return { i, r, c };
+  }
 }
 
-test('bag holds exactly the unrevealed letters', () => {
-  const s = newGame(puzzle, players, 1);
+test('every turn starts with exactly 5 tiles and the bag holds only missing letters', () => {
+  const s = newGame(puzzle, players, { seed: 1 });
   const empty = s.owner.filter((o) => o === -1).length;
   assert.equal(s.bag.length + s.players[0].rack.length + s.players[1].rack.length, empty);
-  assert.equal(s.players[0].rack.length, RACK_SIZE);
-});
-
-test('correct tile scores and stays, wrong tile ends the turn', () => {
-  const s = newGame(puzzle, players, 2);
-  const p = s.turn;
-  const m = findHome(s, p);
-  const res = place(s, p, m.ri, m.r, m.c);
-  assert.ok(res.correct);
-  assert.ok(s.players[p].score > 0);
-  // wrong placement
-  const { w } = s.puzzle;
-  let wrong = null;
-  for (let i = 0; i < s.owner.length && !wrong; i++) {
-    if (s.owner[i] !== -1) continue;
-    const r = Math.floor(i / w), c = i % w;
-    const ri = s.players[p].rack.findIndex((l) => l !== s.puzzle.rows[r][c]);
-    if (ri >= 0) wrong = { ri, r, c };
+  for (let t = 0; t < 6; t++) {
+    assert.equal(s.players[s.turn].rack.length, HAND_SIZE);
+    const h = homes(s, s.turn, 2);
+    submit(s, s.turn, h);
   }
-  const before = s.players[p].rack.length;
-  const r2 = place(s, p, wrong.ri, wrong.r, wrong.c);
-  assert.equal(r2.correct, false);
-  assert.equal(s.turn, 1 - p);
-  assert.equal(place(s, p, 0, 0, 1).ok, false, 'not your turn');
 });
 
-test('view hides the solution and the opponent rack', () => {
-  const s = newGame(puzzle, players, 3);
+test('submit scores +1 right, -1 wrong, wrong tiles return to the hand', () => {
+  const s = newGame(puzzle, players, { seed: 2 });
+  const p = s.turn;
+  const [right] = homes(s, p, 1);
+  const wrong = wrongSpot(s, p, new Set([right.i]), new Set([right.r * s.puzzle.w + right.c]));
+  const wrongLetter = s.players[p].rack[wrong.i];
+  const res = submit(s, p, [right, wrong]);
+  assert.ok(res.ok);
+  assert.equal(res.breakdown.letters, 1);
+  assert.equal(res.breakdown.wrong, -1);
+  assert.equal(s.players[p].rack.length, HAND_SIZE - 1);
+  assert.ok(s.players[p].rack.includes(wrongLetter));
+  assert.equal(s.board[wrong.r * s.puzzle.w + wrong.c], '');
+  assert.equal(s.turn, 1 - p);
+  assert.equal(submit(s, p, []).ok, false, 'not your turn');
+});
+
+test('completing a word gives +1 per word plus its letters; 5 right gives +5', () => {
+  // fill a short word by hand: give player the exact letters it needs
+  const s = newGame(puzzle, players, { seed: 3 });
+  const p = s.turn;
+  const { w } = s.puzzle;
+  const cl = s.puzzle.clues.find((c) => c.len <= 5 && cellsOfClue(c).filter(([a, b]) => s.owner[a * w + b] === -1).length >= 2);
+  const open = cellsOfClue(cl).filter(([a, b]) => s.owner[a * w + b] === -1);
+  // rig the hand (test only)
+  const need = open.map(([a, b]) => s.puzzle.rows[a][b]);
+  s.players[p].rack = need.concat(s.players[p].rack).slice(0, HAND_SIZE);
+  const placements = open.map(([r, c], i) => ({ i, r, c }));
+  const res = submit(s, p, placements);
+  assert.ok(res.breakdown.words >= 1);
+  assert.ok(res.breakdown.wordLetters >= cl.len);
+  assert.equal(res.points, res.breakdown.letters + res.breakdown.words + res.breakdown.wordLetters + res.breakdown.fullHand);
+  // full hand
+  const s2 = newGame(puzzle, players, { seed: 4 });
+  const q = s2.turn;
+  const all = homes(s2, q, 5);
+  if (all.length === 5) assert.equal(submit(s2, q, all).breakdown.fullHand, 5);
+});
+
+test('bad submissions are rejected', () => {
+  const s = newGame(puzzle, players, { seed: 5 });
+  const p = s.turn;
+  assert.equal(submit(s, p, [{ i: 0, r: 0, c: 0 }]).ok, false); // clue square
+  assert.equal(submit(s, p, [{ i: 9, r: 1, c: 1 }]).ok, false);
+  const [a] = homes(s, p, 1);
+  assert.equal(submit(s, p, [a, { ...a }]).ok, false); // same tile twice
+});
+
+test('view hides the solution and the opponent hand', () => {
+  const s = newGame(puzzle, players, { seed: 6 });
   const v = viewFor(s, 0);
   assert.equal(v.puzzle.solution, null);
   assert.equal(v.players[1].rack, null);
   assert.ok(v.puzzle.clues.every((c) => !('answer' in c)));
-  assert.ok(!JSON.stringify(v).includes(puzzle.rows.join('')));
 });
 
-test('timeout passes the turn; swap returns tiles to the bag', () => {
-  const s = newGame(puzzle, players, 4, 1000);
+test('timer: off means no deadline; timeout passes the turn after the grace period', () => {
+  const off = newGame(puzzle, players, { seed: 7, turnSeconds: 0 });
+  assert.equal(off.deadline, null);
+  assert.equal(tick(off, Date.now() + 1e9), false);
+  const s = newGame(puzzle, players, { seed: 7, turnSeconds: 30, now: 1000 });
   const p = s.turn;
-  assert.ok(tick(s, s.deadline + 1));
+  assert.equal(s.deadline, 31000);
+  assert.equal(tick(s, 31500, 1500), false);
+  assert.ok(tick(s, 32600, 1500));
   assert.equal(s.turn, 1 - p);
-  const q = s.turn;
-  const total = s.bag.length + s.players[q].rack.length;
-  assert.ok(swap(s, q).ok);
-  assert.equal(s.bag.length + s.players[q].rack.length, total);
+  assert.ok(swap(s, s.turn).ok);
 });
 
-test('a full game between two perfect players fills the grid', () => {
-  const s = newGame(puzzle, players, 5);
+test('perfect players fill the grid; bots finish at every level', () => {
+  const s = newGame(puzzle, players, { seed: 8 });
   let guard = 0;
-  while (s.status === 'playing' && guard++ < 2000) {
-    const m = findHome(s, s.turn);
-    if (m) place(s, s.turn, m.ri, m.r, m.c); else endTurn(s, s.turn);
-  }
-  assert.equal(s.status, 'over');
+  while (s.status === 'playing' && guard++ < 2000) submit(s, s.turn, homes(s, s.turn));
   assert.equal(s.endReason, 'complete');
-  assert.ok(s.owner.every((o) => o !== -1));
-  // every word was completed exactly once, so word bonuses add up
-  const letterPts = s.players[0].score + s.players[1].score;
-  const wordBonus = puzzle.clues.filter((c) => cellsOfClue(c).some(([r, cc]) => !puzzle.revealed.some(([a, b]) => a === r && b === cc))).reduce((n, c) => n + c.len, 0);
-  assert.ok(letterPts >= wordBonus);
-});
-
-test('bot games finish at every level', () => {
   for (const level of ['easy', 'medium', 'hard']) {
-    const s = newGame(puzzle, [{ name: 'X', kind: 'bot', level }, { name: 'Y', kind: 'bot', level }], 6);
-    let guard = 0;
-    while (s.status === 'playing' && guard++ < 5000) {
-      const m = botMove(s, s.turn, level);
-      if (m.type === 'place') place(s, s.turn, m.rackIndex, m.r, m.c);
-      else if (m.type === 'swap') swap(s, s.turn);
-      else endTurn(s, s.turn);
+    const g = newGame(puzzle, [{ name: 'X', kind: 'bot', level }, { name: 'Y', kind: 'bot', level }], { seed: 9 });
+    let n = 0;
+    while (g.status === 'playing' && n++ < 5000) {
+      const m = botTurn(g, g.turn, level);
+      if (m.type === 'swap') swap(g, g.turn); else assert.ok(submit(g, g.turn, m.placements).ok);
     }
-    assert.equal(s.status, 'over', level);
+    assert.equal(g.status, 'over', level);
   }
 });

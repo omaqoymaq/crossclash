@@ -4,6 +4,9 @@
 //   node generator/cli.mjs --size regular --count 100 [--seed 42] [--out public/puzzles]
 //   node generator/cli.mjs --size all --count 50
 //   node generator/cli.mjs --print --size large        # print one puzzle as text
+//   --allow-auto   also use words whose clue was made automatically (default: hand-written clues only)
+//   --reclue       refresh clue texts in existing packs from the current lexicon
+//   --report       list answers in the packs that still have automatic clues
 //
 // Full packs live in puzzles/<size>.json (bundled into the server for 1v1
 // rooms, never served publicly). Every 4th puzzle is also copied, with
@@ -31,7 +34,7 @@ const soloDir = path.resolve(args.solo || path.join(here, '..', 'public', 'puzzl
 let seed = args.seed ? Number(args.seed) : (Date.now() & 0x7fffffff);
 
 const lexicon = JSON.parse(fs.readFileSync(path.join(here, 'data', 'lexicon.json'), 'utf8')).words;
-const index = buildIndex(lexicon);
+const index = buildIndex(lexicon, { handOnly: !args['allow-auto'] });
 
 if (args.print) {
   const p = generatePuzzle({ size: sizes[0], index, seed });
@@ -43,6 +46,29 @@ if (args.print) {
 }
 
 fs.mkdirSync(outDir, { recursive: true });
+if (args.report || args.reclue) {
+  const missing = new Map();
+  for (const size of sizes) {
+    const file = path.join(outDir, `${size}.json`);
+    if (!fs.existsSync(file)) continue;
+    const pack = JSON.parse(fs.readFileSync(file, 'utf8'));
+    let changed = 0;
+    for (const p of pack.puzzles) for (const c of p.clues) {
+      const e = lexicon[c.answer];
+      if (!e || !e.hand) missing.set(c.answer, (missing.get(c.answer) || 0) + 1);
+      else if (args.reclue && !e.c.includes(c.text)) { c.text = e.c[(p.id.charCodeAt(3) + c.id) % e.c.length]; changed++; }
+    }
+    if (args.reclue) {
+      fs.writeFileSync(file, JSON.stringify(pack));
+      const solo = pack.puzzles.filter((_, i) => i % 4 === 0);
+      fs.writeFileSync(path.join(soloDir, `solo-${size}.json`), JSON.stringify({ size, count: solo.length, puzzles: solo }));
+      console.log(`${size}: ${changed} clues refreshed`);
+    }
+  }
+  console.log(`${missing.size} answers without a hand-written clue`);
+  if (args.report) console.log([...missing.keys()].sort().join('\n'));
+  process.exit(0);
+}
 for (const size of sizes) {
   const file = path.join(outDir, `${size}.json`);
   const pack = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : { size, puzzles: [] };

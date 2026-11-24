@@ -5,7 +5,7 @@
 ```jsonc
 {
   "id": "R1a2b3c4d",          // size letter + hash of the solution grid (uniqueness key)
-  "size": "regular",          // regular 9×9 · large 11×12 · xl 13×15
+  "size": "regular",          // regular 9×9 · large 11×12 · xl 13×15 (max word length 7 / 6 / 6)
   "w": 9, "h": 9,
   "rows": ["#H#G#B#G#", "CAMERA#OD", ...],   // '#' = clue square, letters = solution
   "clues": [{

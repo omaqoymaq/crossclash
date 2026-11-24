@@ -84,7 +84,7 @@ a { color: var(--navy); }
 .foot { text-align: center; color: var(--muted); font-size: .85rem; margin-top: 12px; }
 .group h3 { margin: 0 0 6px; font-size: .9rem; color: var(--muted); font-weight: 600; }
 .seg { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 6px; }
-.seg button { display: flex; flex-direction: column; align-items: center; padding: 10px 6px; }
+.seg button { display: flex; flex-direction: column; align-items: center; padding: 10px 4px; min-width: 0; }
 .seg button small { color: var(--muted); font-size: .75rem; }
 .seg button.on { border: 2px solid var(--navy); font-weight: 600; }
 .hint { color: var(--muted); font-size: .9rem; text-align: center; min-height: 1.4em; }
@@ -142,7 +142,7 @@ a { color: var(--navy); }
 .cell.sq.empty { cursor: default; }
 .sq .ct {
   flex: 1; width: 100%; display: flex; align-items: center; justify-content: center; text-align: center; position: relative;
-  font-size: max(7px, calc(var(--cell) * .21)); line-height: 1.05; letter-spacing: -.02em; padding: 1px 2px; overflow: hidden; word-break: break-word; hyphens: auto;
+  font-size: max(7px, calc(var(--cell) * .21)); line-height: 1.05; letter-spacing: -.02em; padding: 1px 2px; overflow: hidden; overflow-wrap: anywhere; word-break: normal; hyphens: auto; -webkit-hyphens: auto;
 }
 .sq .ct + .ct { border-top: 1px solid var(--line); }
 .sq .ct.hl { background: var(--hl-strong); color: #1d2433; }
@@ -179,7 +179,11 @@ a { color: var(--navy); }
 .rtile small { position: absolute; right: 5px; bottom: 3px; font-size: .7rem; font-weight: 700; }
 .rtile.on { transform: translateY(-6px); box-shadow: 0 0 0 3px var(--me), 0 6px 0 #c7b17f; }
 .rack.waiting .rtile { opacity: .55; }
-.actions { display: grid; grid-template-columns: auto 1fr 1fr; gap: 8px; }
+.actions { display: grid; grid-template-columns: auto 1fr 1fr 1.6fr; gap: 8px; }
+.timer-text { font-size: .75rem; font-variant-numeric: tabular-nums; color: var(--muted); }
+.tile.staged { background: transparent; color: var(--me); border: 2px dashed var(--me); }
+.rtile.used { display: none; }
+.seg { flex-wrap: wrap; }
 .toast {
   position: fixed; left: 50%; top: 18%; transform: translateX(-50%) translateY(-10px); opacity: 0; pointer-events: none;
   background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 999px; font-weight: 600; transition: .25s; z-index: 30;
