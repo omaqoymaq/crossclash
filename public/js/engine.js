@@ -49,6 +49,7 @@ export function newGame(puzzle, players, opts = {}) {
     status: 'playing',
     winner: null,
     events: [],
+    log: [], // every move, kept for the score logs
     passStreak: 0,
   };
   shuffleBag(state);
@@ -157,6 +158,12 @@ export function submit(state, p, placements = [], now = Date.now()) {
   player.correct += res.correct.length;
   player.wrong += res.wrong.length;
   player.words += res.words.length;
+  state.log.push({
+    turn: state.turnNo, p, type: placements.length ? 'submit' : 'pass',
+    correct: res.correct.length, wrong: res.wrong.length,
+    words: res.words.map((cl) => ({ word: cl.answer, len: cl.len })),
+    breakdown: res.breakdown, points: res.points, score: player.score,
+  });
   event(state, {
     type: placements.length ? 'submit' : 'pass',
     p,
@@ -192,6 +199,7 @@ export function swap(state, p, now = Date.now()) {
   shuffleBag(state);
   refill(state, p);
   event(state, { type: 'swap', p });
+  state.log.push({ turn: state.turnNo, p, type: 'swap', points: 0, score: player.score });
   state.passStreak++;
   nextTurn(state, now);
   return { ok: true };
@@ -200,6 +208,7 @@ export function swap(state, p, now = Date.now()) {
 export function resign(state, p) {
   if (state.status !== 'playing') return { ok: false };
   event(state, { type: 'resign', p });
+  state.log.push({ turn: state.turnNo, p, type: 'resign', points: 0, score: state.players[p].score });
   finish(state, 'resign', 1 - p);
   return { ok: true };
 }
@@ -208,6 +217,7 @@ export function resign(state, p) {
 export function tick(state, now = Date.now(), grace = 0) {
   if (state.status === 'playing' && state.deadline && now >= state.deadline + grace) {
     event(state, { type: 'timeout', p: state.turn });
+    state.log.push({ turn: state.turnNo, p: state.turn, type: 'timeout', points: 0, score: state.players[state.turn].score });
     state.passStreak++;
     nextTurn(state, now);
     return true;
@@ -253,5 +263,6 @@ export function viewFor(state, viewer) {
     winner: state.winner,
     endReason: state.endReason ?? null,
     events: state.events.slice(-12),
+    log: state.log || [],
   };
 }

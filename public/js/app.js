@@ -216,11 +216,14 @@ function bindGame(g, remote = false) {
     const turnKey = `${view.turnNo}:${view.turn}`;
     if (ui.stagedFor !== turnKey) { ui.staged = []; ui.armed = null; ui.stagedFor = turnKey; }
     if (first) {
+      logSeen[0] = 0; logSeen[1] = 0;
+      $$('.log ol').forEach((ol) => { ol.innerHTML = ''; });
       buildBoard(view);
       ui.lastEvent = view.events.at(-1)?.n ?? 0;
       ui.showSolution = false;
       if ($('#dlg-over').open) $('#dlg-over').close();
       if (remote) show('game');
+      requestAnimationFrame(sizeBoard);
     } else playEvents(view);
     render();
     if (view.status === 'over' && (!wasOver || first)) setTimeout(renderOver, 1200);
@@ -270,10 +273,10 @@ function sizeBoard() {
   const { w, h } = ui.view.puzzle;
   const wrap = $('.board-wrap');
   const top = wrap.getBoundingClientRect().top;
-  const availH = window.innerHeight - top - 150; // hand + buttons
-  const availW = Math.min(window.innerWidth, 720) - 20;
-  const cell = Math.max(22, Math.floor(Math.min(availW / w, availH / h, 58)));
-  document.documentElement.style.setProperty('--cell', `${cell}px`);
+  const availH = window.innerHeight - top - 170; // hand + buttons
+  const availW = $('.centre').clientWidth - 12 - (w - 1) * 2;
+  const cell = Math.max(22, Math.floor(Math.min(availW / w, Math.max(availH, 300) / h, 60)));
+  document.documentElement.style.setProperty('--cell-size', `${cell}px`);
 }
 window.addEventListener('resize', sizeBoard);
 
@@ -351,6 +354,7 @@ function render() {
     }
   }
   renderPlayers();
+  renderLogs();
   // hand
   const rackEl = $('#rack');
   rackEl.innerHTML = '';
@@ -383,13 +387,55 @@ function renderPlayers() {
     const p = v.players[pi];
     const el = $(`#p${slot}`);
     $('.pname', el).textContent = p.name;
-    $('.pscore', el).textContent = p.score;
+    $('.avatar', el).textContent = p.kind === 'bot' ? '🤖' : (p.name.trim()[0] || '?').toUpperCase();
+    const sc = $('.pscore', el);
+    if (sc.textContent !== String(p.score)) { sc.textContent = p.score; sc.classList.remove('bump'); void sc.offsetWidth; sc.classList.add('bump'); }
     $('.ptag', el).textContent = p.kind === 'bot' ? `🤖 ${BOT_LEVELS[p.level]?.label || ''} bot` : slot === 0 ? 'You' : 'Friend';
     el.classList.toggle('turn', v.status === 'playing' && v.turn === pi);
     const online = ui.mode === 'room' && ui.room ? ui.room.seats[pi]?.online !== false : true;
     el.classList.toggle('offline', !online);
   });
   $('#turn-label').textContent = v.status === 'over' ? 'Game over' : myTurn() ? 'Your turn' : `${v.players[1 - me].name}'s turn`;
+}
+
+// ------------------------------------------------------------------ score logs
+const logSeen = [0, 0];
+function renderLogs() {
+  const v = ui.view;
+  const me = v.you;
+  [me, 1 - me].forEach((pi, slot) => {
+    const box = $(`#log${slot}`);
+    $('.log-name', box).textContent = v.players[pi].name;
+    const moves = (v.log || []).filter((m) => m.p === pi);
+    const ol = $('ol', box);
+    if (moves.length === logSeen[slot] && ol.childElementCount) return;
+    logSeen[slot] = moves.length;
+    ol.innerHTML = moves.length ? '' : '<li class="empty">No moves yet.</li>';
+    for (const m of moves.slice().reverse()) ol.appendChild(moveItem(m));
+  });
+}
+function moveItem(m) {
+  const li = document.createElement('li');
+  li.className = 'move';
+  const sign = (n) => (n > 0 ? `+${n}` : n < 0 ? `−${-n}` : '0');
+  const cls = m.points > 0 ? 'pos' : m.points < 0 ? 'neg' : 'zero';
+  const lines = [];
+  const line = (label, value, kind = '') => lines.push(`<div class="line ${kind}"><span>${label}</span><b>${value}</b></div>`);
+  if (m.type === 'submit') {
+    const b = m.breakdown;
+    line(`Letters placed (${m.correct})`, sign(b.letters));
+    if (b.words) {
+      line(`Words made (${b.words})`, sign(b.words));
+      lines.push(`<div class="words">${m.words.map((x) => escapeHtml(x.word)).join(', ')}</div>`);
+      line(`Letters in words (${m.words.map((x) => x.len).join('+')})`, sign(b.wordLetters));
+    }
+    if (b.fullHand) line('All 5 tiles correct', sign(b.fullHand), 'bonus');
+    if (b.wrong) line(`Wrong tiles (${-b.wrong})`, sign(b.wrong), 'minus');
+  } else {
+    line({ pass: 'Passed', swap: 'Swapped tiles', timeout: 'Ran out of time', resign: 'Resigned' }[m.type] || m.type, '0');
+  }
+  li.innerHTML = `<div class="move-head"><span class="turn-no">Turn ${m.turn}</span><span class="pts ${cls}">${sign(m.points)}</span></div>${lines.join('')}<div class="total">Total ${m.score}</div>`;
+  return li;
 }
 
 function activeClue() {
@@ -568,15 +614,6 @@ function flashWrong(list) {
   }
 }
 
-function describe(b) {
-  const parts = [];
-  if (b.letters) parts.push(`${b.letters} right`);
-  if (b.wrong) parts.push(`${-b.wrong} wrong`);
-  if (b.words) parts.push(`${b.words} ${b.words === 1 ? 'word' : 'words'} +${b.words + b.wordLetters}`);
-  if (b.fullHand) parts.push(`all 5 +${b.fullHand}`);
-  return parts.join(' · ');
-}
-
 function playEvents(view) {
   const me = view.you;
   for (const ev of view.events) {
@@ -587,7 +624,7 @@ function playEvents(view) {
     if (ev.type === 'submit') {
       flashWrong(ev.wrong);
       const sign = ev.points >= 0 ? '+' : '−';
-      toast(`${mine ? '' : `${who} `}${sign}${Math.abs(ev.points)} · ${describe(ev.breakdown)}`, mine ? (ev.points >= 0 ? 'good' : 'bad') : '');
+      toast(`${mine ? 'You' : who} ${sign}${Math.abs(ev.points)}${ev.breakdown.fullHand ? ' · all 5 bonus!' : ''}`, mine ? (ev.points >= 0 ? 'good' : 'bad') : '');
     } else if (ev.type === 'pass') {
       if (!mine) toast(`${who} passed`);
     } else if (ev.type === 'timeout') {

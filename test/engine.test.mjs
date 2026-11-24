@@ -124,3 +124,18 @@ test('perfect players fill the grid; bots finish at every level', () => {
     assert.equal(g.status, 'over', level);
   }
 });
+
+test('every move is kept in the score log with its breakdown and words', () => {
+  const s = newGame(puzzle, players, { seed: 11 });
+  let guard = 0;
+  while (s.status === 'playing' && guard++ < 2000) submit(s, s.turn, homes(s, s.turn));
+  assert.equal(s.log.length, s.turnNo - (s.status === 'over' ? 0 : 1));
+  const made = s.log.flatMap((m) => m.words.map((x) => x.word));
+  assert.equal(new Set(made).size, made.length, 'each word is credited once');
+  for (const m of s.log) {
+    const b = m.breakdown;
+    assert.equal(m.points, b.letters + b.wrong + b.words + b.wordLetters + b.fullHand);
+    assert.equal(b.wordLetters, m.words.reduce((n, x) => n + x.len, 0));
+  }
+  assert.ok(viewFor(s, 0).log.length > 0);
+});
