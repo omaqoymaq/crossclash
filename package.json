@@ -1,0 +1,18 @@
+{
+  "name": "crossclash",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "CrossClash: an ad-free, browser-based 1v1 arrowword tile duel.",
+  "scripts": {
+    "lexicon": "node generator/build-lexicon.mjs",
+    "generate": "node generator/cli.mjs",
+    "test": "node --test test/*.test.mjs",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wordnet-db": "3.1.14",
+    "wrangler": "4.150.0"
+  }
+}
