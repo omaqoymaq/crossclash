@@ -33,10 +33,16 @@ export function botTurn(state, p, levelKey = 'medium', rand = Math.random) {
       const shortness = cl.len <= 4 ? 0.15 : cl.len <= 6 ? 0.05 : 0;
       know = Math.max(know, L.base + L.fillBonus * filled + shortness);
     }
-    return Math.min(0.97, know);
+    return Math.min(0.97, know + endgame);
   };
 
-  const target = 1 + Math.floor(rand() * L.maxTiles);
+  // endgame: with the bag empty the open squares are exactly the tiles still in
+  // hands, so the puzzle gets much easier. When the opponent holds nothing, every
+  // open square is one of the bot's own letters, as any human would notice.
+  const open = state.owner.filter((o) => o === -1).length;
+  const oppEmpty = !state.players[1 - p].rack.length;
+  const endgame = state.bag.length ? 0 : oppEmpty && open === rack.length ? 0.5 : 0.2;
+  const target = state.bag.length ? 1 + Math.floor(rand() * L.maxTiles) : rack.length;
   for (let step = 0; step < target; step++) {
     // squares where one of the remaining tiles truly belongs
     const options = [];

@@ -184,6 +184,15 @@ const summary = (res) => ({ points: res.points, breakdown: res.breakdown, correc
 function nextTurn(state, now) {
   state.turn = 1 - state.turn;
   state.turnNo++;
+  // endgame: a player with no tiles left (and an empty bag) has nothing to do,
+  // so their turn is skipped automatically
+  const next = state.players[state.turn];
+  if (!state.bag.length && !next.rack.length && state.players[1 - state.turn].rack.length) {
+    state.log.push({ turn: state.turnNo, p: state.turn, type: 'skip', points: 0, score: next.score });
+    event(state, { type: 'skip', p: state.turn });
+    state.turn = 1 - state.turn;
+    state.turnNo++;
+  }
   // safety valve: 20 turns in a row without a correct tile ends the game
   if (state.passStreak >= 20) { finish(state, 'stalled'); return; }
   startTurn(state, now);

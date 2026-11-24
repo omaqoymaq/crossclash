@@ -335,3 +335,15 @@ dialog form { margin-top: 16px; display: flex; justify-content: flex-end; }
   .player { min-height: 48px; }
   .pname { font-size: .9rem; }
 }
+
+/* bag counter */
+.bag {
+  display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px 3px 6px; border-radius: 999px;
+  background: rgba(255, 201, 77, .14); border: 1px solid rgba(255, 201, 77, .4); color: var(--gold); font-size: .78rem; font-weight: 800;
+}
+.bag b { font: 800 1.05rem/1 var(--font-display); font-variant-numeric: tabular-nums; }
+.bag-icon { width: 14px; height: 15px; border-radius: 3px 3px 6px 6px; background: linear-gradient(180deg, var(--gold), var(--gold-deep)); position: relative; }
+.bag-icon::before { content: ""; position: absolute; left: 3px; right: 3px; top: -4px; height: 5px; border: 2px solid var(--gold); border-bottom: none; border-radius: 4px 4px 0 0; }
+.bag.empty { background: rgba(255, 93, 93, .14); border-color: rgba(255, 93, 93, .5); color: #ff9b9b; }
+.bag.empty .bag-icon { background: #ff9b9b; }
+.opp-tiles { font-size: .7rem; color: var(--muted); font-weight: 700; white-space: nowrap; }

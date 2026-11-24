@@ -139,3 +139,15 @@ test('every move is kept in the score log with its breakdown and words', () => {
   }
   assert.ok(viewFor(s, 0).log.length > 0);
 });
+
+test('a player with no tiles and an empty bag is skipped automatically', () => {
+  const s = newGame(puzzle, players, { seed: 12 });
+  s.bag = [];
+  const p = s.turn;
+  s.players[1 - p].rack = [];
+  const before = s.turnNo;
+  submit(s, p, []);
+  assert.equal(s.turn, p, 'turn comes straight back');
+  assert.equal(s.turnNo, before + 2);
+  assert.equal(s.log.at(-1).type, 'skip');
+});

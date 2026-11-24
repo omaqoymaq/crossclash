@@ -375,7 +375,10 @@ function render() {
   $('#btn-submit').textContent = n ? `Submit ${n} ${n === 1 ? 'tile' : 'tiles'}` : 'Pass';
   $('#btn-recall').disabled = !myTurn() || !n;
   $('#btn-swap').disabled = !myTurn() || n > 0 || v.bagCount === 0;
-  $('#bag-label').textContent = `${v.bagCount} in bag`;
+  const opp = v.players[1 - me];
+  $('#bag-count').textContent = v.bagCount;
+  $('#bag-label').classList.toggle('empty', v.bagCount === 0);
+  $('#opp-tiles').textContent = `${opp.name} holds ${opp.rackCount}`;
   renderClueBar();
 }
 
@@ -432,7 +435,7 @@ function moveItem(m) {
     if (b.fullHand) line('All 5 tiles correct', sign(b.fullHand), 'bonus');
     if (b.wrong) line(`Wrong tiles (${-b.wrong})`, sign(b.wrong), 'minus');
   } else {
-    line({ pass: 'Passed', swap: 'Swapped tiles', timeout: 'Ran out of time', resign: 'Resigned' }[m.type] || m.type, '0');
+    line({ pass: 'Passed', swap: 'Swapped tiles', timeout: 'Ran out of time', resign: 'Resigned', skip: 'No tiles left, skipped' }[m.type] || m.type, '0');
   }
   li.innerHTML = `<div class="move-head"><span class="turn-no">Turn ${m.turn}</span><span class="pts ${cls}">${sign(m.points)}</span></div>${lines.join('')}<div class="total">Total ${m.score}</div>`;
   return li;
@@ -629,6 +632,8 @@ function playEvents(view) {
       if (!mine) toast(`${who} passed`);
     } else if (ev.type === 'timeout') {
       toast(mine ? 'Time is up. Turn over.' : `${who} ran out of time`, mine ? 'bad' : '');
+    } else if (ev.type === 'skip') {
+      toast(mine ? 'No tiles left. Your turn is skipped.' : `${who} has no tiles left`);
     } else if (ev.type === 'swap' && !mine) {
       toast(`${who} swapped tiles`);
     } else if (ev.type === 'resign') {

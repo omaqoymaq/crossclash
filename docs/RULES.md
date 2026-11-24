@@ -23,4 +23,6 @@ Example: 4 right, 1 wrong, finishing a 5-letter word → 4 − 1 + 1 + 5 = **9**
 
 **Timer.** Chosen before the game: off, 30 s, 1 min, 2 min or 5 min per turn. When time runs out, whatever you laid out is submitted.
 
+**Empty hand.** Once the bag is empty, a player with no tiles left is skipped automatically until the grid is done.
+
 **End.** The game ends when the grid is full (higher score wins), when a player resigns, or after 20 turns in a row with no correct tile.
