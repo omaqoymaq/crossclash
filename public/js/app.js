@@ -1,6 +1,6 @@
-import { newGame, submit, swap, resign, tick, viewFor, cellsOfClue, HAND_SIZE } from './engine.js';
+import { newGame, submit, swap, resign, tick, viewFor, cellsOfClue, clueHash, HAND_SIZE } from './engine.js';
 import { botTurn, thinkTime, BOT_LEVELS } from './bot.js';
-import { RemoteGame, createRoom, roomInfo, store } from './net.js';
+import { RemoteGame, createRoom, roomInfo, store, seenClues, rememberClues } from './net.js';
 
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -28,11 +28,14 @@ const playerName = () => nameInput.value.trim().slice(0, 16) || 'Player';
 
 function setupScreen(mode) {
   prefs.mode = mode;
-  $('#setup-title').textContent = mode === 'bot' ? 'Play vs Bot' : 'Create a private room';
-  $('#level-group').classList.toggle('hidden', mode !== 'bot');
-  $('#setup-go').textContent = mode === 'bot' ? 'Start game' : 'Create room';
-  $('#setup-hint').textContent = mode === 'bot'
-    ? 'The bot is clearly marked as a bot. It plays in your browser.'
+  const solo = mode !== 'room';
+  $('#setup-title').textContent = mode === 'special' ? 'Thanksgiving special' : solo ? 'Play vs Bot' : 'Create a private room';
+  $('#level-group').classList.toggle('hidden', !solo);
+  $('#size-group').classList.toggle('hidden', mode === 'special');
+  $('#setup-go').textContent = solo ? 'Start game' : 'Create room';
+  $('#setup-hint').textContent = mode === 'special'
+    ? 'A Large grid where every word and clue is about Thanksgiving. You play the bot.'
+    : solo ? 'The bot is clearly marked as a bot. It plays in your browser.'
     : 'You get a code and a link to send to one friend.';
   for (const [seg, key, attr] of [['#size-seg', 'size', 'size'], ['#level-seg', 'level', 'level'], ['#timer-seg', 'timer', 'timer']]) {
     $$(`${seg} button`).forEach((b) => b.classList.toggle('on', String(b.dataset[attr]) === String(prefs[key])));
@@ -47,6 +50,7 @@ document.addEventListener('click', (e) => {
   if (to === 'home') goHome();
   else if (to === 'setup-bot') setupScreen('bot');
   else if (to === 'setup-room') setupScreen('room');
+  else if (to === 'setup-special') setupScreen('special');
   else if (to === 'howto') $('#dlg-howto').showModal();
 });
 for (const [seg, key, attr, num] of [['#size-seg', 'size', 'size'], ['#level-seg', 'level', 'level'], ['#timer-seg', 'timer', 'timer', true]]) {
@@ -59,6 +63,7 @@ for (const [seg, key, attr, num] of [['#size-seg', 'size', 'size'], ['#level-seg
 }
 $('#setup-go').addEventListener('click', async () => {
   if (prefs.mode === 'bot') return startBotGame();
+  if (prefs.mode === 'special') return startBotGame('thanksgiving');
   const btn = $('#setup-go');
   btn.disabled = true;
   try {
@@ -84,7 +89,8 @@ function goHome() {
 
 // ------------------------------------------------------------------ local (bot) game
 class LocalGame {
-  constructor(puzzle, level, name, timer) {
+  constructor(puzzle, level, name, timer, special) {
+    this.special = special;
     this.level = level;
     this.listeners = { view: [], room: [], error: [] };
     this.puzzle = puzzle;
@@ -97,7 +103,7 @@ class LocalGame {
     this.state = newGame(this.puzzle, [
       { name: this.name, kind: 'human' },
       { name: 'Bot', kind: 'bot', level: this.level },
-    ], { seed: (Math.random() * 2 ** 32) >>> 0, turnSeconds: this.timer });
+    ], { seed: (Math.random() * 2 ** 32) >>> 0, turnSeconds: this.timer, seenClues: seenClues() });
     queueMicrotask(() => this.changed());
   }
   on(type, cb) { this.listeners[type].push(cb); return this; }
@@ -125,31 +131,32 @@ class LocalGame {
   submit(placements) { this.act(() => submit(this.state, 0, placements)); }
   swap() { this.act(() => swap(this.state, 0)); }
   resign() { this.act(() => resign(this.state, 0)); }
-  rematch() { startBotGame(); }
+  rematch() { startBotGame(this.special); }
   destroy() { clearInterval(this.ticker); clearTimeout(this.botTimer); }
 }
 
 const packCache = {};
-async function loadSoloPack(size) {
-  if (!packCache[size]) {
-    const res = await fetch(`puzzles/solo-${size}.json`);
+async function loadSoloPack(size, special) {
+  const key = special ? `special-${special}` : `solo-${size}`;
+  if (!packCache[key]) {
+    const res = await fetch(`puzzles/${key}.json`);
     if (!res.ok) throw new Error('Could not load puzzles');
-    packCache[size] = await res.json();
+    packCache[key] = await res.json();
   }
-  return packCache[size];
+  return packCache[key];
 }
 
-async function startBotGame() {
+async function startBotGame(special) {
   leaveGame();
   let pack;
-  try { pack = await loadSoloPack(prefs.size); } catch (e) { return toast(e.message, 'bad'); }
+  try { pack = await loadSoloPack(prefs.size, special); } catch (e) { return toast(e.message, 'bad'); }
   let played = [];
   try { played = JSON.parse(store.get('cc.played') || '[]'); } catch { /* ignore */ }
   const fresh = pack.puzzles.filter((p) => !played.includes(p.id));
   const list = fresh.length ? fresh : pack.puzzles;
   const puzzle = list[Math.floor(Math.random() * list.length)];
   store.set('cc.played', JSON.stringify([...played, puzzle.id].slice(-400)));
-  game = new LocalGame(puzzle, prefs.level, playerName(), prefs.timer);
+  game = new LocalGame(puzzle, prefs.level, playerName(), prefs.timer, special);
   ui.mode = 'bot';
   bindGame(game);
   show('game');
@@ -219,6 +226,7 @@ function bindGame(g, remote = false) {
       logSeen[0] = 0; logSeen[1] = 0;
       $$('.log ol').forEach((ol) => { ol.innerHTML = ''; });
       buildBoard(view);
+      rememberClues(view.puzzle.clues.map((c) => clueHash(c.text)));
       ui.lastEvent = view.events.at(-1)?.n ?? 0;
       ui.showSolution = false;
       if ($('#dlg-over').open) $('#dlg-over').close();

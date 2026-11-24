@@ -242,7 +242,7 @@ CANON|Rule|Church law
 CAP|Hat|Lid
 CAPE|Cloak|Headland
 CAR|Vehicle|Auto
-CARD|Playing card
+CARD|Ace or king
 CARE|Concern|Look after
 CARED|Looked after
 CAREER|Profession
@@ -261,7 +261,7 @@ CASUAL|Relaxed
 CAT|Feline|Pet
 CATS|Felines
 CAUSE|Reason|Bring about
-CAVE|Cavern
+CAVE|Bat's home
 CEASE|Stop
 CELL|Jail room|Tiny unit of life
 CELLS|Jail rooms

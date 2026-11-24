@@ -32,6 +32,7 @@
       <div class="menu">
         <button class="big primary" data-go="setup-bot">Play vs Bot</button>
         <button class="big" data-go="setup-room">Create a private room</button>
+        <button class="big special" data-go="setup-special"><span aria-hidden="true">🦃</span> Thanksgiving special<small>Every word and clue is about the holiday</small></button>
         <form id="join-form" class="join">
           <input id="join-code" maxlength="7" placeholder="Room code" autocapitalize="characters" autocomplete="off" spellcheck="false" aria-label="Room code">
           <button type="submit">Join</button>
@@ -45,7 +46,7 @@
     <section id="screen-setup" class="screen">
       <button class="back" data-go="home" aria-label="Back">←</button>
       <h2 id="setup-title">Play vs Bot</h2>
-      <div class="group">
+      <div class="group" id="size-group">
         <h3>Grid size</h3>
         <div class="seg" id="size-seg" role="radiogroup">
           <button data-size="regular" class="on">Regular<small>9×9</small></button>

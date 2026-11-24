@@ -141,9 +141,9 @@ SHY|Timid
 SIDE|Edge|Team
 SIEGE|Blockade
 SIGH|Exhale sadly
-SIGN|Signal|Autograph
-SIGNAL|Sign
-SIGNS|Signals
+SIGN|Omen|Autograph
+SIGNAL|Gesture
+SIGNS|Omens
 SILENT|Quiet
 SILK|Fine fabric
 SILLY|Foolish
@@ -187,7 +187,7 @@ SNEAK|Creep
 SNOW|Winter flakes
 SOAP|Cleanser
 SOCCER|Football
-SOCIAL|Sociable
+SOCIAL|Outgoing
 SODA|Fizzy drink
 SOIL|Earth
 SOLAR|Of the sun
@@ -327,7 +327,7 @@ TEA|Brew
 TEACH|Instruct
 TEAM|Side
 TEAMS|Sides
-TEAR|Rip|Teardrop
+TEAR|Rip|Drop from the eye
 TECH|Technology, briefly
 TEEN|Adolescent
 TEENS|Adolescents
@@ -525,7 +525,7 @@ WEAR|Dress in
 WEB|Net
 WEED|Wild plant
 WEEK|Seven days
-WEEKLY|Every week
+WEEKLY|Once every seven days
 WEIGH|Measure
 WELL|Healthy|Water source
 WELLS|Water sources

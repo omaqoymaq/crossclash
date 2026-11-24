@@ -1,0 +1,160 @@
+# Extra clues for older words (part 6)
+NEW|Unused|Latest
+YEARS|Decades|A long time
+SAY|Voice|For example
+LAST|Latest|Hold out
+HOME|Base|Where the heart is
+HELP|Hand|Rescue
+PLACE|Location|Rank
+END|Tip|Purpose
+PUT|Lay|Express
+NAME|Reputation|Nominate
+PLAY|Act|Show
+FEW|Some|Hardly any
+LET|Permit|Lease
+START|Outset|Launch
+PERSON|Soul|Somebody
+READ|Interpret|Scan
+LATER|In a while|Next
+LESS|Smaller|Reduced
+LAW|Legislation|Police, informally
+HOPE|Expect|Optimism
+BODY|Corpse|Organisation
+GIRL|Maiden|Young woman
+NICE|Agreeable|Lovely
+HUMAN|Humane|Earthling
+MOVE|Motion|Touch emotionally
+WOMAN|Madam|Wife
+THIRD|Bronze medal place|Musical interval
+LIVING|Income|Lively
+NEAR|Nigh|Nearby
+PLAN|Map|Intend
+KIDS|Teases|Young goats
+MEET|Fit|Race event
+MONTH|Four weeks or so|Thirty days, roughly
+ROAD|Highway|Lane
+PRICE|Value|Toll
+SHARE|Stake|Divide
+SENSE|Meaning|Detect
+HOUR|Time of day|Rush ___
+ROLE|Function|Job
+CODE|Password|Program text
+LEGAL|Legitimate|Valid
+GOAL|Aim|Net
+DEEP|Intense|Dark
+PASS|Hand over|Mountain gap
+CARD|Postcard|Credit card
+LINK|Tie|Bond
+NATURE|Essence|The outdoors
+REACH|Range|Attain
+LATEST|Up to date|Last
+PASSED|Overtook|Handed
+SKIN|Pelt|Graze
+HOLY|Divine|Saintly
+BUS|Minibus|Omnibus
+STARTS|Launches|Opens
+GIFT|Donation|Flair
+COPY|Replica|Clone
+MAP|Atlas page|Plot
+FARM|Smallholding|Grow crops
+SHAPE|Figure|Condition
+RAY|Beam of light|Flat fish
+LOAN|Advance|Mortgage
+ROUTE|Itinerary|Road
+LEADS|Heads|Cables
+LIGHTS|Lanterns|Traffic signals
+STORES|Supplies|Warehouses
+MILE|Long distance|Furlong multiple
+RURAL|Pastoral|Bucolic
+KISS|Brush|Touch lightly
+PARENT|Guardian|Bring up
+MEAL|Supper|Breakfast
+EGG|Spur on|Easter treat
+LEGEND|Hero|Caption
+TAG|Tail|Graffiti signature
+COPS|Bobbies|Admits, with "to"
+SOIL|Ground|Stain
+STRUCK|Smote|Moved
+CARES|Concerns|Troubles
+BYE|Cheerio|Free pass to the next round
+TONGUE|Speech|Shoe flap
+OCCURS|Takes place|Comes to mind
+EVE|Day before|First woman
+CAPE|Peninsula|Superhero's wrap
+RACIAL|Ancestral|Tribal
+LION|Celebrity|Brave person
+SOONER|Before|More quickly
+WIDER|Fuller|Roomier
+HOOD|Neighbourhood|Car bonnet
+LIED|Deceived|Lay down
+COIN|Coinage|Mint
+UNFAIR|Unequal|Wrong
+REACT|Reply|Answer back
+SOUP|Chowder|Bisque
+TRICKS|Deceives|Magic acts
+TOURS|Excursions|Visits
+PARISH|Flock|Local community
+TITLED|Called|Aristocratic
+INDOOR|In-house|Under a roof
+ROSTER|Register|Schedule
+TORN|Split|Shredded
+BASKET|Creel|Shopping holder
+PORTS|Docks|Wines from Portugal
+TOE|Digit|Toecap
+RIPPED|Ruptured|Tore apart
+HATRED|Hate|Enmity
+JOKING|Joshing|Teasing
+BUSES|Omnibuses|Transport fleet
+CHAIRS|Presides|Stools
+WIDTH|Pool crossing|Thickness
+CLAUSE|Article|Sentence part
+POKER|Texas hold 'em|Bluffing game
+CAB|Hackney|Lorry front
+TRAILS|Tracks|Follows
+TABLETS|Lozenges|E-readers
+AD|Advert|Poster
+AH|Oh|So that's it!
+AM|Exist, for me|Before noon
+AN|One|A, before a vowel
+AS|Since|In the role of
+AT|By|Where it's ___
+AX|Hatchet|Fire, in the US
+BE|Live|Exist
+BY|Near|Using
+DO|Party|Act
+EH|What?|Huh?
+EL|___ Paso|Raised railway
+EX|Old flame|Former
+FA|Sol-___|Fourth note
+HE|Him|Male pronoun
+HI|Hiya|Howdy
+ID|Identity|Badge
+IF|Whether|Condition
+IN|Trendy|Home
+IS|Lives|Remains
+IT|The thing|Chaser in a game
+LA|Sixth note|Sol follower
+LO|See!|Look!
+MA|Mom|Mother
+ME|Yours truly|Self
+MI|Third note|Do-re-___
+MY|Gosh!|Goodness!
+NO|Nay|Not at all
+OF|About|From
+OH|Ah|O
+OK|Okay|Agreed
+ON|Atop|Running
+OR|Otherwise|Else
+OW|That hurts!|Yelp
+OX|Bullock|Yoke wearer
+PA|Pop|Papa
+RE|Concerning|Second note
+SO|Thus|Hence
+TI|Seventh note|Note before do
+TO|Towards|Facing
+UM|Er|Hesitant noise
+UP|Over|Out of bed
+US|We|Our group
+WE|Ourselves|Us lot
+YE|Thou|You lot, of old
+YO|Hey|Hi there

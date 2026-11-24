@@ -1,0 +1,506 @@
+DIFFERENT|Not the same|Unlike|Distinct
+GOVERNMENT|Ruling body|Administration|The state
+BUSINESS|Company|Trade|Commerce
+INCLUDING|Counting in|Taking in|Among them
+NATIONAL|Countrywide|Countrywide|Federal
+ACTUALLY|In fact|Really|As it happens
+FOLLOWING|Next|Fans|Coming after
+TOGETHER|As one|Side by side|Jointly
+PRESIDENT|Head of state|Chief executive|White House resident
+IMPORTANT|Significant|Major|Vital
+RESEARCH|Study|Investigation|Look into
+UNIVERSITY|College|Seat of learning|Campus institution
+REMEMBER|Recall|Keep in mind|Not forget
+PROBABLY|Most likely|In all likelihood|Doubtless
+UNDERSTAND|Grasp|Comprehend|Follow
+POSSIBLE|Feasible|Doable|Conceivable
+QUESTION|Query|Doubt|Ask
+COMMUNITY|Neighbourhood|Society|Local people
+SERVICES|Facilities|Church rites|Utilities
+BUILDING|Structure|Edifice|Constructing
+POLITICAL|Of government|Partisan|Partisan
+ACCORDING|___ to plan|In line (with)|As reported (by)
+AVAILABLE|Free|On hand|In stock
+EDUCATION|Schooling|Learning|Teaching
+SOMETIMES|Now and then|Occasionally|At times
+EXPERIENCE|Know-how|Undergo|Adventure
+STUDENTS|Pupils|Learners|Scholars
+THINKING|Pondering|Reasoning|Mulling
+DEPARTMENT|Section|Division|Store area
+BEAUTIFUL|Lovely|Gorgeous|Stunning
+ESPECIALLY|Particularly|Above all|Notably
+POSITION|Place|Job|Stance
+HAPPENED|Occurred|Took place|Came about
+MILITARY|Armed forces|Martial|Soldierly
+PERSONAL|Private|Individual|One's own
+SECURITY|Safety|Protection|Guards
+INDUSTRY|Manufacturing|Diligence|Sector
+PROBLEMS|Troubles|Puzzles|Difficulties
+COMPANIES|Firms|Businesses|Troupes
+TRAINING|Coaching|Practice|Drill
+INTEREST|Curiosity|Hobby|Bank earnings
+ORIGINAL|First|Novel|Not a copy
+RECEIVED|Got|Accepted|Took delivery of
+DIRECTOR|Film boss|Manager|Board member
+QUESTIONS|Queries|Quiz items|Doubts
+EVIDENCE|Proof|Testimony|Clues
+OFFICIAL|Formal|Authorised|Referee
+PRODUCTION|Output|Staging|Manufacture
+WHATEVER|No matter what|Anything|Who cares?
+COUNTRIES|Nations|States|Lands
+MANAGEMENT|Bosses|Running|Administration
+ATTENTION|Notice|Focus|Concentration
+CHARACTER|Personality|Role|Letter or symbol
+FOOTBALL|Soccer|Gridiron sport|Pigskin
+PROPERTY|Real estate|Possession|Trait
+ECONOMIC|Financial|Financial|Fiscal
+INVOLVED|Engaged|Complicated|Included
+LANGUAGE|Tongue|Speech|French, e.g.
+DECISION|Verdict|Choice|Ruling
+SITUATION|Circumstances|Position|State of affairs
+TECHNOLOGY|Tech|Gadgetry|Applied science
+CONSIDERED|Thought about|Deemed|Deliberate
+CONTINUE|Go on|Carry on|Keep going
+CURRENTLY|At present|Now|These days
+ELECTION|Vote|Poll|Ballot
+FINANCIAL|Monetary|Economic|Fiscal
+INCREASE|Rise|Grow|Boost
+DAUGHTER|Female child|Girl|Son's sister
+DIFFICULT|Hard|Tricky|Tough
+HOSPITAL|Infirmary|Clinic|Medical centre
+PUBLISHED|In print|Issued|Released
+STARTING|Beginning|Opening|Initial
+INTERNET|The web|Online world|Net
+PRACTICE|Rehearsal|Habit|Drill
+FOLLOWED|Tailed|Came next|Obeyed
+RELEASED|Freed|Let go|Issued
+DISTRICT|Area|Zone|Borough
+MINISTER|Cabinet member|Priest|Pastor
+PRODUCTS|Goods|Wares|Results
+STRAIGHT|Direct|Not bent|Honest
+INCLUDED|Contained|Counted in|Enclosed
+RESPONSE|Reply|Answer|Reaction
+SPECIFIC|Particular|Precise|Exact
+STANDARD|Normal|Benchmark|Flag
+PROVIDED|Supplied|If|Given
+RECENTLY|Lately|Not long ago|Of late
+REQUIRED|Needed|Compulsory|Essential
+TOMORROW|The day after today|The future|Next day
+WATCHING|Observing|Viewing|Eyeing
+ADDITION|Extra|Sum|Extension
+COMMITTEE|Board|Panel|Council
+CONFERENCE|Meeting|Convention|Summit
+DIFFERENCE|Contrast|Gap|Disagreement
+POPULATION|Inhabitants|Residents|Census total
+POTENTIAL|Possible|Promise|Latent
+PRESSURE|Stress|Force|Strain
+TREATMENT|Therapy|Care|Handling
+BEGINNING|Start|Outset|Opening
+CAMPAIGN|Crusade|Drive|Election push
+CERTAINLY|Of course|Definitely|Surely
+COMPLETELY|Totally|Fully|Entirely
+DESCRIBED|Portrayed|Depicted|Explained
+INDIVIDUAL|Person|Single|Personal
+PARTICULAR|Specific|Fussy|Special
+PREVIOUS|Earlier|Former|Prior
+REPORTED|Stated|Announced|Alleged
+CONSIDER|Think about|Ponder|Regard
+POSITIVE|Sure|Upbeat|Plus
+THROUGHOUT|All through|Everywhere in|From start to end
+ABSOLUTELY|Definitely|Totally|Of course!
+ADDITIONAL|Extra|More|Further
+CONDITIONS|Terms|Circumstances|Weather
+COMPUTER|PC|Laptop, e.g.|Calculating machine
+FAVORITE|Best-loved (US)|Pet|Top pick
+MOVEMENT|Motion|Campaign|Symphony section
+STATEMENT|Declaration|Remark|Bank record
+ANNOUNCED|Declared|Made public|Proclaimed
+COLLECTION|Set|Hoard|Range
+CONTINUED|Went on|Resumed|Ongoing
+DEFINITELY|Certainly|Without doubt|For sure
+DESIGNED|Planned|Created|Drawn up
+EXPECTED|Anticipated|Due|Predicted
+KNOWLEDGE|Learning|Wisdom|Know-how
+DEVELOPED|Grew|Advanced|Built
+GENERALLY|Usually|Mostly|As a rule
+INTERESTED|Curious|Keen|Engaged
+MATERIAL|Fabric|Cloth|Physical
+SECRETARY|Office assistant|Minister|PA
+CONTRACT|Agreement|Deal|Shrink
+FAMILIES|Households|Clans|Relatives
+FEATURES|Traits|Face parts|Articles
+FINISHED|Done|Ended|Complete
+INSURANCE|Cover|Protection|Policy
+MAJORITY|Most|Bulk|Coming of age
+PHYSICAL|Bodily|Material|Check-up
+SERIOUSLY|Gravely|Really?|In earnest
+SUCCESSFUL|Winning|Thriving|Victorious
+APPROACH|Method|Come near|Way in
+DIRECTION|Course|Way|Guidance
+COMMERCIAL|Advert|Business|Trading
+COMPARED|Contrasted|Likened|Weighed up
+FIGHTING|Combat|Battling|Brawling
+LEARNING|Study|Education|Knowledge
+MULTIPLE|Many|Several|Numerous
+OPERATION|Surgery|Procedure|Mission
+PICTURES|Images|Photos|Films
+ACTIVITIES|Pursuits|Pastimes|Goings-on
+ANALYSIS|Study|Examination|Breakdown
+INCREASED|Grew|Raised|Boosted
+LITERALLY|Word for word|Exactly|Truly
+MARRIAGE|Wedlock|Union|Wedding
+NECESSARY|Needed|Essential|Required
+PATIENTS|Hospital cases|Clients of a doctor|Ward occupants
+RESOURCES|Assets|Supplies|Funds
+SPEAKING|Talking|Lecturing|Chatting
+SUPPOSED|Alleged|Meant|Assumed
+YESTERDAY|The day before|In the past|The previous day
+DIRECTLY|Straight|Immediately|Frankly
+PLANNING|Organising|Scheming|Preparation
+PROFESSOR|Academic|Lecturer|University teacher
+PROGRAMS|Software|Schedules (US)|Shows
+EFFECTIVE|Useful|Successful|In force
+AGREEMENT|Deal|Accord|Consent
+CHALLENGE|Dare|Test|Contest
+CHARACTERS|Roles|Letters|Personalities
+EQUIPMENT|Gear|Kit|Apparatus
+EVENTUALLY|In the end|Finally|Ultimately
+OTHERWISE|Or else|Differently|If not
+COMMENTS|Remarks|Notes|Observations
+EXECUTIVE|Manager|Boss|Administrative
+OFFICERS|Officials|Police|Commanders
+OPERATIONS|Surgeries|Missions|Procedures
+POLITICS|Affairs of state|Statecraft|Government
+PRODUCED|Made|Created|Staged
+THEREFORE|So|Hence|Thus
+ACTIVITY|Action|Pastime|Bustle
+CONDITION|State|Term|Health
+DIVISION|Section|Split|League
+INTERVIEW|Job meeting|Q and A|Audience
+LOCATION|Place|Site|Spot
+STANDING|Status|Upright|Reputation
+DISTANCE|Length|Space|Remoteness
+EXCHANGE|Swap|Trade|Market
+NORTHERN|Of the north|Arctic-facing|Boreal
+POWERFUL|Strong|Mighty|Potent
+PROTECTION|Defence|Shelter|Safety
+RELIGIOUS|Devout|Pious|Faithful
+WONDERFUL|Marvellous|Great|Amazing
+BENEFITS|Perks|Advantages|Helps
+INVESTMENT|Stake|Funding|Shares, e.g.
+SOLUTION|Answer|Fix|Mixture
+SOUTHERN|Of the south|Austral|Meridional
+STRUCTURE|Building|Framework|Organisation
+APPEARED|Showed up|Seemed|Emerged
+CRITICAL|Vital|Fault-finding|Crucial
+MENTIONED|Referred to|Cited|Noted
+PREVIOUSLY|Before|Earlier|Formerly
+SEPARATE|Apart|Distinct|Divide
+GENERATION|Age group|Era|Production
+RETURNED|Came back|Gave back|Elected
+AUTHORITY|Power|Expert|Command
+BECOMING|Flattering|Turning into|Fetching
+EMPLOYEES|Staff|Workers|Personnel
+FOUNDATION|Base|Charity|Make-up layer
+PROJECTS|Schemes|Plans|Ventures
+APPARENTLY|Seemingly|It seems|Allegedly
+CHAIRMAN|Board head|Presiding officer|Committee chief
+HAPPENING|Occurring|Event|Trendy
+INSTITUTE|Academy|Organisation|Establish
+OBVIOUSLY|Clearly|Plainly|Of course
+PROVIDES|Supplies|Gives|Offers
+SOMEBODY|Someone|A person|A big name
+STRENGTH|Power|Might|Forte
+CONTINUES|Goes on|Carries on|Persists
+DANGEROUS|Risky|Perilous|Hazardous
+EXTREMELY|Very|Hugely|Exceedingly
+GREATEST|Best|Biggest|Finest
+NEGATIVE|Pessimistic|Minus|Photo film
+TELEVISION|TV|Small screen|Telly
+ADVANTAGE|Edge|Benefit|Tennis score
+CUSTOMERS|Clients|Shoppers|Patrons
+FUNCTION|Purpose|Role|Party
+IMPOSSIBLE|Unthinkable|Not doable|Hopeless
+INFLUENCE|Sway|Affect|Clout
+MARKETING|Promotion|Advertising|Selling
+MATERIALS|Supplies|Fabrics|Substances
+PROGRESS|Advance|Headway|Develop
+SHOOTING|Filming|Firing|Hunting
+STANDARDS|Norms|Flags|Benchmarks
+BACKGROUND|Setting|History|Backdrop
+LEADERSHIP|Guidance|Command|Direction
+POSSIBLY|Perhaps|Maybe|Conceivably
+SOFTWARE|Programs|Apps|Computer code
+THOUSANDS|Lots|Many|Grand totals
+BIRTHDAY|Annual celebration|Cake day|Anniversary of birth
+CHANGING|Altering|Shifting|Varying
+CONNECTION|Link|Tie|Contact
+BELIEVED|Trusted|Thought|Accepted
+CONCERNED|Worried|Anxious|Involved
+CRIMINAL|Crook|Lawbreaker|Illegal
+CULTURAL|Artistic|Of the arts|Societal
+EXISTING|Present|Current|Surviving
+OPERATING|Running|Working|Surgical
+PRESENTED|Hosted|Gave|Introduced
+SLIGHTLY|A little|Somewhat|Faintly
+SURPRISE|Shock|Amaze|Unexpected event
+TECHNICAL|Specialist|Mechanical|Scientific
+THOUGHTS|Ideas|Views|Musings
+VIOLENCE|Brutality|Force|Aggression
+APPRECIATE|Value|Be grateful for|Rise in price
+BREAKING|Smashing|Latest (news)|Cracking
+DISCOVERED|Found|Uncovered|Spotted
+MAGAZINE|Periodical|Glossy|Ammo clip
+PARLIAMENT|Legislature|Assembly|Congress
+PREPARED|Ready|Made|Primed
+REFERENCE|Mention|Testimonial|Source
+RELIGION|Faith|Belief|Creed
+SOMEWHERE|Some place|Wherever|In some spot
+STRATEGY|Plan|Tactics|Game plan
+TEACHERS|Tutors|Educators|Instructors
+ACCOUNTS|Reports|Bank records|Ledgers
+AUDIENCE|Spectators|Viewers|Crowd
+EXCELLENT|Superb|First-rate|Outstanding
+MEDICINE|Remedy|Drug|Doctoring
+MOUNTAIN|Peak|Alp|Summit
+PRESENCE|Attendance|Aura|Being there
+REACTION|Response|Reply|Backlash
+AFTERNOON|After lunch|Post-noon|PM hours
+ASSISTANT|Helper|Aide|Deputy
+CITIZENS|Residents|Nationals|Inhabitants
+DECISIONS|Choices|Verdicts|Rulings
+ELECTRIC|Powered|Thrilling|Charged
+EMERGENCY|Crisis|Urgent case|Danger
+ENTIRELY|Wholly|Totally|Fully
+FESTIVAL|Fair|Celebration|Gala
+INTRODUCED|Presented|Launched|Brought in
+PROVIDING|Supplying|If|Giving
+REGIONAL|Local|Provincial|Area
+TEACHING|Educating|Lesson|Doctrine
+TRANSFER|Move|Hand over|Shift
+ACCIDENT|Mishap|Crash|Chance
+ADVANCED|Modern|Moved forward|Progressive
+ANYWHERE|Any place|Wherever|All over
+ARTICLES|Items|Essays|Clauses
+BRINGING|Fetching|Carrying|Causing
+CAPACITY|Volume|Ability|Role
+DISCUSSION|Debate|Talk|Conversation
+DRINKING|Sipping|Gulping|Boozing
+FANTASTIC|Wonderful|Fabulous|Fanciful
+FEELINGS|Emotions|Sentiments|Hunches
+GOVERNOR|Ruler|State head|Regulator
+INDUSTRIAL|Manufacturing|Factory|Heavy-duty
+POLICIES|Rules|Plans|Insurance documents
+PROPOSED|Suggested|Planned|Popped the question
+PURCHASE|Buy|Acquisition|Grip
+SPENDING|Outlay|Expenditure|Paying
+SUPPORTING|Backing|Holding up|Minor (role)
+TERRIBLE|Awful|Dreadful|Horrible
+ELEMENTS|Parts|Weather|Components
+INTENDED|Planned|Fiance|Deliberate
+SOLDIERS|Troops|Fighters|Infantry
+APPEARANCE|Look|Arrival|Showing
+ATTORNEY|Lawyer|Counsel|Advocate
+BEHAVIOR|Conduct (US)|Manners|Actions
+BROTHERS|Siblings|Monks|Comrades
+BUILDINGS|Structures|Edifices|Premises
+CREATING|Making|Inventing|Forming
+DOMESTIC|Home|Household|Internal
+EXPENSIVE|Costly|Dear|Pricey
+HISTORICAL|Of the past|Period|Bygone
+HONESTLY|Truly|Frankly|Fairly
+ORIGINALLY|At first|Initially|Creatively
+SUDDENLY|Abruptly|All at once|Without warning
+COMBINED|Joint|Merged|United
+CONNECTED|Linked|Joined|Online
+CONTAINS|Holds|Includes|Restrains
+DOWNLOAD|Save from the web|Fetch a file|Get online
+EXERCISE|Workout|Drill|Practise
+GIRLFRIEND|Partner|Sweetheart|Date
+INCREASING|Growing|Rising|Mounting
+OFFICIALS|Referees|Bureaucrats|Officers
+PERFORMED|Acted|Played|Carried out
+RESTAURANT|Eatery|Bistro|Diner
+SELECTED|Chosen|Picked|Choice
+SHOPPING|Buying|Purchases|Retail trip
+SUGGESTED|Proposed|Hinted|Advised
+SUPPORTED|Backed|Held up|Endorsed
+SURPRISED|Amazed|Astonished|Taken aback
+TRANSPORT|Carry|Vehicles|Shipping
+ACCEPTED|Approved|Agreed to|Standard
+CONFIRMED|Verified|Settled|Inveterate
+MEASURES|Steps|Gauges|Amounts
+PLATFORM|Stage|Railway stop|Podium
+REGARDING|About|Concerning|Re
+RELATIONS|Relatives|Links|Ties
+REQUIRES|Needs|Demands|Calls for
+SCHEDULE|Timetable|Plan|Agenda
+SCIENTIFIC|Technical|Methodical|Exact
+CANDIDATE|Applicant|Nominee|Contender
+DEVELOPING|Growing|Evolving|Emerging
+ELECTIONS|Polls|Votes|Ballots
+EMOTIONAL|Moving|Tearful|Sentimental
+EVERYWHERE|All over|Far and wide|In every place
+FACILITIES|Amenities|Buildings|Toilets
+INTERESTS|Hobbies|Concerns|Stakes
+INTERNAL|Inner|Inside|Domestic
+LISTENING|Hearing|Paying attention|All ears
+RECORDED|Taped|Logged|Noted
+RELATIVELY|Fairly|Comparatively|Rather
+APARTMENT|Flat|Suite|Condo
+COMMITTED|Dedicated|Devoted|Pledged
+CONFIDENCE|Self-belief|Trust|Secret
+IDENTITY|Self|Who you are|ID
+MAINTAIN|Keep up|Claim|Preserve
+NUMEROUS|Many|Countless|Plentiful
+PROPERTIES|Estates|Qualities|Buildings
+REVEALED|Disclosed|Exposed|Shown
+AFFECTED|Influenced|Moved|Pretentious
+AIRCRAFT|Plane|Jet|Flying machine
+APPROVED|Okayed|Endorsed|Sanctioned
+ARGUMENT|Row|Quarrel|Case
+ARRESTED|Detained|Stopped|Nabbed
+CONFLICT|Clash|War|Dispute
+CORPORATE|Company|Business|Collective
+DETERMINED|Resolute|Decided|Firm
+DOCUMENTS|Papers|Files|Records
+EXTENDED|Stretched|Prolonged|Lengthened
+FRIENDLY|Kind|Amicable|Warm
+MILLIONS|Countless|Masses|Fortunes
+PROPERLY|Correctly|Right|Suitably
+RESIDENTS|Locals|Occupants|Inhabitants
+THOUSAND|Grand|Ten hundred|1,000
+BASICALLY|Essentially|In short|At heart
+COLLECTED|Gathered|Calm|Picked up
+COVERAGE|Reporting|Insurance scope|Range
+DETERMINE|Decide|Establish|Find out
+EXAMPLES|Samples|Instances|Models
+IDENTIFIED|Recognised|Named|Pinpointed
+INCREDIBLE|Unbelievable|Amazing|Astounding
+INSPIRED|Brilliant|Motivated|Breathed in
+LAUNCHED|Started|Unveiled|Fired off
+MINISTRY|Department|Clergy|Government office
+POSITIONS|Places|Jobs|Stances
+REMAINING|Left over|Staying|Residual
+ALLOWING|Permitting|Letting|Granting
+CHAMPION|Winner|Title holder|Advocate
+DELIVERED|Handed over|Rescued|Gave birth to
+ESTIMATED|Approximate|Guessed|Projected
+LITERATURE|Writing|Books|Brochures
+OPPOSITE|Facing|Reverse|Contrary
+REMAINED|Stayed|Lasted|Continued
+SELECTION|Choice|Range|Pick
+STRUGGLE|Fight|Battle|Effort
+TYPICALLY|Usually|Normally|Characteristically
+VEHICLES|Cars|Carriers|Means
+ASSEMBLY|Gathering|Construction|Parliament
+BREAKFAST|Morning meal|First meal|Cereal time
+CARRYING|Toting|Bearing|Transporting
+CUSTOMER|Client|Shopper|Buyer
+DESTROYED|Ruined|Wrecked|Demolished
+ESSENTIAL|Vital|Crucial|Basic
+FAMILIAR|Known|Friendly|Common
+HUNDREDS|Lots|Many|Centuries
+IMPROVED|Better|Enhanced|Upgraded
+LAUGHING|Chuckling|Giggling|In stitches
+PERFECTLY|Flawlessly|Completely|Exactly
+RECOMMEND|Advise|Suggest|Endorse
+REFERRED|Mentioned|Passed on|Directed
+RELEVANT|Pertinent|Applicable|To the point
+CREATIVE|Inventive|Imaginative|Artistic
+DIRECTED|Guided|Steered|Aimed
+FACILITY|Building|Ease|Amenity
+NEWSPAPER|Daily|Journal|Paper
+OFFERING|Gift|Tribute|Proposing
+PAINTING|Picture|Canvas|Artwork
+REPUBLIC|Democracy|State|Commonwealth
+STATISTICS|Figures|Data|Numbers
+TERRITORY|Land|Domain|Patch
+APPOINTED|Named|Selected|Equipped
+ASSISTANCE|Help|Aid|Support
+BOYFRIEND|Partner|Date|Beau
+CONCERNS|Worries|Affairs|Matters
+CONTROLLED|Restrained|Steered|Calm
+DELIVERY|Handover|Shipment|Birth
+EXPLAINED|Clarified|Described|Spelled out
+INSTANCE|Example|Case|Occasion
+REALIZED|Understood|Achieved|Grasped
+REASONABLE|Fair|Sensible|Moderate
+RECEIVING|Getting|Accepting|Welcoming
+REGISTER|Enrol|List|Cash till
+RESOLUTION|Decision|Promise|Screen sharpness
+UNIVERSE|Cosmos|Space|Creation
+ATTITUDE|Outlook|Stance|Sass
+CONDUCTED|Led|Managed|Carried out
+DEDICATED|Devoted|Committed|Inscribed
+DEFINITION|Meaning|Sharpness|Explanation
+RECOVERY|Comeback|Revival|Retrieval
+REPRESENT|Stand for|Symbolise|Act for
+SENTENCE|Phrase|Jail term|Condemn
+UNDERSTOOD|Grasped|Implied|Got it
+ACADEMIC|Scholarly|Lecturer|Theoretical
+ACCURATE|Exact|Correct|Precise
+CATEGORY|Class|Type|Group
+CHEMICAL|Substance|Compound|Synthetic
+FAVOURITE|Best-loved|Pet|Top pick
+NORMALLY|Usually|Ordinarily|As a rule
+OCCURRED|Happened|Took place|Struck
+OPPOSITION|Rivals|Resistance|Other side
+PERMANENT|Lasting|Fixed|Perm
+PERSONALLY|In person|Myself|Individually
+PLEASURE|Delight|Joy|Enjoyment
+PROGRAMME|Show|Schedule|Plan
+ULTIMATELY|In the end|Finally|Eventually
+BASKETBALL|Hoops|Court game|Dunk sport
+CONSUMER|Shopper|User|Buyer
+CREATION|Invention|Making|Universe
+DEPENDING|Relying|Hanging (on)|Contingent
+EMPLOYMENT|Work|Job|Occupation
+EXCLUSIVE|Sole|Scoop|Select
+FREQUENTLY|Often|Regularly|Repeatedly
+HOPEFULLY|With luck|Optimistically|God willing
+IDENTIFY|Recognise|Name|Spot
+IMPORTANCE|Significance|Weight|Value
+PARTNERS|Allies|Couples|Associates
+PERFORMING|Acting|Playing|Doing
+PERSONNEL|Staff|Workforce|HR
+REVOLUTION|Uprising|Rotation|Turnaround
+SLEEPING|Asleep|Dozing|Resting
+TOURNAMENT|Competition|Contest|Championship
+BRILLIANT|Bright|Dazzling|Clever
+DECLARED|Announced|Stated|Proclaimed
+ELECTRONIC|Digital|Electrical|E-
+EXISTENCE|Life|Being|Survival
+EXPRESSION|Phrase|Look|Feeling
+INTERIOR|Inside|Inner|Inland
+PRACTICES|Habits|Customs|Rehearsals
+REPLACED|Swapped|Succeeded|Put back
+RESISTANCE|Opposition|Defiance|Electrical drag
+SOMEWHAT|Rather|Fairly|A bit
+STRONGER|Tougher|Mightier|More powerful
+ABSOLUTE|Total|Utter|Complete
+AGENCIES|Bureaus|Offices|Means
+BASEBALL|Diamond sport|Bat-and-ball game|Home run game
+BATHROOM|Washroom|Loo|Restroom
+CONSTANT|Steady|Unchanging|Loyal
+EXCITING|Thrilling|Gripping|Stirring
+EXPANSION|Growth|Spread|Enlargement
+INCIDENT|Event|Episode|Occurrence
+MESSAGES|Notes|Texts|Letters
+REPORTING|Journalism|Telling|Coverage
+WORLDWIDE|Global|Everywhere|International
+ATTRACTIVE|Appealing|Good-looking|Charming
+CONSTANTLY|Always|Continually|Non-stop
+OFFICIALLY|Formally|By the book|On record
+PRINCESS|King's daughter|Royal|Tiara wearer
+RETIREMENT|Pension years|Leaving work|Withdrawal
+SECONDARY|Minor|Lesser|High (school)
+SUFFERING|Pain|Misery|Agony
+ULTIMATE|Final|Supreme|Best
+WONDERING|Musing|Curious|Pondering
+ATTACHED|Joined|Fond|Fastened
+EXPRESSED|Voiced|Stated|Squeezed out
+EXTERNAL|Outside|Outer|Foreign
+IMMEDIATE|Instant|Prompt|Nearest
+PRINCIPAL|Main|Head teacher|Chief
+RECOGNIZE|Identify|Acknowledge|Know

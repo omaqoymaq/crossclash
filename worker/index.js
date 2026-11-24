@@ -155,7 +155,11 @@ export class Room {
     const list = unplayed.length ? unplayed : pool;
     const puzzle = list[Math.floor(Math.random() * list.length)];
     r.played.push(puzzle.id);
-    r.game = newGame(puzzle, r.seats.map((s) => ({ name: s.name, kind: 'human' })), { seed: crypto.getRandomValues(new Uint32Array(1))[0], turnSeconds: r.timer });
+    r.game = newGame(puzzle, r.seats.map((s) => ({ name: s.name, kind: 'human' })), {
+      seed: crypto.getRandomValues(new Uint32Array(1))[0],
+      turnSeconds: r.timer,
+      seenClues: r.seats.flatMap((s) => s.seen || []),
+    });
     r.rematch = [false, false];
   }
 
@@ -184,6 +188,8 @@ export class Room {
       } else if (!room.game) {
         room.seats[seat].name = name;
       }
+      // hashes of clues this player has already seen, so new games can prefer fresh ones
+      if (Array.isArray(msg.seen)) room.seats[seat].seen = msg.seen.filter((x) => typeof x === 'string' && x.length <= 8).slice(-2000);
       ws.serializeAttachment({ seat });
       // a newer tab for the same seat replaces older sockets
       for (const s of this.sockets()) if (s.ws !== ws && s.seat === seat) { s.ws.serializeAttachment({ seat: null }); try { s.ws.close(4000, 'replaced'); } catch {} }

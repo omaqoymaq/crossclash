@@ -151,3 +151,18 @@ test('a player with no tiles and an empty bag is skipped automatically', () => {
   assert.equal(s.turnNo, before + 2);
   assert.equal(s.log.at(-1).type, 'skip');
 });
+
+test('clue rotation picks unseen options and hides the rest', async () => {
+  const { pickClues, clueHash } = await import('../public/js/engine.js');
+  const puzzle = { clues: [{ id: 0, text: 'A', options: ['A', 'B', 'C'] }, { id: 1, text: 'X', options: ['X'] }] };
+  const seen = [clueHash('A'), clueHash('B')];
+  for (let seed = 1; seed < 20; seed++) {
+    const p = pickClues(puzzle, seed, seen);
+    assert.equal(p.clues[0].text, 'C');
+    assert.equal(p.clues[1].text, 'X');
+    assert.ok(!('options' in p.clues[0]));
+  }
+  // all seen: falls back to any option
+  const all = pickClues(puzzle, 3, ['A', 'B', 'C'].map(clueHash));
+  assert.ok(['A', 'B', 'C'].includes(all.clues[0].text));
+});

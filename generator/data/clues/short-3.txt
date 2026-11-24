@@ -1,0 +1,650 @@
+# New familiar short words, three clues each (batch 3)
+FEVER|High temperature|Frenzy|Flu sign
+LOADS|Heaps|Lots|Cargoes
+MILLS|Factories|Grinders|Works
+WINDS|Breezes|Twists|Gales
+BLOWN|Puffed|Wasted|Gusted
+CHIPS|Fries|Crisps|Poker tokens
+MALES|Men|Boys|Bucks and bulls
+BUG|Insect|Glitch|Annoy
+FLIP|Toss|Somersault|Turn over
+FORTY|Two score|Tennis score|Four tens
+LASER|Light beam|Pointer|Precision cutter
+PATCH|Fix|Plot|Eye cover
+BUCKS|Dollars|Male deer|Resists
+BULK|Mass|Size|Wholesale amount
+CRIED|Wept|Sobbed|Shouted
+NERVE|Courage|Cheek|Body fibre
+BARE|Naked|Empty|Uncovered
+CHILL|Cold|Relax|Shiver
+GRAIN|Wheat|Speck|Wood pattern
+GROWS|Expands|Rises|Cultivates
+LIVER|Organ|Dweller|Pate base
+RIVAL|Competitor|Foe|Match
+SIZES|Dimensions|Measurements|Fits
+VERSE|Poetry|Stanza|Rhyme
+CRUSH|Squash|Infatuation|Crowd
+FEARS|Dreads|Phobias|Worries
+FIRES|Blazes|Sacks|Shoots
+ROCKY|Stony|Shaky|Craggy
+BOMBS|Explosives|Flops|Shells
+CAPS|Hats|Lids|Limits
+SWIFT|Fast|Quick|Fork-tailed bird
+BEANS|Legumes|Pulses|Energy, informally
+BLANK|Empty|Bare|Unfilled
+FLOWS|Streams|Runs|Pours
+HORN|Hooter|Trumpet|Antler
+HURRY|Rush|Dash|Hasten
+LAKES|Lochs|Ponds|Waters
+PLUG|Stopper|Socket fit|Promote
+ARROW|Dart|Pointer|Bow partner
+BEND|Curve|Turn|Flex
+CABIN|Hut|Lodge|Plane interior
+EAGLE|Bird of prey|Golf score|Bald symbol
+GUILT|Blame|Shame|Remorse
+SEEKS|Looks for|Hunts|Pursues
+THEFT|Robbery|Burglary|Stealing
+RIDGE|Crest|Ledge|Hill line
+BACKS|Supports|Spines|Defenders
+DRAWS|Ties|Sketches|Pulls
+POLLS|Surveys|Votes|Elections
+POSE|Model|Posture|Ask
+FLAGS|Banners|Tires|Marks
+JEANS|Denims|Blue trousers|Casual pants
+LEAK|Drip|Seep|Disclose
+SELLS|Vends|Markets|Trades
+SMASH|Shatter|Hit|Big success
+CHICK|Baby bird|Fledgling|Young hen
+DUMP|Tip|Ditch|Scruffy place
+FOLD|Crease|Pen|Give up
+GRIEF|Sorrow|Mourning|Trouble
+LODGE|Cabin|Inn|Stick
+WIVES|Spouses|Partners|Brides
+BEARD|Whiskers|Facial hair|Goatee
+DRAIN|Sink|Plughole|Exhaust
+FLAME|Fire|Blaze|Sweetheart
+KICKS|Boots|Thrills|Punts
+SAVES|Rescues|Keeps|Goalie stops
+CHEAT|Swindle|Fraud|Trick
+HULL|Ship body|Husk|Shell
+SHOUT|Yell|Cry|Round of drinks
+CROPS|Harvest|Yields|Trims
+RATS|Rodents|"Darn it!"|Squealers
+STACK|Pile|Heap|Chimney
+BLOWS|Gusts|Hits|Setbacks
+BUGS|Insects|Glitches|Irritates
+BUST|Broken|Sculpture|Raid
+CLIPS|Snippets|Fasteners|Trims
+COPE|Manage|Handle|Get by
+DRIED|Dehydrated|Parched|Withered
+JOINS|Links|Unites|Signs up
+SINS|Wrongs|Evils|Vices
+CLOTH|Fabric|Rag|Material
+FORK|Prong tool|Split|Cutlery item
+JUNK|Rubbish|Clutter|Chinese ship
+LOBBY|Foyer|Hall|Pressure group
+SOCKS|Hose|Footwear|Punches
+TRUNK|Chest|Elephant nose|Tree body
+FERRY|Boat service|Ship|Transport
+PATHS|Trails|Routes|Lanes
+PEERS|Equals|Lords|Peeks
+BAIL|Bond|Scoop water|Leave
+BUCK|Dollar|Male deer|Resist
+WHEAT|Grain|Bread crop|Cereal
+CIVIC|Municipal|Public|Town
+FLOUR|Baking powder|Ground grain|Dough base
+PUPPY|Young dog|Pup|Whelp
+FEAT|Deed|Achievement|Exploit
+PIGS|Swine|Hogs|Gluttons
+PROBE|Investigate|Explore|Space craft
+BEAN|Legume|Head|Coffee seed
+BUMP|Lump|Knock|Jolt
+CORD|String|Rope|Cable
+HANDY|Useful|Nearby|Convenient
+LANES|Paths|Alleys|Tracks
+LUNGS|Breathing organs|Bellows|Air sacs
+BEES|Honey makers|Buzzers|Hive dwellers
+CHEEK|Nerve|Face side|Impudence
+MELT|Thaw|Dissolve|Soften
+SKIRT|Kilt|Edge|Avoid
+SPIKE|Point|Spur|Surge
+BLEND|Mix|Combine|Merge
+BRAKE|Stop|Slow down|Pedal
+COUGH|Hack|Splutter|Throat clearing
+HIKE|Trek|Walk|Increase
+CHESS|Board game|Checkmate game|Strategy game
+GRIND|Crush|Toil|Mill
+GROVE|Orchard|Copse|Thicket
+HOBBY|Pastime|Pursuit|Leisure activity
+LOCKS|Hair|Bolts|Canal gates
+PACKS|Bundles|Bags|Groups
+SPICE|Flavour|Seasoning|Zest
+BORE|Drill|Tire|Yawn inducer
+DRUMS|Kit|Beats|Taps
+GUILD|Union|Society|Association
+SIXTY|Three score|Six tens|Speed limit
+BAKE|Cook|Roast|Fire
+BATCH|Lot|Set|Cluster
+PASTE|Glue|Spread|Stick
+SKIES|Heavens|Firmaments|Blue above
+TOSS|Throw|Flip|Fling
+BEERS|Ales|Lagers|Pints
+BLUNT|Dull|Frank|Direct
+DITCH|Trench|Dump|Abandon
+DUCKS|Quackers|Dodges|Bobs down
+RACK|Shelf|Torture frame|Stand
+SNACK|Bite|Nibble|Morsel
+SWORN|Pledged|Avowed|Bitter
+BURY|Inter|Hide|Cover
+CUBS|Young bears|Scouts|Lion babies
+FOND|Affectionate|Keen|Loving
+LACKS|Needs|Misses|Wants
+SINGS|Croons|Chirps|Squeals
+TENS|Tenners|Decades|Perfect scores
+BUNNY|Rabbit|Easter animal|Slope for beginners
+FOOLS|Idiots|Jesters|Dupes
+MASKS|Disguises|Visors|Covers
+POLES|Posts|Rods|Opposites
+SHINY|Gleaming|Glossy|Polished
+BIDS|Offers|Tenders|Tries
+BULLY|Tormentor|Intimidate|Ruffian
+GLEN|Valley|Dale|Scottish valley
+MARSH|Swamp|Bog|Wetland
+MESSY|Untidy|Cluttered|Chaotic
+NINJA|Japanese warrior|Stealthy fighter|Masked martial artist
+OWL|Night bird|Hooter|Wise bird
+PEAKS|Summits|Tops|Highs
+POOLS|Ponds|Puddles|Swimming spots
+PROS|Experts|Upsides|Professionals
+RIOTS|Uprisings|Disorders|Hoots
+ROAST|Cook|Sunday dinner|Mock
+SAGA|Epic|Long story|Tale
+SALON|Parlour|Beauty shop|Gallery
+TUNED|Adjusted|In pitch|Set
+VAGUE|Unclear|Hazy|Fuzzy
+WEE|Small|Tiny|Little
+ZIP|Fastener|Energy|Zero
+ANT|Picnic pest|Worker insect|Colony insect
+CORAL|Reef stuff|Pinkish|Sea polyp
+DOUGH|Bread mix|Money|Pastry
+DUG|Excavated|Liked|Delved
+FADE|Dim|Wane|Disappear
+GAPS|Holes|Breaks|Spaces
+HARDY|Tough|Robust|Strong
+IRONY|Sarcasm|Twist|Paradox
+JUMPS|Leaps|Hops|Springs
+LADS|Boys|Blokes|Youngsters
+LIME|Citrus fruit|Green shade|Chalky stuff
+MAID|Servant|Cleaner|Girl
+MAPLE|Tree|Syrup source|Leaf on a flag
+MOMS|Mothers|Mums|Parents
+OILS|Lubricants|Paintings|Lotions
+OUTS|Excuses|Exits|Escapes
+OWED|Due|Indebted|In arrears
+RELAY|Race|Pass on|Transmit
+RIG|Equipment|Fix|Oil platform
+RISEN|Up|Raised|Ascended
+ROWS|Lines|Tiers|Quarrels
+STUNT|Trick|Feat|Stop growth
+SURF|Waves|Browse|Ride the waves
+SYNC|Match|Harmony|Align
+WIPED|Cleaned|Erased|Exhausted
+ACIDS|Corrosives|Lemon juices|Vinegars
+AIRED|Broadcast|Ventilated|Voiced
+BAIT|Lure|Tempt|Worm on a hook
+BARK|Woof|Tree skin|Yap
+BETS|Wagers|Stakes|Gambles
+CAKES|Buns|Sponges|Tarts
+FLAWS|Faults|Defects|Weaknesses
+FREED|Released|Liberated|Untied
+HALLS|Corridors|Rooms|Venues
+HINTS|Tips|Clues|Suggestions
+IVORY|Tusk|Off-white|Piano key
+LEVY|Tax|Toll|Fee
+MOCK|Tease|Fake|Taunt
+NICHE|Recess|Nook|Specialty
+PORCH|Veranda|Doorway|Stoop
+RIM|Edge|Lip|Brim
+SEALS|Stamps|Closes|Marine mammals
+SPIT|Saliva|Skewer|Drizzle
+TUB|Bath|Pot|Vat
+WIRES|Cables|Leads|Telegrams
+YELL|Shout|Scream|Holler
+CREEP|Crawl|Sneak|Weirdo
+DOE|Female deer|Hind|Rabbit mother
+ELBOW|Arm joint|Nudge|Pipe bend
+ENVY|Jealousy|Covet|Resentment
+EXILE|Banishment|Expel|Outcast
+GEL|Hair goo|Set|Jelly
+GOOSE|Honker|Gander's mate|Silly person
+GRILL|Barbecue|Question|Broil
+HEEL|Foot end|Cad|Shoe part
+HUT|Shack|Shed|Cabin
+MAT|Rug|Doormat|Tangle
+PAINS|Aches|Efforts|Pangs
+POETS|Bards|Rhymers|Versifiers
+RAINS|Showers|Downpours|Monsoon
+RULER|Monarch|Straight edge|King
+SPILL|Slop|Overflow|Fall
+SWAMP|Bog|Marsh|Overwhelm
+SWAN|Graceful bird|Cygnet's parent|Glide around
+TASTY|Delicious|Yummy|Savoury
+BALD|Hairless|Bare|Plain
+BOIL|Bubble|Seethe|Simmer
+CONE|Ice cream holder|Pine seed|Traffic marker
+DECAY|Rot|Decline|Decompose
+IMPLY|Suggest|Hint|Indicate
+ISLE|Island|Atoll|Key
+IVY|Climbing plant|Creeper|Wall plant
+MERRY|Jolly|Cheerful|Festive
+OBEY|Follow|Comply|Mind
+PUMPS|Shoes|Inflates|Heart stations
+RAMP|Slope|Incline|Car-park slope
+REEF|Coral ridge|Shoal|Sail fold
+RESET|Restart|Reboot|Fresh start
+SAGE|Herb|Wise one|Wise
+SHAVE|Trim|Close call|Barber's job
+SLOTS|Openings|Gaps|Fruit machines
+STEMS|Stalks|Originates|Wine glass parts
+VODKA|Russian spirit|Clear liquor|Martini base
+ZOOM|Speed|Close-up|Whizz
+BATS|Night fliers|Clubs|Flutters
+BOT|Robot|Automaton|Program that chats
+CLUES|Hints|Leads|Puzzle prompts
+CUBE|Dice|Block|Ice piece
+DRIFT|Wander|Pile of snow|Float
+DYE|Colour|Tint|Stain
+FUELS|Petrol and diesel|Feeds|Powers
+GRAMS|Small weights|Metric units|Weights
+GURU|Mentor|Teacher|Expert
+HATCH|Trapdoor|Emerge from an egg|Plot
+LABS|Laboratories|Retrievers|Test rooms
+LACE|Shoestring|Frilly fabric|Tie
+NAP|Snooze|Siesta|Doze
+NIECE|Sibling's daughter|Relative|Aunt's girl
+PIER|Jetty|Wharf|Dock
+QUIZ|Test|Exam|Questioning
+SCENT|Perfume|Smell|Trail
+SLATE|Roof tile|Schedule|Criticise
+SURGE|Rush|Swell|Spike
+TAGS|Labels|Tickets|Price stickers
+TAPES|Cassettes|Recordings|Ribbons
+TEE|Golf peg|Shirt|Golf start
+TOKEN|Symbol|Coupon|Sign
+TUNES|Songs|Melodies|Adjusts
+WOODY|Ligneous|Forested|Treelike
+YACHT|Sailboat|Sloop|Luxury boat
+BASH|Party|Hit|Wallop
+DOLLS|Toys|Figures|Puppets
+DOOM|Fate|Ruin|Destiny
+FLEE|Escape|Run away|Bolt
+FRIES|Chips|Potato sticks|Burger side
+GAL|Girl|Lass|Dame
+HAWK|Bird of prey|Peddle|Warmonger
+INTRO|Opening|Prelude|Start of a song
+LID|Cover|Top|Cap
+LOGS|Records|Firewood|Wood chunks
+MANOR|Country house|Estate|Mansion
+MEMO|Note|Message|Reminder
+MIC|Karaoke gear|Mike|Stage gear
+NETS|Catches|Mesh|Earns
+PONY|Small horse|Foal|Pigtail kind
+POSED|Modelled|Asked|Sat for a portrait
+PROMO|Advert|Teaser|Publicity
+PUPIL|Student|Eye part|Learner
+SANDS|Beach|Desert|Grinds smooth
+SOFA|Couch|Settee|Lounge seat
+SPOIL|Ruin|Pamper|Loot
+ALTAR|Church table|Shrine|Sacrificial stone
+AMP|Guitar speaker|Current unit|Guitar booster
+ATLAS|Map book|Titan|World map
+AWE|Wonder|Admiration|Respect
+CANS|Tins|Bins|Headphones
+COMBO|Mixture|Band|Meal deal
+CROW|Black bird|Boast|Rooster's call
+FATTY|Greasy|Oily|Fat-rich
+FLUSH|Blush|Level|Rinse
+FONT|Typeface|Source|Baptism basin
+GLUE|Paste|Adhesive|Stick
+HAIRY|Furry|Shaggy|Risky
+HORNS|Antlers|Hooters|Trumpets
+OUNCE|Small weight|Snow leopard|Tiny bit
+PEEL|Skin|Rind|Strip
+PINS|Bowling targets|Needles|Legs
+RIBS|Chest bones|Teases|Barbecue cut
+SEIZE|Grab|Capture|Snatch
+SPICY|Hot|Peppery|Racy
+STING|Bite|Smart|Con
+TICK|Check mark|Moment|Parasite
+WAN|Pale|Pallid|Ashen
+WINES|Reds and whites|Vintages|Clarets
+WIRED|Connected|Jumpy|Hyper
+AXE|Hatchet|Chop|Fire
+BELLE|Beauty|Ball star|Southern lady
+BITES|Nibbles|Snacks|Stings
+CURB|Kerb|Restrain|Limit
+DEEDS|Acts|Feats|Titles
+HIPS|Joints|Rose fruits|Waist sides
+POSES|Stances|Models|Questions
+RAILS|Bars|Tracks|Rants
+RAVEN|Black bird|Jet black|Crow relative
+SKINS|Hides|Peels|Pelts
+STALL|Booth|Stand|Delay
+STRAP|Band|Belt|Strip
+WATTS|Power units|Light ratings|Bulb units
+BLISS|Joy|Heaven|Rapture
+DAISY|Flower|Lawn bloom|Oxeye
+DISCO|Club|Dance hall|Glitter-ball music
+EUROS|Coins|Money in Madrid|Currency
+FAINT|Weak|Pass out|Dim
+FINES|Penalties|Fees|Charges
+FOAM|Froth|Lather|Bubbles
+FORGE|Smithy|Fake|Make
+HEARS|Listens|Catches|Learns
+JADE|Green gem|Gem|Worn out
+KITS|Gear|Outfits|Sets
+NODES|Junctions|Points|Hubs
+NOTCH|Nick|Cut|Level
+OMEGA|Greek letter|Last letter|The end
+PROM|School dance|Ball|End-of-year dance
+QUEUE|Line|Wait in line|Row
+STAB|Pierce|Jab|Go
+TROUT|Fish|River fish|Rainbow fish
+WORMS|Earthworms|Wriggles|Bait
+BRAVO|Well done|Hurrah|Encore cry
+CHOP|Cut|Hack|Pork cut
+CRAWL|Creep|Swim stroke|Inch
+DIGIT|Number|Finger|Toe
+FLATS|Apartments|Low shoes|Tidal plains
+FLINT|Spark stone|Hard rock|Firestone
+GUTS|Courage|Innards|Nerve
+HAIRS|Strands|Bristles|Fibres
+HERB|Basil or sage|Seasoning|Plant
+HERD|Group of cattle|Flock|Round up
+JELLY|Jam|Gelatin dessert|Wobbly treat
+LICK|Lap|Taste|Beat
+LUNAR|Moon-like|Of the moon|Crescent
+MOLD|Shape|Fungus|Form
+PADS|Cushions|Notebooks|Homes
+PEACH|Fuzzy fruit|Stone fruit|Beauty
+PLOTS|Schemes|Story lines|Lots
+POLO|Horse sport|Shirt|Water game
+PROP|Support|Stage item|Brace
+SCAR|Mark|Blemish|Wound trace
+VEIN|Blood vessel|Seam|Streak
+WORM|Earthworm|Wriggle|Bait
+BEAMS|Rafters|Smiles|Rays
+CANE|Stick|Rod|Sugar plant
+CEDAR|Conifer|Fragrant wood|Lebanon tree
+CONS|Drawbacks|Scams|Downsides
+CRAB|Crustacean|Sideways walker|Grouch
+DICE|Cubes|Chop|Gambling cubes
+DOTS|Spots|Points|Specks
+FOIL|Wrap|Thwart|Fencing sword
+GRAM|Metric weight|Weight unit|Small mass
+HEATH|Moor|Moorland|Shrubland
+IRIS|Eye part|Flower|Lily relative
+LIFTS|Elevators|Raises|Rides
+METRE|Measure|Rhythm|Unit of length
+NORMS|Standards|Customs|Conventions
+PINCH|Nip|Squeeze|Small amount
+PING|Ding|Ring|Alert sound
+POTS|Pans|Jars|Jackpots
+ROVER|Wanderer|Moon buggy|Nomad
+SCARS|Marks|Blemishes|Traces
+SYRUP|Sweet liquid|Treacle|Maple ___
+TONES|Notes|Shades|Pitches
+TRAPS|Snares|Pitfalls|Ambushes
+TURF|Grass|Sod|Patch
+VEINS|Blood vessels|Streaks|Lodes
+ARK|Noah's boat|Chest|Big boat
+ATOMS|Particles|Specks|Molecule parts
+BIND|Tie|Fix|Fasten
+BOWLS|Basins|Dishes|Green game
+CUE|Signal|Prompt|Pool stick
+DEED|Act|Feat|Title document
+DWARF|Gnome|Tiny|Overshadow
+GEMS|Jewels|Stones|Treasures
+GORE|Blood|Pierce|Horn wound
+GOWN|Robe|Dress|Frock
+HALO|Glow|Nimbus|Angel ring
+LINER|Ship|Lining|Eye pencil
+MATHS|Sums|Algebra|Arithmetic
+MEMES|Viral images|Jokes|Fads
+MERGE|Combine|Join|Fuse
+MESH|Net|Web|Fit together
+MYTHS|Legends|Fables|Lies
+NAIVE|Innocent|Gullible|Green
+OPTED|Chose|Selected|Picked
+PENS|Biros|Writes|Enclosures
+RIGID|Stiff|Inflexible|Firm
+TEMP|Stand-in worker|Fill in|Fever reading
+TRAY|Platter|Salver|Tea board
+VIVID|Bright|Graphic|Intense
+AIDED|Helped|Assisted|Backed
+BELTS|Straps|Bands|Thumps
+BOXER|Fighter|Dog breed|Pugilist
+BROOK|Stream|Creek|Tolerate
+COATS|Jackets|Layers|Covers
+COLA|Fizzy drink|Soda|Brown drink
+COMA|Deep sleep|Trance|Stupor
+CURED|Healed|Smoked|Preserved
+HEDGE|Shrub fence|Bush wall|Waffle
+ICONS|Idols|Symbols|Images
+JOKER|Clown|Card|Jester
+LADEN|Loaded|Burdened|Full
+LIMBS|Arms and legs|Branches|Members
+NOD|Bow|Agree|Doze
+RAINY|Wet|Showery|Drizzly
+RAMS|Male sheep|Butts|Crams
+RUST|Corrosion|Oxide|Reddish brown
+SALTY|Briny|Saline|Sailor-like
+SERUM|Fluid|Vaccine|Antidote
+SKATE|Glide|Rollerblade|Ray fish
+STRAY|Wander|Lost pet|Roam
+STUD|Earring|Stallion|Nail head
+SUNK|Sank|Foundered|Doomed
+TEMPO|Pace|Beat|Rhythm
+TORCH|Flashlight|Brand|Set alight
+VAIN|Conceited|Futile|Proud
+BLINK|Wink|Flicker|Instant
+CHILI|Hot pepper|Spicy stew|Red pepper
+COIL|Spiral|Loop|Wind
+EXCEL|Shine|Outdo|Surpass
+FADED|Pale|Wilted|Washed out
+FLEX|Bend|Cable|Show off
+GANGS|Mobs|Crews|Bands
+GASES|Vapours|Fumes|Helium and neon
+GENUS|Kind|Class|Category
+GLOVE|Mitt|Mitten|Gauntlet
+GRABS|Seizes|Snatches|Catches
+GREED|Avarice|Desire|Gluttony
+GREET|Welcome|Hail|Meet
+HOSE|Pipe|Stockings|Water down
+LAMPS|Lights|Lanterns|Bulbs
+LAVA|Magma|Molten rock|Volcanic flow
+NULL|Void|Invalid|Zero
+OWING|Due|Unpaid|Outstanding
+PACT|Treaty|Deal|Agreement
+PROXY|Agent|Substitute|Stand-in
+RENEW|Restore|Extend|Refresh
+RETRO|Vintage|Old-style|Nostalgic
+RUMOR|Gossip|Hearsay|Story
+STOKE|Fuel|Feed a fire|Stir up
+THIGH|Upper leg|Drumstick part|Leg part
+TROLL|Ogre|Online pest|Fish with a line
+VEST|Undershirt|Waistcoat|Grant
+VINE|Creeper|Grape plant|Climber
+WARNS|Cautions|Alerts|Advises
+YEN|Craving|Japanese money|Urge
+AISLE|Passage|Gangway|Church walk
+ANTS|Picnic pests|Workers|Insects
+ATOM|Particle|Tiny bit|Speck
+BLEED|Ooze|Run|Lose blood
+BRACE|Clamp|Pair|Prepare
+CHOKE|Gag|Strangle|Engine valve
+GOATS|Billies|Nannies|Kids' parents
+JEEP|Off-roader|4x4|Army car
+KNOT|Tie|Tangle|Sea mile per hour
+LUST|Desire|Craving|Passion
+MAYO|Sandwich spread|White sauce|Dressing
+MONKS|Friars|Brothers|Abbey dwellers
+MOTTO|Slogan|Maxim|Saying
+OWES|Is indebted|Must pay|Lacks
+PITS|Stones|Holes|The worst
+PIXEL|Screen dot|Dot|Image unit
+PROPS|Supports|Credit|Stage items
+PROSE|Text|Writing|Non-poetry
+RAZOR|Shaver|Blade|Sharp tool
+RUG|Mat|Carpet|Toupee
+STEER|Guide|Drive|Bullock
+TILE|Slate|Square|Domino
+TOW|Pull|Haul|Drag
+VERB|Action word|Doing word|Part of speech
+AMPLE|Plenty|Abundant|Generous
+APEX|Peak|Summit|Top
+CALF|Young cow|Leg muscle|Baby whale
+CORK|Stopper|Bung|Bottle seal
+CUBIC|Three-dimensional|Box-shaped|Measure
+FILLS|Packs|Loads|Stuffs
+FUNK|Groove music|Fear|Soul style
+LUMP|Bump|Chunk|Clot
+MACRO|Large-scale|Big|Shortcut
+MAG|Monthly read|Glossy|Periodical
+MUG|Cup|Face|Rob
+POD|Seed case|Shell|Group of whales
+SHADY|Out of the sun|Dodgy|Suspicious
+SLACK|Loose|Lazy|Idle
+SLICK|Smooth|Glib|Oil spill
+STOVE|Oven|Cooker|Range
+TILES|Slabs|Mosaic|Scrabble pieces
+TORE|Ripped|Rushed|Shredded
+TRACT|Area|Pamphlet|Region
+VISTA|View|Panorama|Outlook
+VOGUE|Fashion|Trend|Craze
+ADORE|Love|Worship|Cherish
+AKIN|Similar|Alike|Related
+CREED|Belief|Faith|Doctrine
+CRISP|Crunchy|Fresh|Chip
+CRUST|Shell|Bread edge|Pie top
+FIN|Fish part|Flipper|Shark sign
+FINED|Penalised|Charged|Ticketed
+FLORA|Plants|Vegetation|Plant life
+GAMMA|Greek letter|Third letter|Radiation ray
+GAZE|Stare|Look|Gape
+GRAPE|Vine fruit|Wine fruit|Raisin, once
+HANGS|Dangles|Suspends|Lingers
+HUGS|Embraces|Cuddles|Squeezes
+IDLE|Lazy|Inactive|Unused
+JUICY|Succulent|Moist|Spicy, as gossip
+LIMB|Arm|Leg|Branch
+MOODY|Sullen|Temperamental|Grumpy
+PEEK|Glimpse|Peep|Look
+PRANK|Joke|Trick|Hoax
+QUAD|Courtyard|One of four born together|Square
+ROAR|Bellow|Lion's sound|Thunder
+SPEAR|Lance|Javelin|Harpoon
+SPIES|Agents|Moles|Spots
+STAIN|Mark|Blot|Taint
+SUBS|Bench players|Submarines|Sandwiches
+TIDAL|Of the tides|Ebbing|Coastal
+VOWS|Pledges|Promises|Oaths
+WRATH|Anger|Fury|Rage
+AIDE|Assistant|Helper|Deputy
+APT|Fitting|Suitable|Clever
+BANS|Bars|Prohibits|Embargoes
+BEADS|Pearls|Drops|Necklace parts
+BLAZE|Fire|Glow|Flame
+CAVES|Hollows|Grottoes|Collapses
+CHALK|Writing stick|Limestone|Board marker
+FLOCK|Herd|Group|Gather
+GRIM|Bleak|Stern|Dreadful
+HIDES|Skins|Conceals|Pelts
+HYPER|Overexcited|Wired|Manic
+MART|Market|Store|Emporium
+MOIST|Damp|Wet|Humid
+SCOOP|Exclusive story|Ladle|Ice cream ball
+SCRUB|Clean|Brush|Cancel
+SHALE|Rock|Clay stone|Slate
+SHIN|Leg front|Climb|Tibia
+TITAN|Giant|Colossus|Saturn moon
+TRAIT|Quality|Feature|Characteristic
+TROOP|Band|Unit|March
+URGES|Impulses|Pushes|Cravings
+WATT|Power unit|Bulb rating|Electric unit
+ALE|Beer|Bitter|Pub drink
+CHIC|Stylish|Elegant|Smart
+CLONE|Copy|Duplicate|Replica
+DROWN|Flood|Sink|Swamp
+GIN|Spirit|Juniper drink|Card game
+JEWEL|Gem|Treasure|Precious stone
+OBESE|Overweight|Fat|Plump
+PIKE|Fish|Spear|Lance
+PIPER|Flautist|Player|Bagpiper
+PULP|Mush|Paste|Cheap fiction
+REEL|Spool|Dance|Stagger
+SCARF|Muffler|Neckwear|Wolf down
+SUSHI|Japanese dish|Raw fish dish|Rice roll
+TAILS|Coin side|Ends|Dress coat
+TIMER|Clock|Stopwatch|Egg ___
+TYING|Knotting|Binding|Lacing
+WAITS|Lingers|Pauses|Stays
+WAKES|Rouses|Vigils|Boat trails
+ALAS|Sadly|Unfortunately|Woe
+BATHS|Tubs|Soaks|Spas
+CITE|Quote|Mention|Name
+DELL|Valley|Hollow|Vale
+DENT|Dint|Hollow|Ding
+DOVE|Pigeon|Peace bird|Dived
+DUSTY|Unswept|Grimy|Dirty
+FIBRE|Thread|Strand|Roughage
+FOCAL|Central|Main|Key
+GALA|Festival|Party|Celebration
+GEARS|Cogs|Kit|Equipment
+LAG|Delay|Trail|Behind
+LAYS|Puts down|Sets|Ballads
+LURE|Bait|Tempt|Enticement
+MIST|Fog|Haze|Spray
+MOLE|Spy|Burrower|Skin spot
+NOISY|Loud|Rowdy|Raucous
+RANT|Rave|Tirade|Shout
+RASH|Hasty|Reckless|Skin outbreak
+RIPE|Ready|Mature|Mellow
+SANE|Sensible|Rational|Lucid
+SIP|Sup|Taste|Nip
+SNAIL|Slow mover|Gastropod|Slug relative
+TUTOR|Teacher|Coach|Instructor
+VERGE|Edge|Brink|Roadside
+YEAST|Leaven|Bread rise|Brewing agent
+ACNE|Spots|Pimples|Teen skin trouble
+BULB|Lamp|Light|Flower root
+CHEW|Munch|Gnaw|Ponder
+DIETS|Regimens|Fasts|Eating plans
+DIME|Ten cents|Small change|Coin
+DIRE|Awful|Dreadful|Urgent
+ERASE|Delete|Rub out|Wipe
+HARE|Rabbit relative|Dash|Leveret parent
+KNIT|Stitch|Wool work|Join
+LAPS|Circuits|Drinks like a cat|Rounds
+MANLY|Masculine|Macho|Virile
+MUTE|Silent|Dumb|Quieten
+NERD|Geek|Dork|Brain
+OXIDE|Rust|Compound|Chemical
+PINT|Beer glass|Half quart|Measure
+REPAY|Pay back|Reward|Refund
+ROPES|Cords|Lines|Tricks of the trade
+ROUGE|Blusher|Red|Make-up
+SHOVE|Push|Thrust|Barge
+SNAPS|Photos|Breaks|Clicks
+SPUR|Goad|Urge|Ridge
+TILT|Lean|Slant|Tip
+VEIL|Cover|Shroud|Bridal headwear
+WED|Married|Spliced|Joined
+BASIL|Herb|Pesto herb|Sweet herb
+BOOZE|Alcohol|Drink|Liquor
+CHORD|Notes|Harmony|Triad
+COOKS|Chefs|Bakes|Fixes, as the books
+CREST|Peak|Summit|Emblem
+DECOR|Furnishing|Style|Interior design
+DUEL|Fight|Showdown|Contest
+ELF|Pixie|Goblin|Santa's helper

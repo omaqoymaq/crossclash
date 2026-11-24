@@ -1,0 +1,610 @@
+# New familiar words, three clues each (batch 2)
+LIBERAL|Generous|Open-minded|Lavish
+LUNCH|Midday meal|Noon bite|Packed meal
+PACK|Bundle|Wolf group|Stuff a suitcase
+PAYMENT|Instalment|Fee|Settlement
+PERFORM|Act|Carry out|Put on a show
+SHARING|Splitting|Dividing|Generous act
+STREETS|Roads|Avenues|Lanes
+ADVANCE|Progress|Loan|Move forward
+CHAIN|Linked loops|Shackle|Store group
+FINANCE|Money matters|Fund|Banking
+FOCUSED|Concentrated|Intent|Sharp
+JOURNEY|Trip|Voyage|Travel
+KITCHEN|Cooking room|Galley|Where meals are made
+MEASURE|Gauge|Step|Size up
+CLAIMED|Asserted|Demanded|Took
+FASTER|Quicker|Speedier|More rapid
+FLOWERS|Blooms|Posies|Blossoms
+MIXED|Blended|Assorted|Stirred
+REDUCED|Cut|Lessened|On sale
+REVENUE|Income|Takings|Earnings
+SECURE|Safe|Fasten|Obtain
+STRANGE|Odd|Weird|Unfamiliar
+TRUCK|Lorry|Big rig|Haul
+BESIDES|Also|Moreover|In addition to
+CAUSES|Reasons|Sources|Brings about
+CHICKEN|Hen|Coward|Poultry
+DISPLAY|Show|Exhibit|Screen
+ELECTED|Voted in|Chosen|Selected
+FALLS|Waterfall|Drops|Tumbles
+NOTICED|Spotted|Seen|Observed
+OBVIOUS|Clear|Plain|Evident
+PASSING|Fleeting|Going by|Death
+SLOWLY|Gradually|Unhurriedly|At a crawl
+STADIUM|Arena|Sports ground|Bowl
+SURGERY|Operation|Clinic|Doctor's office
+TRADING|Dealing|Buying and selling|Commerce
+WORRIED|Anxious|Uneasy|Fretful
+CHARGED|Billed|Accused|Powered up
+KINGDOM|Realm|Monarchy|Domain
+SERVING|Portion|Helping|Waiting on
+WAVE|Breaker|Greet with a hand|Surge
+ALCOHOL|Booze|Spirits|Liquor
+BRIGHT|Shiny|Clever|Vivid
+CAPABLE|Able|Competent|Skilled
+CUTTING|Slicing|Sharp|Clipping
+GRANTED|Given|Allowed|Admittedly
+LARGELY|Mostly|Mainly|Chiefly
+MARKETS|Bazaars|Sells|Fairs
+SENDING|Mailing|Dispatching|Thrilling
+SPOKE|Wheel rod|Talked|Said
+TICKET|Pass|Fine|Admission slip
+WING|Flier's limb|Annex|Flank
+ANSWERS|Replies|Solutions|Responds
+BIRDS|Fliers|Feathered friends|Robins and wrens
+DEALING|Trading|Handing out cards|Coping
+EXTREME|Utmost|Drastic|Furthest
+FIELDS|Meadows|Areas of study|Pitches
+MAINLY|Mostly|Chiefly|Largely
+MAXIMUM|Most|Top|Upper limit
+RESERVE|Book|Spare|Shyness
+RETURNS|Comes back|Profits|Gives back
+SCARED|Afraid|Frightened|Fearful
+SHARES|Stocks|Portions|Splits
+SWITCH|Toggle|Swap|Light control
+AFFECT|Influence|Move|Touch
+BLOW|Puff|Punch|Setback
+BOND|Tie|Link|Glue
+CAREFUL|Cautious|Prudent|Wary
+DESERVE|Earn|Merit|Be worthy of
+DEVICES|Gadgets|Gizmos|Tools
+ENJOYED|Liked|Relished|Savoured
+FOLKS|People|Parents|Family
+MATCHES|Games|Pairs|Fire sticks
+MOTION|Movement|Proposal|Gesture
+PACIFIC|Peaceful|Calm|Largest ocean
+SAVING|Rescue|Thrift|Economy
+SINGING|Crooning|Vocals|Chirping
+TYPICAL|Usual|Normal|Classic
+WARNING|Alert|Caution|Notice
+BRANCH|Bough|Limb|Office
+DECADES|Ten-year spans|Long times|Eras
+DRAWING|Sketch|Raffle|Pulling
+HEAVEN|Paradise|Bliss|Sky
+REPLACE|Swap|Substitute|Put back
+REVIEWS|Critiques|Ratings|Goes over
+SEEKING|Looking for|Pursuing|Searching
+SENATOR|Lawmaker|Politician|Upper-house member
+TRAINED|Skilled|Coached|Taught
+ACADEMY|School|College|Institute
+ACHIEVE|Accomplish|Attain|Reach
+BUNCH|Cluster|Bundle|Group
+DETAIL|Particular|Point|Fine point
+STORAGE|Space|Keeping|Warehouse
+TANK|Reservoir|Armoured vehicle|Fish home
+TIGHT|Snug|Taut|Stingy
+COUNTER|Bar|Worktop|Oppose
+CROWN|Tiara|Top|Royal headgear
+DEFINED|Clear|Explained|Outlined
+DRIVERS|Motorists|Golf clubs|Chauffeurs
+EXPERT|Pro|Specialist|Master
+MINING|Digging|Excavating|Coal work
+PATTERN|Design|Motif|Template
+PREMIER|First|Prime minister|Leading
+PROMOTE|Advertise|Upgrade|Boost
+SUPPOSE|Guess|Assume|Imagine
+VICTIM|Casualty|Sufferer|Target
+CARBON|Element C|Diamond material|Coal
+CONCERT|Gig|Show|Recital
+DELIVER|Bring|Hand over|Give birth to
+DOCTORS|Medics|Physicians|GPs
+FACTORY|Plant|Works|Mill
+PREPARE|Get ready|Make|Prime
+RETAIL|Shopping|Sell|Store trade
+STAYING|Remaining|Lodging|Lasting
+SURELY|Certainly|Without doubt|Definitely
+UPDATED|Refreshed|Modernised|Revised
+WRITERS|Authors|Scribes|Novelists
+CHECKED|Inspected|Tartan|Verified
+DRIVEN|Motivated|Ambitious|Pushed
+HEAVILY|Weightily|Densely|Greatly
+LINKED|Joined|Connected|Tied
+QUIT|Leave|Stop|Give up
+REFUSED|Declined|Turned down|Denied
+SIGHT|Vision|View|Spectacle
+CAKE|Gateau|Sponge|Birthday treat
+CLOSELY|Carefully|Nearly|Tightly
+CONTEST|Competition|Match|Dispute
+DEPENDS|Relies|Hangs|Rests
+HEIGHT|Altitude|Stature|Peak
+INVITED|Asked|Welcomed|Summoned
+LETTING|Renting|Allowing|Lease
+PEAK|Summit|Top|Cap brim
+PORTION|Share|Helping|Part
+POUNDS|Quid|Thumps|Weights
+PROTEIN|Meat nutrient|Muscle builder|Egg white stuff
+REGIONS|Areas|Zones|Territories
+RESPOND|Reply|Answer|React
+SOMEHOW|In some way|Anyway|One way or another
+TRIES|Attempts|Goes|Rugby scores
+UNKNOWN|Anonymous|Strange|Mystery
+BALLS|Spheres|Dances|Globes
+BATTERY|Cell|Power pack|Assault
+BILLS|Invoices|Beaks|Notes
+CONDUCT|Behaviour|Lead an orchestra|Transmit
+DESTROY|Wreck|Ruin|Demolish
+ENGAGED|Betrothed|Busy|Occupied
+EXPERTS|Specialists|Authorities|Pros
+FANTASY|Dream|Fiction genre|Imagination
+LICENSE|Permit|Authorise|Freedom
+PAINT|Colour|Coat|Brush on
+PINK|Rose|Pale red|Salmon
+SEASONS|Spring and fall|Spices|Periods
+SURVIVE|Outlast|Endure|Pull through
+TALL|High|Lofty|Lanky
+THEATRE|Playhouse|Stage|Drama
+WITNESS|Observer|Onlooker|See
+ADOPTED|Taken on|Fostered|Embraced
+CHANCES|Odds|Prospects|Risks
+COVERS|Lids|Blankets|Hides
+DEFENCE|Protection|Guard|Backline
+EXPOSED|Uncovered|Bare|Revealed
+INJURED|Hurt|Wounded|Harmed
+KINDS|Types|Sorts|Varieties
+LOCK|Bolt|Curl|Fasten
+MUSICAL|Melodic|Show with songs|Tuneful
+OBJECTS|Things|Aims|Protests
+OPPOSED|Against|Resisted|Contrary
+PLASTIC|Bendy|Credit card|Polymer
+SUSPECT|Doubt|Accused|Dubious
+WEALTH|Riches|Fortune|Affluence
+ASPECTS|Facets|Sides|Features
+BREAD|Loaf|Dough|Cash, slangily
+BURNING|Blazing|Intense|Ablaze
+CONTAIN|Hold|Include|Restrain
+DANCING|Ballet|Swaying|Twirling
+FACING|Opposite|Confronting|Looking at
+FAIRLY|Justly|Rather|Quite
+FINGERS|Digits|Pinkies|Points
+FOUNDED|Established|Set up|Started
+HANGING|Suspended|Dangling|Wall art
+ISLANDS|Isles|Atolls|Keys
+MARKED|Noticeable|Graded|Stained
+MONTHLY|Every four weeks or so|Magazine|Regular bill
+OPERATE|Run|Work|Perform surgery
+REPLY|Answer|Response|Respond
+SONS|Boys|Male heirs|Children
+TOWER|Spire|Turret|Soar
+VISITED|Called on|Toured|Dropped by
+AUTHORS|Writers|Creators|Novelists
+BARELY|Hardly|Scarcely|Just
+FILED|Sorted|Submitted|Sharpened
+GAINED|Won|Got|Earned
+GALLERY|Art space|Balcony|Exhibition hall
+HIGHWAY|Motorway|Main road|Freeway
+HUNT|Search|Chase|Track
+JURY|Panel|Twelve in court|Judges
+MARKS|Grades|Stains|Signs
+MONSTER|Beast|Giant|Ogre
+PRIDE|Lion group|Self-respect|Vanity
+RIDING|On horseback|Mounted|Constituency
+SPEAKER|Talker|Loudspeaker|Orator
+STUDIED|Learned|Deliberate|Read up
+FINGER|Digit|Point at|Ring holder
+HEADING|Title|Going|Caption
+OFFICES|Bureaus|Workplaces|Posts
+PANTS|Trousers|Underwear|Puffs
+POCKET|Pouch|Trouser pouch|Snooker hole
+PROVED|Showed|Confirmed|Rose, as dough
+RUSH|Hurry|Reed|Dash
+TRICK|Prank|Con|Card stunt
+CHAMBER|Room|Hall|Cavity
+CHART|Graph|Map|Plot
+CIRCUIT|Lap|Loop|Track
+DIVIDED|Split|Separated|Shared
+FISHING|Angling|Casting|Trawling
+LOVING|Affectionate|Fond|Caring
+NIGHTS|Evenings|Dark hours|After dark
+PARKING|Car space|Stopping|Lot use
+ROLLING|Rich|Undulating|Turning
+SHORTLY|Soon|Presently|Briefly
+ACCUSED|Defendant|Charged|Blamed
+BOUND|Tied|Leap|Certain
+CHOICES|Options|Picks|Alternatives
+CLOSING|Final|Ending|Shutting
+CLOUD|Puff of vapour|Overcast thing|Online storage
+COURSES|Classes|Paths|Dishes
+ELEMENT|Part|Component|Gold or iron
+FILES|Folders|Rasps|Lines up
+FOUNDER|Creator|Sink|Originator
+HITTING|Striking|Batting|Smacking
+PACKAGE|Parcel|Bundle|Deal
+POINTED|Sharp|Indicated|Barbed
+POVERTY|Hardship|Want|Need
+RAILWAY|Train line|Track|Railroad
+SERVER|Waiter|Computer host|Tennis opener
+SHOCK|Surprise|Jolt|Startle
+SILENCE|Quiet|Hush|Calm
+SOLDIER|Trooper|Private|Warrior
+THICK|Dense|Stupid|Wide
+VIOLENT|Brutal|Fierce|Wild
+VOTERS|Electorate|Ballot casters|Constituents
+ACTRESS|Film star|Performer|Starlet
+ANXIETY|Worry|Unease|Nerves
+CHARITY|Good cause|Kindness|Donations
+CLIENTS|Customers|Patrons|Buyers
+COMPARE|Contrast|Liken|Weigh up
+COOKING|Cuisine|Baking|Underway
+CURIOUS|Nosy|Inquisitive|Odd
+FORMAL|Official|Proper|Black tie
+FORMULA|Recipe|Equation|Baby milk
+FORT|Castle|Stronghold|Garrison
+HUNGRY|Starving|Peckish|Famished
+MYSTERY|Puzzle|Riddle|Whodunnit
+PASSES|Tickets|Goes by|Mountain routes
+PENALTY|Fine|Punishment|Spot kick
+PHONES|Calls|Handsets|Rings
+PROTEST|Object|Demo|Complain
+RATING|Score|Rank|Grade
+SPOKEN|Oral|Said|Verbal
+SUFFER|Endure|Hurt|Bear
+TRACKS|Footprints|Songs|Rails
+UNUSUAL|Rare|Odd|Uncommon
+WOODS|Forest|Timber|Golf clubs
+ARRIVAL|Coming|Entrance|Newcomer
+BADLY|Poorly|Terribly|Greatly
+DEEPLY|Profoundly|Very|Intensely
+FICTION|Novels|Invention|Make-believe
+MOOD|Temper|Feeling|Atmosphere
+PASSION|Fervour|Love|Zeal
+PICKING|Choosing|Harvest|Selecting
+PLEASED|Glad|Happy|Content
+PUSHING|Shoving|Promoting|Nearly
+RETIRED|Pensioned|Went to bed|Withdrawn
+SAVINGS|Nest egg|Reserve funds|Thrift
+SETTLED|Resolved|Paid|Calm
+SINGLES|Unmarried people|Hit songs|One-run hits
+WINGS|Fliers' limbs|Theatre sides|Flanks
+BAGS|Sacks|Luggage|Claims
+BEATING|Thrashing|Pulsing|Defeat
+BORING|Dull|Tedious|Drilling
+CLOCK|Timepiece|Dial|Notice
+CRIMES|Offences|Felonies|Wrongs
+CUSTOM|Tradition|Habit|Made to order
+DRINKS|Beverages|Sips|Refreshments
+FARMERS|Growers|Ranchers|Planters
+GROUNDS|Reasons|Estate|Coffee dregs
+HELPFUL|Useful|Obliging|Handy
+LOCKED|Bolted|Fastened|Secured
+PERSONS|People|Individuals|Humans
+PIZZA|Italian pie|Slice dish|Delivery favourite
+PLAIN|Simple|Prairie|Obvious
+PUSHED|Shoved|Pressed|Urged
+RAISING|Lifting|Rearing|Increasing
+SISTERS|Siblings|Nuns|Sorority members
+SPEAKS|Talks|Says|Orates
+STAGES|Steps|Platforms|Phases
+WELFARE|Wellbeing|Benefits|Health
+WINNERS|Champions|Victors|Medallists
+WIRE|Cable|Telegram|Lead
+WORKER|Employee|Labourer|Bee type
+ALRIGHT|Okay|Fine|Satisfactory
+ANDROID|Robot|Cyborg|Humanoid machine
+ASSIST|Help|Aid|Goal set-up
+CAPTURE|Catch|Seize|Snap
+DIAMOND|Gem|Card suit|Baseball field
+DRESSED|Clothed|Attired|Garnished
+FLOWER|Bloom|Blossom|Rose or tulip
+HANDED|Passed|Gave|Delivered
+HUNTING|Searching|Stalking|Chasing
+JUDGES|Rates|Referees|Assesses
+NERVOUS|Anxious|Jumpy|Tense
+SOLVE|Crack|Work out|Answer
+STOMACH|Belly|Tummy|Tolerate
+VIRUS|Bug|Germ|Malware
+ASPECT|Facet|Side|Feature
+BOOST|Lift|Increase|Hike
+COLONEL|Army officer|Military rank|Officer above major
+COMFORT|Ease|Console|Cosiness
+DEMANDS|Requires|Claims|Insists
+FOODS|Groceries|Eats|Fare
+ILLNESS|Disease|Ailment|Sickness
+KINGS|Monarchs|Rulers|Chess pieces
+READERS|Bookworms|Audience|Subscribers
+BUDDY|Pal|Mate|Chum
+BUTTER|Spread|Dairy fat|Flatter
+CONFIRM|Verify|Affirm|Prove
+CRYSTAL|Gem|Cut glass|Clear
+DECENT|Respectable|Fair|Proper
+DECLINE|Refuse|Fall|Drop
+ENEMIES|Foes|Rivals|Opponents
+FORTH|Forward|Onward|Out
+LANDING|Touchdown|Arrival on the ground|Hallway upstairs
+MARRY|Wed|Join|Get hitched
+NOWHERE|No place|Not anywhere|Middle of ___
+OBTAIN|Get|Acquire|Gain
+ORGANIC|Natural|Pesticide-free|Living
+PRINTED|Published|Stamped|Typed
+RUGBY|Scrum sport|Oval-ball game|Try sport
+SIGNING|Autographing|New recruit|Gesturing
+STOPS|Halts|Ceases|Bus spots
+STRING|Twine|Cord|Line
+SUDDEN|Abrupt|Swift|Unexpected
+ASSUMED|Presumed|Taken on|False, as a name
+BOTHER|Annoy|Pester|Trouble
+CITIZEN|National|Resident|Voter
+COMPETE|Contend|Vie|Rival
+CRICKET|Bat sport|Chirping insect|Test match game
+CRITICS|Reviewers|Judges|Detractors
+DAMAGED|Harmed|Broken|Impaired
+EQUALLY|Evenly|Likewise|Alike
+FIGURED|Reckoned|Decided|Patterned
+FITNESS|Health|Shape|Condition
+INTENSE|Fierce|Strong|Extreme
+LAWYERS|Attorneys|Solicitors|Counsel
+LIQUID|Fluid|Watery|Cash-like
+NARROW|Thin|Slim|Restricted
+PHYSICS|Science of matter|Mechanics|Einstein's field
+REFLECT|Mirror|Ponder|Show
+SERVES|Waits on|Helps|Tennis openers
+SHELL|Casing|Husk|Seashore find
+TOWNS|Villages|Boroughs|Burghs
+VISIBLE|Seen|Evident|In view
+ANGLE|Corner|Viewpoint|Fish
+CONNECT|Link|Join|Tie
+DESIGNS|Patterns|Plans|Intentions
+FEMALES|Women|Girls|Does and hens
+FIRMS|Companies|Businesses|Stiffens
+GRASS|Lawn|Turf|Meadow
+KICKED|Booted|Punted|Gave up, as a habit
+LESSONS|Classes|Tutorials|Morals
+LISTS|Rolls|Itemises|Leans
+MILL|Grinder|Factory|Wander about
+SHAPED|Formed|Moulded|Sculpted
+THIRTY|Three tens|Days in June|Tennis score
+COLLECT|Gather|Pick up|Accumulate
+CREEK|Stream|Brook|Inlet
+FRAUD|Scam|Con|Swindle
+FUNERAL|Burial|Wake|Memorial service
+GENUINE|Real|Authentic|Sincere
+HONOUR|Glory|Respect|Integrity
+HOOK|Fishing catch|Hanger|Catchy tune part
+HUNTER|Stalker|Predator|Tracker
+LANDS|Touches down|Countries|Acres
+MONITOR|Screen|Watch|Lizard
+REGRET|Rue|Remorse|Be sorry
+REVERSE|Back up|Opposite|Undo
+ROUTINE|Habit|Usual|Set act
+SCARY|Frightening|Spooky|Eerie
+SUMMARY|Recap|Outline|Synopsis
+COAT|Jacket|Layer|Fur
+CONSENT|Agree|Permission|Approval
+DIVORCE|Split|Separation|Annulment
+ENGAGE|Involve|Hire|Interlock
+JUICE|Orange drink|Power|Sap
+MEETS|Encounters|Competitions|Joins
+PRIVACY|Seclusion|Secrecy|Personal space
+PROFITS|Gains|Earnings|Returns
+ROUGHLY|About|Approximately|Harshly
+SCORING|Notching up|Marking|Goal-making
+AWARDED|Granted|Given|Presented
+BANKING|Finance|Tilting|Relying
+CROSSED|Traversed|Angry|Intersected
+ENGINES|Motors|Locomotives|Machines
+EXPAND|Grow|Swell|Enlarge
+FANCY|Ornate|Desire|Imagine
+INCHES|Edges slowly|Small units|Crawls
+KNOCK|Rap|Bang|Criticise
+LEATHER|Hide|Tanned skin|Jacket material
+MASTERS|Experts|Owners|Degrees
+OUTCOME|Result|Upshot|Conclusion
+PAINTED|Coloured|Decorated|Depicted
+PULLING|Tugging|Drawing|Towing
+RANKED|Rated|Placed|Graded
+REMOVAL|Elimination|Taking away|Moving house
+RISKS|Dangers|Gambles|Hazards
+STRETCH|Extend|Spell|Pull out
+THEATER|Playhouse|Stage|Cinema
+WISHES|Hopes|Desires|Wants
+WOLF|Grey hunter|Gobble|Pack animal
+ABSENCE|Lack|Leave|Truancy
+BLUES|Sad music|Low mood|Navy shades
+CAMERAS|Snappers|Lenses|Photo gear
+EXTEND|Lengthen|Stretch|Offer
+GENETIC|Inherited|Hereditary|DNA-related
+GLASSES|Specs|Tumblers|Spectacles
+INSTANT|Moment|Immediate|Quick
+LIBERTY|Freedom|Independence|Cheek
+RALLY|Gathering|Recover|Long tennis exchange
+REVEALS|Shows|Discloses|Uncovers
+SAMPLES|Tastes|Specimens|Tries
+SHOPS|Stores|Boutiques|Goes buying
+ALERT|Awake|Warning|On guard
+BRAVE|Bold|Courageous|Face
+COLUMN|Pillar|Article|Row of figures
+DENSITY|Thickness|Compactness|Mass per volume
+FOSTER|Nurture|Encourage|Care for
+GENIUS|Mastermind|Brilliance|Brain
+GREATLY|Much|Hugely|Considerably
+JOKES|Gags|Puns|Quips
+PARKS|Gardens|Leaves the car|Greens
+PERIODS|Eras|Full stops|Spells
+PREMIUM|Top quality|Bonus|Insurance cost
+PRETEND|Feign|Fake|Make believe
+PROVEN|Shown|Established|Tested
+RADICAL|Extreme|Drastic|Revolutionary
+ROBIN|Red-breasted bird|Songbird|Garden bird
+SHAKE|Tremble|Wiggle|Milkshake
+SHORE|Beach|Coast|Prop up
+UNIFORM|Outfit|Same|Consistent
+BLAST|Explosion|Gust|Fun time
+BONES|Skeleton parts|Dog treats|Ribs
+COURAGE|Bravery|Nerve|Guts
+DUTIES|Taxes|Tasks|Obligations
+FACULTY|Staff|Ability|Department
+FIGHTER|Boxer|Warrior|Jet plane
+FROZEN|Iced|Chilled|Stuck
+HIDING|Concealed|Thrashing|In secret
+JACKET|Coat|Book cover|Blazer
+LISTING|Entry|Leaning|Catalogue
+MOTHERS|Mums|Moms|Parents
+NURSING|Caring|Tending|Breastfeeding
+ONGOING|Continuing|Current|In progress
+PAINFUL|Sore|Agonising|Tender
+POUND|Quid|Thump|Kennel
+PUNCH|Jab|Fruit drink|Hole maker
+PURPLE|Violet|Lilac|Royal colour
+ROMANCE|Love affair|Love story|Woo
+VIRTUAL|Almost|Online|Simulated
+WALKS|Strolls|Hikes|Paths
+WOUNDED|Hurt|Injured|Bruised
+ARSENAL|Armoury|Stockpile|Weapons store
+BLOCKED|Clogged|Obstructed|Barred
+BURNED|Scorched|Charred|Toasted
+CHECKS|Inspects|Bills|Patterns
+CHIP|Fry|Flake|Microprocessor
+DYNAMIC|Energetic|Active|Lively
+EXPLORE|Investigate|Tour|Probe
+FOOTAGE|Film|Clip|Video
+GRAVE|Tomb|Serious|Solemn
+MASK|Disguise|Visor|Hide
+PACKED|Crowded|Full|Crammed
+SECRETS|Hidden truths|Mysteries|Confidences
+TREATY|Pact|Agreement|Accord
+UPDATES|News|Revisions|Patches
+VIEWED|Watched|Seen|Regarded
+BOW|Ribbon|Arrow shooter|Bend
+CRAFT|Skill|Boat|Hobby
+EQUITY|Fairness|Shares|Value
+FAILING|Weakness|Flaw|Flunking
+GOODBYE|Farewell|Bye|See you
+INVITE|Ask|Summon|Call
+PARTLY|To some extent|Somewhat|Not fully
+RIVERS|Streams|Waterways|Brooks
+THROAT|Gullet|Neck|Windpipe
+TOUCHED|Moved|Felt|Affected
+VISITS|Calls|Trips|Drops in
+AWKWARD|Clumsy|Uncomfortable|Gawky
+CANDY|Sweets|Lollies|Sweet treat
+CARRIER|Bearer|Porter|Airline
+CLAY|Pottery material|Earth|Kiln stuff
+DEFAULT|Standard|Fail to pay|Preset
+RECOVER|Get better|Regain|Retrieve
+RULING|Verdict|Governing|Decision
+SUCCEED|Prosper|Win|Follow on
+TIMING|Rhythm|Schedule|Pacing
+WORSHIP|Adore|Praise|Revere
+BASS|Low voice|Fish|Deep sound
+COUNTS|Matters|Tallies|Noblemen
+CREATES|Makes|Builds|Invents
+CRUCIAL|Vital|Key|Essential
+FEEDING|Nourishing|Meal|Grazing
+FILTER|Strain|Sieve|Photo effect
+INTENT|Aim|Purpose|Focused
+INVOLVE|Include|Entail|Engage
+KNIGHT|Chess piece|Sir|Armoured warrior
+REPLIED|Answered|Responded|Retorted
+REVENGE|Vengeance|Payback|Retaliation
+SUBMIT|Hand in|Yield|Surrender
+THREATS|Menaces|Dangers|Warnings
+TOURISM|Travel trade|Sightseeing|Holiday industry
+ALLIES|Partners|Friends|Supporters
+AUCTION|Sale|Bidding|Sell off
+COPPER|Metal|Cop|Penny metal
+CREDITS|Film end list|Plaudits|Points
+DISPUTE|Argument|Quarrel|Contest
+EDITING|Revising|Cutting|Correcting
+FIRING|Sacking|Shooting|Kiln baking
+GARDENS|Yards|Parks|Plots
+IGNORED|Overlooked|Snubbed|Neglected
+MARS|Red planet|Spoils|Damages
+PASSAGE|Corridor|Excerpt|Voyage
+SHOCKED|Stunned|Appalled|Jolted
+TANKS|Reservoirs|Vats|Armoured vehicles
+UTILITY|Use|Service|Public service
+BACKED|Supported|Reversed|Endorsed
+BORDERS|Edges|Frontiers|Boundaries
+BREATHE|Inhale|Respire|Exhale
+COACHES|Trainers|Buses|Tutors
+COINS|Change|Mints|Pennies
+FAILS|Flunks|Breaks down|Falls short
+LOVER|Sweetheart|Admirer|Fan
+MOUNTED|On horseback|Climbed|Framed
+OFFENSE|Attack|Insult|Crime
+SEGMENT|Section|Slice|Part
+STAYS|Remains|Lingers|Corset bones
+VENTURE|Enterprise|Gamble|Dare
+WORN|Used|Tired|Shabby
+ARGUING|Bickering|Debating|Squabbling
+BELIEFS|Faiths|Opinions|Creeds
+BOATS|Ships|Vessels|Craft
+BRICK|Clay block|Building block|Good sport
+EMPEROR|Ruler|Tsar|Penguin kind
+FORGIVE|Pardon|Excuse|Let go
+GAINS|Profits|Wins|Earnings
+INQUIRY|Investigation|Question|Probe
+JUMPED|Leapt|Hopped|Started
+LOADED|Rich|Full|Charged
+LONELY|Alone|Isolated|Solitary
+MERCY|Pity|Compassion|Clemency
+OXYGEN|Element O|Air gas|Breath
+POWERED|Driven|Fuelled|Energised
+QUOTES|Citations|Prices|Sayings
+RATINGS|Scores|Grades|Viewer numbers
+READS|Peruses|Scans|Interprets
+SEVENTH|After sixth|Next after sixth place|Heaven, in a phrase
+SHELTER|Refuge|Cover|Haven
+SPIDER|Web spinner|Eight-legger|Arachnid
+SUITS|Outfits|Card groups|Fits
+TRIBUTE|Homage|Honour|Payment
+TRIGGER|Spark|Cause|Gun lever
+BELONGS|Fits|Is owned|Pertains
+BENEATH|Below|Under|Unworthy of
+BULLET|Shot|Round|List dot
+BURNS|Scalds|Streams|Blazes
+DEPOSIT|Down payment|Lay down|Sediment
+DIVERSE|Varied|Mixed|Different
+DIVINE|Godly|Heavenly|Lovely
+EXPORT|Ship abroad|Sell overseas|Trade out
+FASTEST|Quickest|Speediest|Fleetest
+HABIT|Custom|Routine|Nun's dress
+JEALOUS|Envious|Covetous|Green-eyed
+KNOCKED|Rapped|Bumped|Criticised
+LAUGHED|Chuckled|Giggled|Chortled
+LAZY|Idle|Slothful|Sluggish
+NAVAL|Maritime|Nautical|Of ships
+NEUTRAL|Impartial|Beige|Unbiased
+PICKS|Chooses|Selects|Plectrums
+SPRINGS|Coils|Leaps|Water sources
+UPGRADE|Improve|Better seat|Enhance
+WARRANT|Justify|Licence|Writ
+WOUND|Injury|Coiled|Hurt
+BACKING|Support|Help|Reversing
+BLESSED|Holy|Fortunate|Sacred
+BRUSH|Bristles|Sweep|Undergrowth
+BURDEN|Load|Weight|Strain
+CARRIES|Bears|Holds|Transports
+CHARTER|Hire|Constitution|Licence
+EARNING|Making money|Winning|Deserving
+EXPENSE|Cost|Outlay|Spending
+GRAPHIC|Vivid|Explicit|Illustration
+HEALING|Curing|Remedial|Therapy
+HIRING|Recruiting|Renting|Employing
+JUMPING|Leaping|Bouncing|Lively
+OUTDOOR|Open-air|Outside|Al fresco
+SECURED|Fastened|Obtained|Protected
+WORLDS|Planets|Realms|Spheres
+AMATEUR|Novice|Hobbyist|Not a pro
+APPEALS|Pleas|Attracts|Requests
+BEARING|Manner|Direction|Posture

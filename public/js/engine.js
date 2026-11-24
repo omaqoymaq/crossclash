@@ -27,6 +27,7 @@ export function newGame(puzzle, players, opts = {}) {
   const seed = opts.seed ?? Date.now();
   const now = opts.now ?? Date.now();
   const turnSeconds = TIMER_CHOICES.includes(opts.turnSeconds) ? opts.turnSeconds : 60;
+  puzzle = pickClues(puzzle, seed, opts.seenClues);
   const { w, h } = puzzle;
   const board = new Array(w * h).fill('');
   const owner = new Array(w * h).fill(-1); // -1 empty, 0/1 player, 2 starter letter, 3 clue square
@@ -58,6 +59,36 @@ export function newGame(puzzle, players, opts = {}) {
   refill(state, 1);
   startTurn(state, now);
   return state;
+}
+
+/** FNV-1a hash of a clue text; the browser remembers these to avoid repeats. */
+export function clueHash(text) {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < text.length; i++) { h ^= text.charCodeAt(i); h = Math.imul(h, 0x01000193); }
+  return (h >>> 0).toString(36);
+}
+
+/**
+ * Each clue in a pack carries several written options. Pick one per game,
+ * preferring options whose hash is not in `seen` (clues this player met before).
+ */
+export function pickClues(puzzle, seed, seen) {
+  if (!puzzle.clues.some((c) => c.options && c.options.length > 1)) return puzzle;
+  let a = (seed ^ 0x9e3779b9) >>> 0;
+  const rand = () => {
+    a = (a + 0x6d2b79f5) >>> 0;
+    let t = Math.imul(a ^ (a >>> 15), a | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+  const seenSet = seen instanceof Set ? seen : new Set(seen || []);
+  const clues = puzzle.clues.map(({ options, ...c }) => {
+    if (!options || !options.length) return c;
+    const fresh = options.filter((t) => !seenSet.has(clueHash(t)));
+    const pool = fresh.length ? fresh : options;
+    return { ...c, text: pool[Math.floor(rand() * pool.length)] };
+  });
+  return { ...puzzle, clues };
 }
 
 function nextRand(state) {
@@ -250,7 +281,7 @@ export function viewFor(state, viewer) {
   return {
     puzzle: {
       id: puzzle.id, size: puzzle.size, w: puzzle.w, h: puzzle.h,
-      clues: puzzle.clues.map(({ answer, ...rest }) => rest),
+      clues: puzzle.clues.map(({ answer, options, ...rest }) => rest),
       // once the game ends, everyone may see the full solution
       solution: over ? puzzle.rows : null,
       squares: puzzle.rows.map((row) => row.replace(/[^#]/g, '.')),

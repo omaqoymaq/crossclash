@@ -1,0 +1,1085 @@
+# Thanksgiving theme: every answer, every clue angled at the holiday.
+# Used by: node generator/cli.mjs --theme thanksgiving --size large
+THANKFUL|Feeling on the fourth Thursday|Grateful
+GRATEFUL|How you feel saying grace|Thankful
+CRANBERRY|Tart red sauce berry|Bog berry for the table
+STUFFING|Bread mix inside the bird|Dressing
+NOVEMBER|Month of the holiday|Eleventh month
+PILGRIMS|Mayflower passengers|Plymouth settlers
+PILGRIM|Mayflower passenger|Buckle-hatted settler
+FOOTBALL|Thursday afternoon TV sport|Game after the meal
+PUMPKINS|Pie gourds|Orange squashes
+PUMPKIN|Pie filling|Orange gourd
+HARVEST|What the feast celebrates|Autumn gathering
+TURKEY|Star of the table|Bird with a wishbone
+TURKEYS|Birds that get pardoned|Gobblers
+GOBBLE|Turkey talk|Eat fast at the feast
+GOBBLER|Tom turkey|Fast eater at the feast
+GRAVY|Brown sauce on mashed potatoes|Boat filler
+FEAST|Thanksgiving dinner|Banquet
+FEASTS|Holiday dinners|Banquets
+PIE|Pumpkin dessert|Pecan ___
+PIES|Pumpkin and pecan desserts|Bakery orders for Thursday
+PECAN|Nutty pie|Southern pie nut
+PECANS|Pie nuts|Praline nuts
+YAM|Candied side dish|Orange tuber
+YAMS|Candied sides|Marshmallow-topped dish
+CORN|Cob on the table|Maize
+CORNS|Cobs|Ears of maize
+MAIZE|Native corn|Harvest grain
+SQUASH|Butternut side|Autumn gourd
+GOURD|Table centrepiece|Decorative squash
+GOURDS|Harvest decorations|Centrepiece squashes
+APPLE|Pie alternative to pumpkin|Cider fruit
+APPLES|Cider fruit|Pie fillers
+CIDER|Warm autumn drink|Apple drink
+SAGE|Stuffing herb|Herb in the bird
+THYME|Turkey rub herb|Herb for the roast
+HERBS|Sage and thyme|Rub for the bird
+ROAST|Cook the bird|Main course
+ROASTED|Oven-cooked, like the bird|Browned
+ROASTING|In the oven|Cooking the bird
+OVEN|Where the bird cooks|Range
+OVENS|Busy appliances on Thursday|Ranges
+BASTE|Spoon juices over the bird|Moisten the turkey
+BASTED|Kept juicy, like the bird|Moistened
+CARVE|Slice the turkey|Use the big knife
+CARVED|Sliced, as the bird|Cut up
+CARVER|Person with the big knife|Turkey slicer
+CARVING|Slicing the bird|Knife work at the table
+KNIFE|Carving tool|Blade at the table
+FORK|Carving partner|Utensil
+FORKS|Table utensils|Tines
+PLATE|Heaped dish|Seconds holder
+PLATES|Dishes at the table|Piled-up china
+DISH|Side, e.g.|Casserole
+DISHES|Washing-up pile|Sides
+BOWL|Mashed potato holder|Serving dish
+BOWLS|Serving dishes|Gravy holders
+TABLE|Where the family gathers|Laden furniture
+TABLES|Kids' and adults' ___|Laid furniture
+CHAIR|Seat for a guest|Extra seat
+CHAIRS|Seats around the table|Extra seats
+GUEST|Holiday visitor|Dinner invitee
+GUESTS|Holiday visitors|Visitors for dinner
+HOST|Thanksgiving dinner giver|One who cooks the bird
+HOSTS|Dinner givers|Welcomers
+FAMILY|Who comes home for the holiday|Relatives at the table
+KIN|Relatives at the feast|Family
+AUNT|Relative bringing a pie|Mum's sister
+AUNTS|Relatives at the table|Pie bringers
+UNCLE|Relative who naps after dinner|Dad's brother
+UNCLES|Football-watching relatives|Dad's brothers
+NIECE|Young relative at the feast|Cousin's sister
+NEPHEW|Young relative at the kids' table|Sister's son
+COUSIN|Kids' table companion|Relative
+COUSINS|Kids' table crowd|Relatives
+GRANDMA|Keeper of the pie recipe|Nana
+GRANDPA|Carving elder|Pops
+NANA|Grandma, at the feast|Pie baker
+MOM|Cook in chief|Mother
+DAD|Turkey carver, often|Father
+SON|Home from college|Boy
+SONS|Boys home for the holiday|Brothers
+SIS|Female sibling at dinner|Sibling, briefly
+BRO|Male sibling at dinner|Sibling, casually
+KIDS|Children at the small table|Young ones
+KID|Small-table diner|Child
+BABY|Youngest at the table|Infant in a high chair
+TOTS|Tiny diners|Toddlers
+HOME|Where you go for the holiday|House
+HOMES|Where families gather|Houses
+HOUSE|Full on Thursday|Home
+TRAVEL|Busy holiday activity|Head home
+DRIVE|Road trip home|Long ___ to Grandma's|Food ___|Campaign
+TRIP|Journey home|Road ___
+ROAD|Way to Grandma's|Highway
+ROADS|Busy routes on Wednesday|Highways
+AIRPORT|Busiest place on Wednesday|Terminal
+TRAIN|Ride home for the holiday|Rail service
+BUS|Ride home|Coach
+CAR|Packed vehicle|Auto
+CARS|Traffic on the way home|Autos
+VISIT|Holiday call|Go to see
+VISITS|Holiday calls|Drops in
+HUG|Greeting at the door|Embrace
+HUGS|Greetings at the door|Embraces
+KISS|Greeting from Grandma|Peck
+GRACE|Prayer before eating|Blessing
+PRAYER|Grace|Blessing
+BLESS|Say grace|Consecrate
+THANKS|What we give|Gratitude
+THANK|Give gratitude|Credit
+GIVE|What we do on Thursday|Donate
+GIVING|Generous|Thanks___
+GIFT|Something to be thankful for|Blessing
+GIFTS|Blessings|Things to be thankful for
+JOY|Holiday feeling|Delight
+PEACE|What we wish for at the table|Calm
+LOVE|Family feeling|Affection
+CARE|Kindness|Concern
+SHARE|Pass the dish|Divide the pie
+SHARED|Passed round|Split
+PASS|Hand over the rolls|Send the gravy along
+PASSED|Handed round|Went round the table
+SERVE|Dish up|Hand out portions
+SERVED|Dished up|Plated
+SERVING|Portion|Helping
+HELPING|Portion|Serving
+HELPINGS|Second portions|Servings
+SECONDS|Another helping|Refills
+THIRDS|After seconds|Yet more helpings
+FULL|After the meal|Stuffed
+STUFFED|Full, like the bird|Packed
+EAT|What we do all day|Dine
+EATS|Holiday food|Dines
+EATING|Feasting|Dining
+ATE|Did at the feast|Dined
+EATEN|Consumed|Gobbled
+DINE|Eat dinner|Feast
+DINNER|Main meal of the day|Supper
+DINNERS|Big meals|Suppers
+LUNCH|Leftover sandwich time|Midday meal
+MEAL|Thanksgiving dinner|Repast
+MEALS|Holiday dinners|Repasts
+FOOD|What's on the table|Grub
+FOODS|Holiday dishes|Eats
+MENU|Turkey, sides and pie|Bill of fare
+COOK|Who rises early on Thursday|Chef
+COOKS|Busy kitchen staff|Chefs
+COOKED|Done, like the bird|Prepared
+COOKING|All morning activity|Preparing food
+CHEF|Kitchen boss|Cook
+KITCHEN|Busiest room on Thursday|Cook's room
+APRON|Cook's cover-up|Pinafore
+TIMER|It dings when the bird is done|Clock
+RECIPE|Grandma's secret|Instructions
+RECIPES|Family secrets|Cards in a box
+BAKE|Make pie|Cook in the oven
+BAKED|Like the pie|Oven-cooked
+BAKER|Pie maker|Bread maker
+BAKING|Making pies|Oven work
+CRUST|Pie shell|Pastry edge
+DOUGH|Pie pastry|Roll mix
+FLOUR|Pie crust base|Baking powder
+BUTTER|Roll spread|Pastry fat
+SUGAR|Pie sweetener|Sweet stuff
+SPICE|Pumpkin ___|Nutmeg, e.g.
+SPICES|Cinnamon and nutmeg|Pie seasonings
+NUTMEG|Pumpkin pie spice|Grated spice
+CLOVES|Ham spice|Pie spices
+GINGER|Pie spice|Zingy root
+CREAM|Pie topping|Whipped ___
+WHIPPED|Like the pie topping|Beaten
+MILK|Mashed potato liquid|Dairy drink
+EGGS|Pie binders|Baking items
+EGG|Wash for pastry|Baking item
+SALT|Gravy seasoning|Shaker contents
+PEPPER|Grinder contents|Seasoning
+OIL|Frying liquid|Fryer fill
+FRIED|Cooked in a turkey fryer|Cooked in oil
+FRYER|Deep turkey cooker|Chicken
+BROTH|Gravy base|Stock
+STOCK|Gravy base|Broth
+SAUCE|Cranberry ___|Gravy
+SAUCES|Gravy and cranberry|Condiments
+JELLY|Cranberry in a can|Jam
+TART|Cranberry flavour|Little pie
+TARTS|Little pies|Sharp
+SWEET|Pie flavour|Sugary|Potato kind
+SOUR|Cranberry taste|Tart
+BITTER|Cold autumn wind|Sharp
+SALTY|Like the gravy|Briny
+SAVORY|Stuffing flavour|Herb
+TASTY|Like the feast|Delicious
+YUM|Feast reaction|Tasty!|Pie reaction
+YUMMY|Delicious|Tasty
+MASH|Potato side|Crush
+MASHED|Potato style|Crushed
+POTATO|Mashed side|Spud
+SPUD|Potato|Mashed side source
+SPUDS|Potatoes|Taters
+TATERS|Potatoes|Spuds
+BEAN|Green ___ casserole|Legume
+BEANS|Green casserole veg|Legumes
+GREEN|Bean colour|Casserole bean
+PEA|Side veg|Pod pellet
+PEAS|Side veg|Pod pellets
+PEAR|Autumn fruit|Fruit bowl item
+PEARS|Autumn fruit|Fruit bowl items
+FIG|Dried treat|Fruit
+DATE|Dried fruit|Holiday day
+DATES|Dried fruit|Calendar days
+NUTS|Bowl on the table|Pecans and walnuts
+NUT|Pie ingredient|Pecan, e.g.
+ROLL|Bread on the side|Dinner ___
+ROLLS|Bread basket items|Dinner buns
+BREAD|Stuffing base|Loaf
+LOAF|Bread|Lounge after eating
+BUN|Dinner roll|Bread roll
+BUNS|Dinner rolls|Bread rolls
+CORNBREAD|Southern stuffing base|Golden bread
+BISCUIT|Southern roll|Scone
+SALAD|Lighter side|Greens
+SIDES|Mash, peas and yams|Accompaniments
+SIDE|Accompaniment|Dish
+CASSEROLE|Green bean bake|Baked side dish
+BIRD|Turkey|Main course
+BIRDS|Turkeys|Fowl
+FOWL|Turkey|Poultry
+TOM|Male turkey|Gobbler
+HEN|Female turkey|Bird
+WING|Turkey part|Drumstick neighbour
+WINGS|Bird parts|Flappers
+LEG|Drumstick|Limb
+LEGS|Drumsticks|Limbs
+BREAST|White meat|Carving cut
+THIGH|Dark meat|Leg part
+MEAT|Turkey, e.g.|Flesh
+WHITE|Breast meat colour|Pale
+DARK|Thigh meat|Leg meat
+BONE|Wishbone, e.g.|Skeleton part
+BONES|Soup makers|Carcass
+WISH|Make one on a bone|Hope
+WISHBONE|Bone pulled by two|Lucky bone
+LUCK|What the wishbone brings|Fortune
+SNAP|Wishbone sound|Break
+NECK|Gravy part|Giblet
+FAT|Drippings in the pan|Drippings
+DRIPPINGS|Gravy base|Pan juices
+JUICE|Turkey ___|Liquid
+JUICES|Pan liquid|Basting liquid
+JUICY|Perfectly cooked|Moist
+DRY|Overcooked bird|Arid
+MOIST|Well-basted|Juicy
+BRINE|Salty soak for the bird|Pickle
+THAW|Defrost the turkey|Unfreeze
+FROZEN|Turkey on Monday|Iced
+DEFROST|Thaw the bird|Unfreeze
+PAN|Roasting ___|Tray
+PANS|Roasting trays|Pots
+POT|Gravy pan|Saucepan
+POTS|Pans in the sink|Cookware
+LID|Pot cover|Top
+TRAY|Roasting pan|Platter
+PLATTER|Turkey tray|Serving plate
+NAPKIN|Lap cloth|Serviette
+NAPKINS|Lap cloths|Serviettes
+CLOTH|Tablecloth|Fabric
+LINEN|Tablecloth fabric|Napkin cloth
+CANDLE|Centrepiece light|Taper
+CANDLES|Table lights|Tapers
+GLOW|Candlelight|Warm light
+GLASS|Wine holder|Tumbler
+GLASSES|Raised for a toast|Tumblers
+TOAST|Raise a glass|Speech
+CHEERS|Toast word|Bottoms up!
+WINE|Toasting drink|Red or white
+WINES|Reds and whites|Bottles at the table
+TEA|Hot drink with pie|Brew
+COFFEE|Drink with pie|Brew
+NAP|Post-feast snooze|Siesta
+NAPS|Post-feast snoozes|Dozes
+DOZE|Snooze after eating|Nod off
+SLEEP|Turkey-induced state|Slumber
+SLEEPY|After the feast|Drowsy
+SOFA|Post-dinner spot|Couch
+COUCH|Where Uncle naps|Sofa
+REST|After the meal|Relax
+RELAX|Unwind after dinner|Rest
+LAZY|Feeling after the meal|Idle
+TIRED|After all that cooking|Weary
+GAME|Football on TV|Match|Wild food|Venison
+GAMES|Football matches|Board ___
+TEAM|Football side|Squad
+TEAMS|Football sides|Squads
+SCORE|Touchdown result|Points
+GOAL|Field ___|Target
+KICK|Field goal attempt|Punt
+PASSES|Football throws|Hands round
+THROW|Pass the ball|Toss
+CATCH|Football grab|Receive
+BALL|Pigskin|Football
+TOUCHDOWN|Six-point score|Football score
+CHEER|Root for the team|Hurrah
+FAN|Football follower|Supporter|Turkey tail shape|Spread
+FANS|Football followers|Supporters
+PARADE|Morning march in New York|Procession
+PARADES|Morning marches|Processions
+BALLOON|Giant parade float|Inflatable
+BALLOONS|Parade giants|Inflatables
+FLOAT|Parade vehicle|Drift
+FLOATS|Parade vehicles|Drifts
+BAND|Marching music group|Group
+BANDS|Marching groups|Groups
+MARCH|Parade step|Walk in step
+DRUM|Parade beat|Bang
+DRUMS|Parade beats|Percussion
+SANTA|Last float in the parade|St Nick
+SHOW|Parade on TV|Display
+CROWD|Parade watchers|Throng
+CROWDS|Parade watchers|Masses
+STREET|Parade route|Road
+FALL|Season of the holiday|Autumn
+AUTUMN|Thanksgiving season|Fall
+SEASON|Fall|Time of year
+LEAF|Fallen thing|Autumn ___
+LEAVES|Raked things|Autumn colours
+RAKE|Leaf tool|Gather leaves
+RAKED|Like the yard|Gathered
+ACORN|Oak seed|Squirrel snack
+ACORNS|Oak seeds|Squirrel food
+OAK|Acorn tree|Autumn tree
+OAKS|Acorn trees|Autumn trees
+MAPLE|Red-leaved tree|Syrup tree|Leaf tree
+TREE|Leaf dropper|Oak or maple
+TREES|Turning red and gold|Woods
+WOODS|Autumn walk spot|Forest
+CHILL|Autumn air|Cold
+CHILLY|November weather|Cool
+COLD|November air|Chilly
+COOL|Autumn evening|Brisk
+CRISP|Autumn air|Fresh
+FROST|November morning sight|Rime
+WIND|Autumn breeze|Gust
+RAIN|November drizzle|Shower
+GREY|November sky|Overcast
+SKY|Grey above|Heavens
+FIRE|Hearth glow|Blaze
+FIRES|Hearth glows|Blazes
+LOG|Hearth fuel|Wood chunk
+LOGS|Fireplace fuel|Firewood
+WOOD|Hearth fuel|Timber
+WARM|Cosy by the fire|Toasty
+WARMTH|Family feeling|Heat
+COSY|Like a holiday home|Snug
+COZY|Snug, as a family room|Comfy
+SNUG|Cosy|Warm
+SCARF|Cold-day wrap|Muffler
+SCARVES|Cold-day wraps|Mufflers
+SWEATER|Holiday knit|Jumper
+BOOTS|Autumn footwear|Wellies
+COAT|Autumn wear|Jacket
+COATS|Jackets on the bed|Outerwear
+HAT|Pilgrim headwear|Cap
+HATS|Pilgrim headwear|Caps
+BUCKLE|Pilgrim hat feature|Clasp
+BUCKLES|Pilgrim shoe trim|Clasps
+SHIP|The Mayflower|Vessel
+SHIPS|Vessels|Boats
+SAIL|Mayflower cloth|Voyage
+SAILED|Crossed the Atlantic|Voyaged
+SEA|Atlantic, to the Pilgrims|Ocean
+SEAS|Oceans crossed|Waters
+OCEAN|Atlantic crossing|Sea
+VOYAGE|Mayflower trip|Sea journey
+COLONY|Plymouth ___|Settlement
+COLONIST|Plymouth settler|Settler
+SETTLERS|Plymouth newcomers|Colonists
+SETTLER|Colonist|Pioneer
+PLYMOUTH|First feast site|Rock site
+ROCK|Plymouth landmark|Stone
+SHORE|Landing spot|Coast
+COAST|New England edge|Shore
+LAND|Come ashore|Ground
+LANDED|Came ashore|Arrived
+NATIVE|Indigenous|Local
+NATIVES|Indigenous people|Locals
+TRIBE|Wampanoag, e.g.|People
+TRIBES|Peoples|Nations
+CHIEF|Leader|Head
+HUNT|Gather food|Track game
+HUNTER|Turkey tracker|Gatherer
+FISH|Early colonist food|Cod
+COD|New England fish|Atlantic fish
+EEL|Early feast food|Slippery fish
+EELS|Feast seafood|Slippery fish
+OYSTER|Feast shellfish|Pearl maker
+CLAM|New England shellfish|Chowder base
+CLAMS|Chowder bits|Shellfish
+DEER|Venison source|Doe or stag
+VENISON|Deer meat at the first feast|Game meat
+FARM|Where the turkey came from|Ranch
+FARMS|Harvest places|Ranches
+FARMER|Harvest grower|Grower
+FIELD|Harvest site|Meadow
+FIELDS|Harvested acres|Meadows
+CROP|Harvest yield|Produce
+CROPS|Harvest yield|Produce
+GRAIN|Harvest crop|Wheat
+WHEAT|Harvest grain|Bread crop
+HAY|Harvest bale|Dried grass
+BALE|Hay bundle|Straw block
+BALES|Hay bundles|Straw blocks
+BARN|Harvest storage|Farm shed
+STRAW|Scarecrow stuffing|Hay
+SCARECROW|Harvest figure|Straw man
+SOW|Plant seeds|Pig
+SEED|Spring start of the harvest|Pip
+SEEDS|Pumpkin ___|Pips
+REAP|Harvest|Gather crops
+YIELD|Harvest|Crop
+BOUNTY|Abundant harvest|Plenty
+PLENTY|Abundance|Lots
+HORN|___ of plenty|Cornucopia
+CORNUCOPIA|Horn of plenty|Harvest basket
+BASKET|Harvest carrier|Roll holder
+BASKETS|Harvest carriers|Hampers
+WREATH|Door decoration|Garland
+DECOR|Gourds and leaves|Table styling
+ORANGE|Pumpkin colour|Autumn hue
+GOLD|Autumn leaf colour|Gilt
+GOLDEN|Like a roasted bird|Gilded|Perfect roast colour
+BROWN|Gravy colour|Toast colour
+RED|Cranberry colour|Scarlet
+AMBER|Autumn tone|Honey colour
+COLOR|Autumn display|Hue
+COLORS|Autumn leaves|Hues
+PARDON|What the president gives a turkey|Spare
+SPARED|Like a pardoned turkey|Saved
+THURSDAY|Holiday day|Day of the feast
+FRIDAY|Black ___|Shopping day
+BLACK|___ Friday|Dark
+SHOP|Do on Friday|Buy
+SHOPS|Busy stores on Friday|Stores
+SALE|Black Friday deal|Bargain
+SALES|Friday deals|Bargains
+DEAL|Shopping bargain|Bargain
+DEALS|Friday bargains|Bargains
+LINE|Store queue on Friday|Queue
+LINES|Friday queues|Queues
+CROWDED|Like the mall|Packed
+MALL|Friday crowd spot|Shopping centre
+LEFTOVER|Saved for later|Remaining
+LEFTOVERS|Friday lunch|Saved food
+SANDWICH|Leftover lunch|Turkey on bread
+WRAP|Cover the leftovers|Foil
+FOIL|Leftover cover|Wrap
+FRIDGE|Leftover keeper|Cooler
+DIET|Starts Monday|Eating plan
+SCALE|What we avoid after the feast|Weigh device
+BELT|Loosen it|Waist strap
+LOOSEN|Belt action|Undo a notch
+STRETCH|Waistband action|Pull out
+PANTS|Stretchy ones|Trousers
+NOTCH|Belt hole|Level
+WALK|After-dinner stroll|Stroll
+STROLL|Post-feast walk|Amble
+DISHWASHER|Busiest appliance|Kitchen machine
+WASH|Do the dishes|Clean
+WASHED|Like the dishes|Cleaned
+DRIED|Like the dishes|Towelled
+SINK|Full of pots|Basin
+SOAP|Dish cleaner|Suds
+TOWEL|Dish drier|Cloth
+CLEAN|Tidy after dinner|Wash
+TIDY|Clear the table|Neat
+CLEAR|Empty the table|Tidy
+CHORES|Dish duty|Tasks
+HELP|Lend a hand|Aid
+HELPER|Kitchen assistant|Aide
+HELPERS|Kitchen crew|Aides
+TEAMWORK|Cooking together|Joint effort
+TOGETHER|How families eat|As one
+UNITED|Together|Joined
+CIRCLE|Hold hands in one|Ring
+HANDS|Held during grace|Helpers
+HOLD|Hands, during grace|Grip
+SMILE|Happy face at the table|Grin
+SMILES|Happy faces|Grins
+LAUGH|Table sound|Chuckle
+LAUGHS|Table sounds|Chuckles
+TALK|Dinner conversation|Chat
+TALKS|Table chats|Conversations
+CHAT|Table talk|Natter
+STORY|Grandpa's tale|Yarn
+STORIES|Family tales|Yarns
+TALE|First feast story|Story
+TALES|Family stories|Yarns
+MEMORY|Holiday keepsake|Recollection
+MEMORIES|Holiday keepsakes|Recollections
+PHOTO|Family picture|Snap
+PHOTOS|Family pictures|Snaps
+CAMERA|Family photo taker|Snapper
+POSE|Family photo stance|Model
+OLD|Grandparents' age|Aged
+YOUNG|Kids' table age|Youthful
+ELDER|Grandparent|Senior
+ELDERS|Grandparents|Seniors
+BLESSED|Feeling at the table|Fortunate
+BLESSING|Grace|Gift
+BLESSINGS|Things we count|Gifts
+COUNT|___ your blessings|Number
+GLAD|Grateful|Happy
+HAPPY|___ Thanksgiving!|Glad
+MERRY|Jolly|Festive
+JOLLY|Merry|Cheerful
+FESTIVE|Holiday mood|Jolly
+HOLIDAY|Thanksgiving|Day off
+HOLIDAYS|Season of feasts|Days off
+DAY|Turkey ___|Holiday
+DAYS|Long weekend|Holiday time
+WEEKEND|Four-day break|Days off
+BREAK|Long weekend|Rest
+OFF|Work status on Thursday|Away|Day ___
+FREE|Day ___|At leisure
+ARRIVE|Reach Grandma's|Get there
+ARRIVED|Got there|Reached
+ARRIVAL|Doorbell moment|Coming
+DOOR|Where guests knock|Entrance
+DOORBELL|Guest arrival sound|Chime
+BELL|Dinner signal|Chime
+RING|Doorbell sound|Chime
+WELCOME|Greeting at the door|Hello
+GREET|Meet at the door|Hail
+HELLO|Doorway greeting|Hi
+INVITE|Ask to dinner|Summon
+INVITED|Asked to dinner|Welcome
+SEAT|Place at the table|Chair
+SEATS|Places at the table|Chairs
+SEATED|At the table|Sitting
+PLACE|Spot at the table|Setting
+SETTING|Place at the table|Cutlery arrangement
+SET|Lay the table|Ready
+LAID|Like the table|Set
+RICH|Like the gravy|Creamy
+HEARTY|Big meal|Filling
+FILLING|Pie insides|Hearty
+WARMING|Comforting|Heating
+COMFORT|Food that soothes|Ease
+SOUP|Leftover bone dish|Broth
+STEW|Leftover dish|Hotpot
+HASH|Leftover fry-up|Mishmash
+SPOON|Gravy server|Ladle
+LADLE|Gravy spoon|Scoop
+SCOOP|Ice cream on pie|Ladle
+DOLLOP|Cream on pie|Blob
+SLICE|Pie portion|Piece
+SLICES|Pie portions|Pieces
+PIECE|Pie portion|Bit
+WEDGE|Pie slice|Triangle
+CHUNK|Big piece|Lump
+BITE|Taste|Morsel
+TASTE|Try the gravy|Flavour
+SIP|Taste the cider|Nip
+DRINK|Cider, e.g.|Beverage
+HONEY|Glaze sweetener|Sweetheart
+GLAZE|Ham coating|Shiny coat
+HAM|Alternative roast|Glazed meat
+CANDIED|Like sweet yams|Sugared
+MARSHMALLOW|Yam topping|Puffy sweet
+CINNAMON|Pie spice|Bark spice
+SYRUP|Maple topping|Sweet pour
+OATS|Crumble topping|Grain
+CRUMBLE|Apple dessert|Break up
+DESSERT|Pie, at the end|Pudding
+SWEETS|Desserts|Candy
+TREAT|Pie|Indulgence
+TREATS|Desserts|Goodies
+CAKE|Dessert alternative|Sponge
+PUDDING|Dessert|Sweet course
+TOFU|Vegan turkey base|Bean curd
+VEGAN|Plant-based guest|Meat-free
+NOON|When cooking starts|Midday
+EARLY|When the bird goes in|At dawn
+DAWN|Cook's wake-up time|Sunrise
+LATE|Stragglers' arrival|Tardy|Stragglers
+HOURS|Roasting time|A long time
+HOUR|Per pound roasting unit|Sixty minutes
+WAIT|Until the bird is done|Hold on
+READY|Dinner's ___!|Done
+DONE|Cooked through|Finished
+HOT|Straight from the oven|Warm
+STEAM|Rises from the gravy|Vapour
+SMELL|Aroma from the kitchen|Scent
+SCENT|Kitchen aroma|Smell
+AROMA|Roast smell|Scent
+HUNGRY|Before dinner|Peckish
+APPETITE|What the smell builds|Hunger
+CRAVE|Want more pie|Desire
+SNACK|Before-dinner nibble|Bite
+NIBBLE|Pre-dinner bite|Peck
+CHIPS|Football snack|Crisps
+DIP|Game-time snack|Sauce
+OLIVE|Relish tray item|Green fruit
+OLIVES|Relish tray items|Green fruits
+PICKLE|Relish tray item|Gherkin
+CELERY|Stuffing veg|Crunchy stalk
+ONION|Stuffing veg|Tear-jerker
+ONIONS|Stuffing veg|Bulbs
+CARROT|Side vegetable|Orange root
+CARROTS|Side vegetables|Orange roots
+ROOT|Turnip, e.g.|Base
+ROOTS|Family heritage|Origins
+TURNIP|Root side dish|Swede
+BEET|Red root|Root veg
+KALE|Leafy side|Green
+LEEK|Soup veg|Onion relative
+RICE|Wild ___ stuffing|Grain
+WILD|___ rice|Untamed
+GROW|What harvests do|Sprout
+GREW|Like the harvest|Sprouted
+RIPE|Ready to harvest|Mature
+EARTH|Harvest soil|Soil
+SOIL|Where crops grow|Earth
+SUN|Ripens the crops|Star|Ripens the harvest
+MOON|Harvest ___|Night light
+NIGHT|After dinner|Evening
+STAR|Turkey, at dinner|Celebrity
+STARS|Night sky over the farm|Celebs
+EVE|Night before Thanksgiving|Wednesday night, this week|Wednesday night|Night before
+PEOPLE|Gathered crowd|Folks
+FOLKS|Family|Parents
+FRIEND|Pal at the table|Pal
+FRIENDS|Pals at the table|Pals
+NEIGHBOR|Guest from next door|One next door
+NEIGHBORS|People next door|Locals
+TOWN|Parade place|Village
+TOWNS|Places that hold parades|Villages
+CHURCH|Morning service spot|Chapel
+HYMN|Thanksgiving song|Song of praise
+SONG|Grace, sung|Tune
+SING|Raise a hymn|Croon
+PRAISE|Give thanks|Honour
+HONOR|Respect|Esteem
+RESPECT|For elders|Esteem
+KIND|Thoughtful|Caring
+KINDNESS|Holiday virtue|Goodwill
+GENEROUS|Giving|Bountiful
+CHARITY|Food drive spirit|Giving
+DONATE|Give to the food bank|Give
+DONATION|Gift to the food bank|Contribution
+CANS|Food drive items|Tins
+CANNED|Like jellied cranberry|Tinned
+TIN|Can|Container|Cranberry can
+CAN|Cranberry in a tube shape|Tin
+PANTRY|Food store|Larder
+SHELF|Pantry ledge|Rack
+STORE|Grocery shop|Keep
+LIST|Grocery rundown|Roll
+GROCERY|Food shop|Market
+MARKET|Where you buy the bird|Bazaar
+PRICE|Cost per pound|Cost
+POUND|Bird weight unit|Weight
+POUNDS|Twenty, for a big bird|Weights
+WEIGH|Check the bird's size|Measure
+BIG|Size of the bird|Large
+HUGE|Like the feast|Giant
+LARGE|Bird size|Big
+ENOUGH|Plenty|Sufficient
+MORE|Seconds please!|Extra
+EXTRA|Leftover|Additional
+ALL|Everyone at the table|Everything
+EACH|Every guest|Apiece
+EVERY|___ family member|Each
+ONE|United family|Single|___ more slice
+TWO|Wishbone pullers|Pair
+FOUR|Day weekend|Quartet
+FOURTH|Thursday number in November|Quarter
+LAST|Thursday in November, almost|Final|Final slice
+FIRST|___ Thanksgiving, 1621|Earliest
+YEAR|Annual feast cycle|Annum
+YEARLY|Annual|Every November
+ANNUAL|Yearly|Once a year
+AGAIN|Next year|Once more
+TRADITION|Annual custom|Ritual
+CUSTOM|Holiday habit|Tradition
+RITUAL|Annual custom|Rite
+HISTORY|1621 and all that|The past
+PAST|Holiday memories|History
+THEN|Back in 1621|At that time
+NOW|Present day|Today|Dinner's ready ___!|Immediately
+TODAY|Feast day|Now
+SOON|Dinner time|Shortly
+LATER|Pie time|Afterwards
+AFTER|Dessert time|Later
+BEFORE|Grace time|Prior
+DURING|Football ___ dinner|Throughout
+WHILE|Bird cooks|During
+YES|Answer to pie?|Sure
+PLEASE|Pass the gravy, ___|Kindly
+NO|Answer to more peas?|Not one more bite
+OH|Look at that bird!|Ah
+AH|Sigh after pie|Oh
+AW|Cute kids reaction|Oh dear|Cute kids' table reaction
+WOW|Reaction to the bird|Gosh
+OK|Fine, one more slice|All right
+SO|Very, as in full|Thus
+AT|___ the table|Located
+IN|Home for the holiday|Indoors
+ON|Oven setting|Switched in
+UP|Wake early for the bird|Awake
+UPON|On the table|Atop
+TO|Off ___ Grandma's|Bound for
+GO|Head home|Leave
+GOING|Off to Grandma's|Leaving
+COME|Join us for dinner|Arrive
+CAME|Arrived for dinner|Visited
+STAY|Remain the weekend|Linger
+STAYED|Remained|Lingered
+LEAVE|Go home on Sunday|Depart
+BYE|Farewell at the door|See you
+HOMEWARD|Heading back|Toward home
+RIVER|Over the ___ and through the woods|Stream
+SLEIGH|Over the river and through the woods carriage|Sled
+SNOW|Early winter dusting|Flakes
+WINTER|Coming season|Cold time
+TURN|Leaves do it|Change
+GATHER|Come together|Collect
+GATHERING|Family get-together|Assembly
+REUNION|Family get-together|Meeting again
+UNITE|Come together|Join
+MEET|Get together|Gather
+JOIN|Come to dinner|Unite
+ROUND|Table shape|Circle
+ROLLER|Pastry tool|Pin for the dough
+PIN|Rolling ___|Peg
+SIFT|Sieve the flour|Strain
+STIR|Mix the gravy|Whisk
+WHISK|Gravy tool|Beat
+BEAT|Whip the cream|Whisk
+MIX|Stir|Blend|Stuffing mix
+POUR|Add the gravy|Serve liquid
+DRIZZLE|Gravy pour|Light rain
+SPREAD|Feast|Butter on a roll
+SPRINKLE|Add spice|Scatter
+TOP|Add cream|Lid|Whipped cream goes on it
+CRUNCH|Fried onion topping|Crisp
+CRISPY|Like turkey skin|Crunchy
+SKIN|Crispy part of the bird|Peel
+BRONZE|Turkey breed colour|Metal
+BREED|Heritage turkey type|Kind
+FEATHER|Turkey plume|Plume
+FEATHERS|Turkey plumes|Plumage
+TAIL|Fanned turkey part|Rear
+STRUT|Turkey walk|Swagger
+WADDLE|Turkey walk|Toddle
+WATTLE|Turkey neck flap|Red flap
+CLUCK|Hen sound|Barnyard noise
+FLOCK|Turkeys together|Group
+PEN|Turkey yard|Enclosure
+COOP|Bird house|Hen house
+CORNFIELD|Harvest site|Maize patch
+HAYRIDE|Autumn fun|Wagon trip
+WAGON|Hayride ride|Cart
+TRACTOR|Farm vehicle|Puller
+MAZE|Corn ___|Labyrinth
+PATCH|Pumpkin ___|Plot
+ORCHARD|Apple trees|Fruit grove
+CIDERS|Autumn drinks|Apple drinks
+PRESS|Cider ___|Squeeze
+COBBLER|Fruit dessert|Shoemaker
+PA|Dad at the head|Pop
+MA|Mom with the gravy boat|Mother
+LA|Note in a hymn|Sixth note
+TI|Note in a grace song|Seventh note
+MI|Note in a holiday hymn|Third note
+RE|Note in a harvest song|Second note
+FA|Note in a hymn before dinner|Fourth note
+DO|First note of grace|Party
+EL|Train to the parade|Elevated railway
+AD|Black Friday flyer|Store notice
+ID|Card shown at the airport on Wednesday|Badge
+HI|Greeting at the door|Hello
+YO|Cousin's greeting|Hey
+YE|Pilgrim's "you"|Thou
+LO|Pilgrim's "behold"|See!
+AX|Woodpile tool, in the US|Hatchet
+AXE|Woodpile tool|Hatchet
+AS|Thankful ___ can be|Like
+OR|Pumpkin ___ pecan?|Alternatively
+EH|Grandpa's "what?"|Pardon?
+HE|Uncle, at the table|Him
+BE|___ thankful|Exist
+IT|Pie, once it's gone|The thing
+IF|___ there's any pie left|Supposing
+IS|Dinner ___ served!|Exists
+ME|Pass it to ___, please|Myself
+US|The family|We
+WE|The family|Us, at the table
+OF|Horn ___ plenty|About
+AM|Early hours for the cook|Morning
+MY|___, what a bird!|Gosh
+ERA|Pilgrim ___|Period
+ARE|We ___ grateful|Exist
+END|Pie, at the meal's|Finish
+ACT|Kids' table skit|Perform
+ART|Paper turkey made by the kids|Craft
+ICE|Drinks cooler filler|Frozen water
+ITEM|Grocery list entry|Thing
+AGE|Grandma's secret|Years
+EDGE|Pie crust rim|Brink
+ROW|Front ___ at the parade|Line
+STEP|Porch ___ where guests wait|Stair
+USE|Leftovers: put to ___|Employ
+RAW|Uncooked, like a thawing bird|Uncooked
+FLEE|What a pardoned turkey might do|Run off
+AIM|Quarterback's goal|Point
+ALE|Harvest brew|Beer
+SPA|Relaxing Friday getaway|Retreat
+ORE|Pilgrim's iron source|Mined rock
+ADD|Put more gravy on|Pile on
+TEE|Morning golf peg|Golf peg
+SEE|Look at that bird!|Spot
+SAT|Took a seat at the table|Was seated
+LET|___ us give thanks|Allow
+LAP|Napkin spot|Knees
+NET|Football field goal ___|Mesh
+NOT|___ another bite|No way
+TOO|Pie, ___?|Also
+TOT|Littlest diner|Toddler
+TAP|Knock at the door|Faucet
+PAT|Butter portion|Tap
+PAD|Pot holder|Cushion
+POD|Peas come in one|Shell
+PIT|Fire ___ for the bonfire|Hole
+TEN|Pounds for a small bird|Decade number
+SIT|Take your seat|Be seated
+SOD|Football field turf|Turf
+RUN|Turkey trot pace|Jog
+RUG|Where the dog naps|Mat
+MUG|Cider holder|Cup
+MAT|Doormat for guests|Rug
+MAP|Route to Grandma's|Chart
+MAN|Carver at the head of the table|Fellow
+MEN|Football watchers|Guys
+MET|Greeted at the door|Encountered
+ODE|Poem of thanks|Verse
+OLE|Football cheer|Bravo!
+OAT|Crumble grain|Cereal grain
+OWL|Autumn night hooter|Night bird
+DEN|Football room|Lair
+DOG|Waits under the table|Hound
+DOT|Speck of nutmeg|Point
+DIM|Candlelit|Low-lit
+DIN|Noisy kitchen|Racket
+DUE|Bird's ___ out at four|Expected
+DYE|Autumn leaf colour|Tint
+EAR|Corn cob|Head of corn
+EARS|Corn cobs|Cobs
+EGO|Bruised by a lost football game|Self
+ELF|Toy-maker in the parade|Santa helper
+ERR|Burn the rolls|Slip up
+GAS|Fill the car before the drive|Fuel
+GEL|Cranberry sauce does|Set
+GUM|Post-feast mint|Chew
+GUT|Full belly|Stomach
+HAD|Ate, at the feast|Owned
+HAS|Holds the pie|Owns
+HIS|Grandpa's chair|Belonging to him
+HIT|Pie was a ___|Success
+HOP|Jump in the car|Jump
+HUT|Football snap call|Shed
+ICY|November roads|Frosty
+ILL|Overstuffed|Unwell
+INN|Lodging for travellers|Tavern
+ION|Oven-element particle|Charged particle
+IRE|Cook's mood, if late|Anger
+IVY|Autumn wall climber|Creeper
+JAM|Traffic on Wednesday|Preserve
+JAR|Pickle container|Pot
+JOG|Turkey trot pace|Run
+LIT|Like the candles|Ignited
+LOT|Parking ___ at the mall|Plot
+LOW|Oven setting|Not high
+MAD|Rush in the kitchen|Crazy
+MOB|Black Friday crowd|Throng
+NAG|Ask again for pie|Pester
+NOD|Doze off after dinner|Bow
+OAR|Rowboat tool on the lake|Paddle
+OUR|___ family table|Belonging to us
+OUT|Football call|Away
+OWE|Thanks we ___|Be indebted
+PAL|Friend at the table|Buddy
+PAW|Dog begging at the table|Foot
+PAY|Pay at the till on Friday|Settle
+PET|Dog under the table|Animal companion
+RAN|Turkey trot pace, past|Jogged
+RAT|Pest in the barn|Rodent
+RIB|Tease at the table|Bone
+RID|Clear the table|Free
+RIM|Plate edge|Edge
+ROB|Steal the last slice|Pinch
+ROD|Fishing pole|Pole
+ROT|Overripe pumpkin|Decay
+RUB|Herb mix for the bird|Massage
+RUE|Regret that fourth slice|Regret
+RYE|Bread for leftover sandwiches|Grain
+SAD|Last slice gone|Unhappy
+SAW|Woodpile tool|Spotted
+SEW|Fix the tablecloth|Stitch
+SHE|Grandma, at the table|Her
+SKI|Weekend snow trip|Glide on snow
+SLY|Sneaky pie thief|Cunning
+SOY|Vegan roast base|Bean
+SPY|Peek at the oven|Spot
+SUM|Bill for the groceries|Total
+TAB|Restaurant bill|Bill
+TAG|Price ___ on the bird|Label
+TAN|Toasty pie crust|Brown
+TAR|Road surface for the drive|Asphalt
+TIE|Football score draw|Draw
+TIP|Server's thank-you|Gratuity
+TOE|Stub one carrying pies|Digit
+TON|Food on the table|Lots
+TOY|Kids' table distraction|Plaything
+TRY|Taste a bit|Attempt
+TUB|Butter container|Bath
+TUG|Pull the wishbone|Pull
+URN|Coffee holder|Vase
+VAN|Packed family ride|Minibus
+WAR|Wishbone ___|Conflict
+WAY|___ to Grandma's|Route
+WET|Rainy November|Damp
+WIG|Parade costume piece|Hairpiece
+WIN|Football hope|Victory
+WON|Took the wishbone|Triumphed
+YAK|Chat at the table|Natter
+YET|Is the bird done ___?|Still
+ZIP|Coat fastener|Fastener
+EASE|Sit back after dinner|Comfort
+EAST|New England's coast|Orient
+ELSE|Anything ___?|Otherwise
+ERAS|Pilgrim and modern|Ages
+ETCH|Carve, as initials in a pumpkin|Engrave
+EVEN|Split the pie ___|Level
+ICED|Like the drinks|Frosted
+IDEA|Leftover recipe|Thought
+IDLE|After the meal|Lazy
+INTO|Dig ___ the pie|Inside
+IRON|Press the tablecloth|Metal
+ITEMS|Grocery list entries|Things
+LACE|Tablecloth trim|Fabric
+LANE|Way to the farm|Path
+LEAN|White meat|Thin
+LESS|Fewer peas|Minus
+LIME|Jelly salad flavour|Citrus fruit
+LOAD|Car full of pies|Cargo
+LONG|Drive to Grandma's|Lengthy
+LOSE|Football team result|Mislay
+MANE|Parade horse hair|Lion's hair
+MATE|Pal at the table|Partner
+MELT|Butter on a roll|Thaw
+MILE|Long drive unit|Distance unit
+MINT|After-dinner sweet|Herb
+MOTH|Coat-closet pest|Night flier
+NEAR|Close to home|Close
+NEAT|Tidy table|Tidy
+NEST|Family home|Bird home
+NOTE|Thank-you card|Message
+ONES|Loved ___|Units
+OPEN|Store hours on Friday|Unlock
+ORAL|Tradition passed down by mouth|Spoken
+OVAL|Platter shape|Egg shape
+PACE|Turkey trot speed|Speed
+PAIR|Two pie slices|Couple
+PALE|Undercooked crust|Wan
+PANE|Frosty window|Glass
+PARE|Peel apples|Trim
+PART|Share of the pie|Portion
+PEEL|Apple skin|Skin
+RACE|Turkey trot|Run
+RAIL|Train home|Track
+RARE|Never how the bird is served|Underdone
+RATE|Grade the pie|Rank
+REAL|Real butter|Genuine
+RENT|Car for the trip|Hire
+RIDE|Lift to Grandma's|Journey
+RISE|Rolls in the oven|Ascend
+ROAR|Football crowd noise|Bellow
+ROLE|Who carves|Part
+ROSE|Rolls in the oven|Got up
+SAME|Every year|Identical
+SEAL|Close the leftovers|Close
+SEEN|Spotted at the parade|Viewed
+SELL|Black Friday push|Trade
+SENT|Thank-you card|Mailed
+SITE|Picnic spot|Location
+SLOW|Roast style|Unhurried
+SOLE|Shoe part on the drive|Flatfish|Shoe part
+TAME|Farm turkey|Domestic
+TEAR|Rip off a drumstick|Rip
+TIDE|Pilgrims watched it|Ebb and flow
+TILE|Kitchen floor|Square
+TIME|Cooking clock|Hour
+TONE|Grace tone|Pitch
+TOTE|Pie carrier bag|Carry
+TRAP|Hunting snare|Snare
+TRIO|Three pies|Three
+TUNA|Not today's fish|Fish
+URGE|Craving for pie|Impulse
+VASE|Centrepiece holder|Jar
+VEST|Autumn layer|Waistcoat
+WADE|Walk through leaf piles|Paddle
+WANE|Appetite after pie|Fade
+WARE|Silverware|Goods
+WIRE|Oven rack|Cable
+WISE|Grandpa|Sage
+YARD|Raked lawn|Garden
+AREA|Dining ___|Zone
+ARIA|Song at a holiday concert|Opera song
+ATOP|On the pie, as cream|Above
+EARN|What turkeys don't do|Make
+ALOE|Kitchen burn remedy|Plant
+ALSO|Pie, ___|Too
+ABLE|Ready to cook|Capable
+ACRE|Harvest field size|Land unit
+AIDE|Kitchen helper|Assistant
+AGED|Like Grandpa's recipe|Old
+ALIVE|Pardoned turkey|Living
+ALONE|Not on Thanksgiving|Solo
+ALOUD|Grace, said ___|Out loud
+AMEN|End of grace|So be it
+AMENS|Ends of graces|So be its
+APART|Families far ___|Separated
+ASIDE|Plate set ___|Apart
+ASLEEP|After dinner|Dozing
+GRATITUDE|The feeling of the day|Thankfulness
+ABUNDANCE|Harvest plenty|Bounty
+CELEBRATE|Mark the holiday|Feast and give thanks
+DRUMSTICK|Turkey leg|Dark-meat prize
+DRUMSTICKS|Turkey legs|Prized dark meat
+POTATOES|Mashed side|Spuds
+HOMECOMING|Holiday return|Coming back to the family
+DECORATION|Gourd on the table|Festive trim
+AFTERNOON|Football viewing time|Post-lunch hours
+MAYFLOWER|Pilgrims' ship|1620 voyager
+GRANDSON|Young carver in training|Grandparent's boy
+BUTTERNUT|Squash for soup|Squash variety
+OVERTIME|Extra football period|Extra time
+REMEMBER|Recall holidays past|Recollect
+FAMILIES|Gathered at tables|Households
+HOSPITALITY|Warm welcome at the door|Graciousness
+SWEETPOTATO|Candied side|Orange tuber
+APPLESAUCE|Spiced side dish|Pureed fruit side
+CHESTNUTS|Stuffing nuts|Roasted nuts
+CHESTNUT|Stuffing nut|Roasting nut
+CRANBERRIES|Sauce berries|Bog berries
+TABLECLOTH|Linen for the feast|Table cover
+CENTERPIECE|Gourds on the table|Table decoration
+PARADING|Marching down the avenue|Showing off
+BALLOONIST|Parade float handler|Balloon pilot
+PREPARING|Cooking all morning|Getting ready
+PREPARED|Ready for guests|Made in advance
+KITCHENS|Busy rooms on Thursday|Cooking rooms
+DESSERTS|Pies and cobblers|Sweet courses
+VEGETABLE|Side dish|Green on the plate
+VEGETABLES|Side dishes|Greens and roots
+SERVINGS|Helpings|Portions
+PORTIONS|Helpings|Slices
+STUFFINGS|Bread dressings|Fillings
+HARVESTS|Autumn yields|Gathers crops
+FARMLAND|Harvest acres|Fields
+COLONISTS|Plymouth settlers|Settlers
+SQUANTO|Pilgrims' helper and guide|Wampanoag interpreter
+WAMPANOAG|People at the first feast|Massachusetts nation
+NATIVES|First people|Locals
+LETS|___ eat!|Allows
+SOLD|Turkeys on Wednesday|Gone from the shelf
+TELL|___ your thanks|Recount
+CELL|Phone full of greetings|Mobile
+MODEL|Mini parade float|Replica
+BORED|Kids before dinner|Restless
+AMP|Parade band speaker|Guitar booster
+DUO|Salt and pepper|Pair
+BAT|Autumn night flier|Night flier

@@ -17,11 +17,15 @@
 //   downRight  clue square is above the word's first letter, word runs right
 //   rightDown  clue square is left of the word's first letter, word runs down
 
+// anchors: long words (8-10 letters) placed first, before the short fill.
 export const SIZES = {
-  regular: { w: 9, h: 9, maxLen: 7, label: 'Regular' },
-  large: { w: 11, h: 12, maxLen: 6, label: 'Large' },
-  xl: { w: 13, h: 15, maxLen: 6, label: 'ExtraLarge' },
+  regular: { w: 9, h: 9, maxLen: 7, anchors: 2, label: 'Regular' },
+  large: { w: 11, h: 12, maxLen: 6, anchors: 4, anchorCross: 1, label: 'Large' },
+  // 12 anchors were asked for ExtraLarge; 5 is the most that fills reliably (see docs/PUZZLE-FORMAT.md)
+  xl: { w: 13, h: 15, maxLen: 6, anchors: 5, anchorCross: 1, label: 'ExtraLarge' },
 };
+export const ANCHOR_MIN = 8;
+export const ANCHOR_MAX = 10;
 
 const RARE = new Set(['J', 'Q', 'X', 'Z']);
 
@@ -137,13 +141,34 @@ function listSet(set) {
  * Border pattern: clue squares on even columns of row 0 and even rows of
  * column 0; interior clue squares split runs into words of length 2..maxLen.
  */
-export function makeTemplate(w, h, maxLen, rand) {
+export function makeTemplate(w, h, maxLen, rand, nAnchors = 0, maxCross = 0) {
   const clue = Array.from({ length: h }, () => new Array(w).fill(false));
   for (let c = 0; c < w; c += 2) clue[0][c] = true;
   for (let r = 0; r < h; r += 2) clue[r][0] = true;
+  const anchors = placeAnchors(clue, w, h, nAnchors, rand, maxCross);
+  if (anchors.length < nAnchors) return null;
+  const locked = new Set(anchors.flatMap((a) => a.cells.map(([r, c]) => r * w + c)));
+  const canPlace = (cl, r, c) => !locked.has(r * w + c) && canPlaceAt(cl, r, c, w, h);
 
   // Break long runs with interior clue squares. Alternate across/down passes.
   const target = () => 3 + Math.floor(rand() * (maxLen - 2)); // preferred word length
+  // where to split the run [b, e): near a preferred length, else any square that is allowed
+  const pickCut = (b, e, forced, ok) => {
+    const want = b + Math.min(e - b - 3, Math.max(2, target()));
+    const order = [];
+    for (let k = b + 2; k <= e - (forced ? 3 : 4); k++) order.push(k); // pieces of 2+ (3+ when optional)
+    order.sort((x, y) => Math.abs(x - want) - Math.abs(y - want) || rand() - 0.5);
+    if (forced) order.push(e - 2); // last resort: a 1-letter tail covered by its crossing word
+    for (const k of forced ? order : order.slice(0, 1)) if (k > b + 1 && ok(k)) return k;
+    return null;
+  };
+  const anchorEnds = new Set();
+  for (const a of anchors) {
+    const [r, c] = a.start;
+    anchorEnds.add(a.dir === 'across' ? r * w + c - 1 : (r - 1) * w + c);
+    anchorEnds.add(a.dir === 'across' ? r * w + c + a.len : (r + a.len) * w + c);
+  }
+  for (let round = 0; round < 4; round++) {
   for (let pass = 0; pass < 6; pass++) {
     // across runs
     for (let r = 1; r < h; r++) {
@@ -153,9 +178,10 @@ export function makeTemplate(w, h, maxLen, rand) {
         let e = c;
         while (e < w && !clue[r][e]) e++;
         const len = e - c;
+        if (len > maxLen && anchors.some((a) => a.dir === 'across' && a.start[0] === r && a.start[1] === c && a.len === len)) { c = e; continue; }
         if (len > maxLen || (len > 4 && rand() < 0.25)) {
-          const cut = c + Math.min(len - 3, Math.max(2, target()));
-          if (cut > c + 1 && cut < e - (len > maxLen ? 1 : 3) && canPlace(clue, r, cut, w, h)) clue[r][cut] = true;
+          const cut = pickCut(c, e, len > maxLen, (k) => canPlace(clue, r, k));
+          if (cut != null) clue[r][cut] = true;
         }
         c = e;
       }
@@ -168,18 +194,81 @@ export function makeTemplate(w, h, maxLen, rand) {
         let e = r;
         while (e < h && !clue[e][c]) e++;
         const len = e - r;
+        if (len > maxLen && anchors.some((a) => a.dir === 'down' && a.start[0] === r && a.start[1] === c && a.len === len)) { r = e; continue; }
         if (len > maxLen || (len > 4 && rand() < 0.25)) {
-          const cut = r + Math.min(len - 3, Math.max(2, target()));
-          if (cut > r + 1 && cut < e - (len > maxLen ? 1 : 3) && canPlace(clue, cut, c, w, h)) clue[cut][c] = true;
+          const cut = pickCut(r, e, len > maxLen, (k) => canPlace(clue, k, c));
+          if (cut != null) clue[cut][c] = true;
         }
         r = e;
       }
     }
   }
+  // repair letter squares that ended up in no word by opening a neighbouring clue square
+  let fixed = false;
+  for (let r = 0; r < h; r++) for (let c = 0; c < w; c++) {
+    if (clue[r][c]) continue;
+    const open = (rr, cc) => rr >= 0 && cc >= 0 && rr < h && cc < w && !clue[rr][cc];
+    if (open(r, c - 1) || open(r, c + 1) || open(r - 1, c) || open(r + 1, c)) continue;
+    const nb = [[r, c - 1], [r, c + 1], [r - 1, c], [r + 1, c]].filter(([rr, cc]) => rr >= 1 && cc >= 1 && rr < h && cc < w && !anchorEnds.has(rr * w + cc));
+    if (nb.length) { const [rr, cc] = nb[Math.floor(rand() * nb.length)]; clue[rr][cc] = false; fixed = true; }
+  }
+  if (!fixed) break;
+  }
+  clue.anchors = anchors;
   return clue;
 }
 
-function canPlace(clue, r, c, w, h) {
+/**
+ * Reserves n long slots (alternating across/down) bounded by clue squares.
+ * Parallel anchors keep a free line between them so the short crossings stay fillable.
+ */
+function placeAnchors(clue, w, h, n, rand, maxCross = 0) {
+  const anchors = [];
+  let crossings = 0;
+  const taken = new Map(); // r*w+c -> dir of the anchor using it
+  const isClue = (r, c) => clue[r][c];
+  for (let k = 0; k < n; k++) {
+    let done = false;
+    for (let tries = 0; tries < 120 && !done; tries++) {
+      const dir = rand() < 0.5 ? 'across' : 'down';
+      const len = ANCHOR_MIN + Math.floor(rand() * (ANCHOR_MAX - ANCHOR_MIN + 1));
+      const across = dir === 'across';
+      const lineMax = across ? h : w, runMax = across ? w : h;
+      if (len > runMax - 1) continue;
+      const line = 1 + Math.floor(rand() * (lineMax - 1));
+      const b0 = 1 + Math.floor(rand() * (runMax - len));
+      const at = (b) => (across ? [line, b] : [b, line]);
+      const cells = Array.from({ length: len }, (_, i) => at(b0 + i));
+      if (cells.some(([r, c]) => isClue(r, c) || taken.get(r * w + c) === dir)) continue;
+      // anchors may cross each other at most `maxCross` times in total (crossings make fills much harder)
+      const cross = cells.filter(([r, c]) => taken.has(r * w + c)).length;
+      if (crossings + cross > maxCross) continue;
+      // keep parallel anchors apart, and do not let them overlap end to end
+      if (anchors.some((a) => a.dir === dir && Math.abs(a.line - line) < 2 && a.b0 < b0 + len + 1 && b0 < a.b0 + a.len + 1)) continue;
+      const [pr, pc] = at(b0 - 1);
+      const endB = b0 + len;
+      const ends = [[pr, pc, true]];
+      if (endB < runMax) ends.push([...at(endB), false]);
+      let ok = true;
+      for (const [r, c] of ends) {
+        if (isClue(r, c)) continue;
+        if (taken.has(r * w + c) || !canPlaceAt(clue, r, c, w, h)) { ok = false; break; }
+      }
+      if (!ok) continue;
+      // the square after the anchor must not leave a 1-letter stub at the edge
+      if (endB < runMax && runMax - endB - 1 === 1) continue;
+      for (const [r, c] of ends) clue[r][c] = true;
+      crossings += cells.filter(([r, c]) => taken.has(r * w + c)).length;
+      cells.forEach(([r, c]) => taken.set(r * w + c, dir));
+      anchors.push({ dir, line, b0, len, start: cells[0], cells });
+      done = true;
+    }
+    if (!done) break;
+  }
+  return anchors;
+}
+
+function canPlaceAt(clue, r, c, w, h) {
   if (r < 1 || c < 1) return false;
   // avoid clumps: no orthogonally adjacent interior clue squares
   for (const [dr, dc] of [[1, 0], [-1, 0], [0, 1], [0, -1]]) {
@@ -191,6 +280,7 @@ function canPlace(clue, r, c, w, h) {
 
 /** Extracts word slots and assigns each to a clue square. Returns null if the layout is invalid. */
 export function analyse(clue, w, h, maxLen) {
+  const anchorKeys = new Set((clue.anchors || []).map((a) => `${a.dir}:${a.start[0]},${a.start[1]}:${a.len}`));
   const slots = [];
   const inWord = Array.from({ length: h }, () => new Array(w).fill(0));
   const addRuns = (dir) => {
@@ -205,11 +295,12 @@ export function analyse(clue, w, h, maxLen) {
         while (e < inner && !(dir === 'across' ? clue[a][e] : clue[e][a])) e++;
         const len = e - b;
         if (len >= 2) {
-          if (len > maxLen) return false;
+          const key = `${dir}:${r0},${c0}:${len}`;
+          if (len > maxLen && !anchorKeys.has(key)) { analyse.why = 'long'; return false; }
           const cells = [];
           for (let k = b; k < e; k++) cells.push(dir === 'across' ? [a, k] : [k, a]);
           cells.forEach(([r, c]) => inWord[r][c]++);
-          slots.push({ dir, len, cells, start: cells[0] });
+          slots.push({ dir, len, cells, start: cells[0], anchor: len > maxLen || anchorKeys.has(key) });
         }
         b = e;
       }
@@ -217,7 +308,7 @@ export function analyse(clue, w, h, maxLen) {
     return true;
   };
   if (!addRuns('across') || !addRuns('down')) return null;
-  for (let r = 0; r < h; r++) for (let c = 0; c < w; c++) if (!clue[r][c] && !inWord[r][c]) return null;
+  for (let r = 0; r < h; r++) for (let c = 0; c < w; c++) if (!clue[r][c] && !inWord[r][c]) { analyse.why = 'orphan'; return null; }
 
   // candidate clue squares for each slot
   const isClue = (r, c) => r >= 0 && c >= 0 && r < h && c < w && clue[r][c];
@@ -231,7 +322,7 @@ export function analyse(clue, w, h, maxLen) {
       if (isClue(r - 1, c)) s.options.push({ at: [r - 1, c], arrow: 'down' });
       if (isClue(r, c - 1)) s.options.push({ at: [r, c - 1], arrow: 'rightDown' });
     }
-    if (!s.options.length) return null;
+    if (!s.options.length) { analyse.why = 'noclue'; return null; }
   }
   // bipartite matching, each clue square holds at most 2 clues (Kuhn's algorithm)
   const owner = new Map(); // "r,c#k" -> slot index
@@ -254,7 +345,7 @@ export function analyse(clue, w, h, maxLen) {
   };
   // prefer straight arrows: they are easier to read
   slots.forEach((s) => s.options.sort((a, b) => (a.arrow === 'right' || a.arrow === 'down' ? 0 : 1) - (b.arrow === 'right' || b.arrow === 'down' ? 0 : 1)));
-  for (let i = 0; i < slots.length; i++) if (!tryAssign(i, new Set())) return null;
+  for (let i = 0; i < slots.length; i++) if (!tryAssign(i, new Set())) { analyse.why = 'match'; return null; }
   // recompute final assignment from owner map (augmenting paths may have moved slots)
   for (const [key, si] of owner) {
     const [rc] = key.split('#');
@@ -301,7 +392,7 @@ function fill(slots, w, h, idx, rand, opts) {
       const f = entry.freq[i];
       const penalty = avoid.get(word) || 0;
       // prefer common words and words with hand-written clues
-      return { word, key: Math.log2(2 + f) * 0.6 + rand() * 2.2 - penalty * 0.6 - (word.length === 2 ? 1 : 0) + (entry.hand[i] ? 3 : 0) };
+      return { word, key: Math.log2(2 + f) * 0.6 + rand() * 2.2 - penalty * 0.6 - (word.length === 2 ? 1 : 0) + (entry.hand[i] ? opts.handBoost ?? 3 : 0) };
     });
     scored.sort((a, b) => b.key - a.key);
     return scored.slice(0, opts.branch || 24).map((x) => x.word);
@@ -373,19 +464,21 @@ function fill(slots, w, h, idx, rand, opts) {
  * @param {Map<string,number>} [args.avoid]  word -> how strongly to avoid (reuse across a pack)
  * @returns {object|null} puzzle with solution (see docs/PUZZLE-FORMAT.md)
  */
-export function generatePuzzle({ size = 'regular', index, seed = Date.now(), avoid, maxTemplates = 600, maxNodes = 1500 }) {
-  const spec = SIZES[size];
+export function generatePuzzle({ size = 'regular', index, seed = Date.now(), avoid, maxTemplates = 600, maxNodes = 1500, anchors, spec: specOverride, handBoost }) {
+  const spec = specOverride || SIZES[size];
   if (!spec) throw new Error(`unknown size ${size}`);
   const rand = mulberry32(seed);
   const { w, h, maxLen } = spec;
+  const nAnchors = anchors ?? spec.anchors ?? 0;
   for (let attempt = 0; attempt < maxTemplates; attempt++) {
-    const clue = makeTemplate(w, h, maxLen, rand);
+    const clue = makeTemplate(w, h, maxLen, rand, nAnchors, spec.anchorCross ?? 0);
+    if (!clue) continue;
     const layout = analyse(clue, w, h, maxLen);
     if (!layout || layout.emptyClueSquares > 1) continue;
     const { slots } = layout;
     const letters = slots.length && clue.flat().filter((x) => !x).length;
     if (letters < w * h * 0.55) continue;
-    const res = fill(slots, w, h, index, rand, { maxNodes, avoid, rareLimit: Math.max(2, Math.round(letters / 30)) });
+    const res = fill(slots, w, h, index, rand, { maxNodes, avoid, handBoost, rareLimit: Math.max(2, Math.round(letters / 30)) });
     if (!res) continue;
     return finalize({ size, spec, clue, slots, res, rand, index, seed, attempt });
   }
@@ -412,6 +505,8 @@ function finalize({ size, spec, clue, slots, res, rand, index, seed, attempt }) 
       len: s.len,
       answer,
       text: options[Math.floor(rand() * options.length)],
+      options: [...options],
+      ...(s.anchor ? { anchor: true } : {}),
     };
   });
   // order clues inside each square: the first listed goes in the top half

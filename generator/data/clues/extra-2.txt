@@ -1,0 +1,501 @@
+# Extra clues for older words (part 2)
+CORRUPT|Bent|Dishonest
+COSTLY|Dear|Pricey
+COSTS|Charges|Expenses
+COST|Charge|Expense
+COTTON|Cloth|Wool alternative
+COUCH|Settee|Phrase
+COUP|Masterstroke
+COURSE|Dish|Of ___
+COURTS|Woos|Tennis venues
+COURT|Woo|Tennis venue
+COUSIN|Aunt's child|Kin
+COVER|Shelter
+COWS|Herd|Intimidates
+COW|Intimidate|Bovine
+CRACK|Joke|Ace
+CRANE|Stretch one's neck
+CRASH|Smash|Computer freeze
+CREAM|Best part|Off-white
+CREATE|Invent|Produce
+CREDIT|Honour
+CREEPY|Spooky|Sinister
+CREWS|Gangs|Rowing teams
+CREW|Team|Gang
+CRIES|Wails|Calls
+CRIME|Felony|Wrongdoing
+CRISIS|Catastrophe|Turning point
+CROP|Trim|Yield
+CROWDS|Masses|Packs
+CRUEL|Brutal|Heartless
+CRYING|Sobbing|Shouting
+CRY|Sob
+CULT|Following|Craze
+CUPS|Trophies|Bra sizes
+CUP|Hold in the hands
+CURE|Heal|Antidote
+CURRY|Korma|Seek favour
+CURVE|Arc|Swerve
+CUTE|Sweet|Cunning
+CYCLES|Rounds|Pedals
+CYCLE|Pedal
+DAD|Pop|Papa
+DAILY|Newspaper|Day by day
+DAIRY|Creamery|Milk products
+DALE|Glen|Vale
+DAMAGES|Harms|Breaks
+DAMAGE|Hurt|Cost
+DAME|Lady of rank|Panto lady
+DAM|Barrier|Block
+DANCER|Hoofer|Ballet star
+DANCE|Disco
+DANGER|Hazard|Risk
+DANISH|From Denmark|Sweet pastry
+DARE|Venture|Defy
+DARKER|Gloomier|Dimmer
+DASH|Rush
+DATA|Information
+DATED|Old hat|Went out with
+DATES|Appointments|Goes out with
+DATE|Appointment
+DAWN|Sunrise|Begin
+DAYS|Era|Daylight hours
+DAY|Sunlit hours|Date
+DEADLY|Fatal|Toxic
+DEAD|Extinct|Exhausted
+DEAF|Hard of hearing|Unheeding
+DEALER|Card shuffler|Merchant
+DEALS|Agreements|Hands out
+DEAL|Agreement
+DEAN|University officer|Senior figure
+DEATHS|Losses|Passings
+DEATH|End|Passing
+DEBATE|Argue|Dispute
+DEBRIS|Wreckage|Remains
+DEBTS|Dues|Arrears
+DEBT|Arrears|Loan
+DEBUT|Premiere|First outing
+DECADE|Ten-year span|The sixties, e.g.
+DECIDE|Settle|Choose
+DECK|Floor of a ship
+DECLARE|State|Proclaim
+DEEMED|Judged|Thought
+DEEPER|Lower|Further down
+DEEP|Low
+DEER|Doe|Fawn
+DEFEAT|Rout
+DEFEND|Guard|Justify
+DEFINE|Describe|Outline
+DEGREES|Temperatures|Levels
+DEGREE|Temperature unit
+DELAYS|Postpones|Waits
+DELAY|Postpone|Wait
+DELETE|Remove|Cut
+DELTA|Greek D|River fan
+DEMAND|Claim|Request
+DEMONS|Fiends|Imps
+DEMON|Fiend|Ace
+DEMO|Protest march|Sample
+DENIAL|Rejection|Disavowal
+DENIED|Rejected|Refuted
+DENSE|Packed|Slow-witted
+DENTAL|Tooth-related|Of dentists
+DENY|Reject|Contradict
+DEN|Hideaway|Study
+DEPEND|Count|Hang
+DEPOT|Storehouse|Bus garage
+DEPTH|Profundity|Extent
+DEPUTY|Assistant|Stand-in
+DERBY|Local rivalry match|Kentucky race
+DESERT|Wilderness
+DESIGN|Style
+DESIRE|Longing|Wish
+DESK|Bureau|Counter
+DEVICE|Tool|Contraption
+DEVIL|Fiend|Imp
+DIAL|Ring|Knob
+DIARY|Log|Planner
+DIED|Expired|Perished
+DIESEL|Lorry fuel|Engine type
+DIES|Expires|Perishes
+DIET|Regimen|Slim
+DIE|Expire
+DIFFER|Vary|Contrast
+DIG|Jibe|Lodgings
+DIP|Swim|Sauce
+DIRECT|Guide|Frank
+DIRTY|Filthy|Muddy
+DISC|CD|Plate
+DISEASE|Sickness|Malady
+DISH|Bowl|Food
+DISK|Hard drive|Circle
+DIVE|Plummet|Dip
+DIVIDE|Separate|Rift
+DOCK|Harbour|Cut
+DOCTOR|Medic|Fiddle with
+DOC|Physician|Doctor
+DODGE|Duck|Ruse
+DOES|Female deer|Carries out
+DOGS|Canines|Follows
+DOG|Canine|Follow
+DOLLAR|Greenback|Buck
+DOLL|Puppet|Figurine
+DOMAIN|Realm|Website address
+DOME|Cupola|Bald head
+DONATED|Contributed|Gave away
+DONATE|Contribute|Give away
+DONE|Over|Cooked
+DONOR|Contributor|Benefactor
+DON|Professor|Mafia boss
+DOORS|Portals|Exits
+DOOR|Portal|Way in
+DOT|Spot
+DOUBT|Question|Distrust
+DOWNS|Hills|Swallows
+DOWN|Below
+DOZENS|Many|Scores
+DOZEN|Twelve items|Egg box count
+DO|Party
+DRAFT|Breeze|Call-up
+DRAGON|Wyvern|St George's foe
+DRAG|Bore|Haul
+DRAKE|Duck's mate|Mallard male
+DRAMA|Theatre
+DRAWN|Pulled|Haggard
+DRAW|Pull
+DREAMS|Hopes|Fantasies
+DREAM|Fantasy|Ideal
+DRESS|Clothe|Gown
+DRILL|Exercise|Training
+DRINK|Sip|Swallow
+DRIVER|Chauffeur|Golf club
+DRONE|Buzz|Unmanned craft
+DROPS|Lowers|Bead
+DROP|Lower
+DROVE|Herd|Motored
+DRUG|Remedy|Pill
+DRUM|Beat|Tom-tom
+DRUNK|Intoxicated|Swallowed
+DRY|Arid|Parched
+DUAL|Twin|Two-way
+DUCK|Dodge
+DUDE|Man|Cowpoke
+DUE|Expected|Payable
+DUKE|Peer|Fist
+DULL|Dim|Tedious
+DUMB|Silly|Speechless
+DUO|Twosome|Couple
+DUST|Wipe|Powder
+DUTY|Tax|Task
+DYING|Expiring|Longing
+EACH|Apiece|All
+EAGER|Avid|Impatient
+EAGLES|Raptors|Golf scores
+EARLY|Premature|At dawn
+EARL|Count|Peer
+EARNED|Deserved|Won
+EARN|Deserve|Win
+EARS|Corn heads|Lugs
+EARTH|World|Dirt
+EAR|Hearing aid user|Corn cob
+EASE|Relieve|Facility
+EASIER|Less hard|Smoother
+EASTER|Egg holiday|Bunny time
+EAST|Orient|Right on a map
+EASY|Effortless|Relaxed
+EATING|Feeding|Bothering
+EATS|Food|Feeds
+EAT|Feed|Consume
+ECHO|Repeat|Resound
+ECONOMIC|Thrifty
+EDGES|Brinks|Inches
+EDGE|Advantage
+EDITED|Corrected|Cut
+EDITOR|Newspaper boss|Corrector
+EDIT|Correct|Cut
+EFFECT|Impact|Influence
+EFFORT|Try|Work
+EGGS|Ova|Urges on
+EGG|Ovum
+EGO|Self|Vanity
+EH|What?|Huh?
+EIGHT|Rowing crew|Figure of ___
+EITHER|Any one|Also
+ELDER|Older|Church officer
+ELECT|Choose|Chosen
+ELEVEN|Twelve minus one|Side, in football
+ELITE|Choice|Select
+EL|The, in Spanish|___ Niño
+EMAILS|Messages|Inbox items
+EMAIL|Message|Inbox item
+EMERGE|Appear|Surface
+EMPIRE|Kingdom|Imperial domain
+EMPLOY|Use|Engage
+EMPTY|Bare|Hollow
+ENABLE|Allow|Empower
+ENDED|Stopped|Concluded
+ENDING|Conclusion|Climax
+ENDS|Stops|Tips
+END|Stop
+ENEMY|Opponent|Adversary
+ENERGY|Zip
+ENGINE|Locomotive|Machine
+ENJOYS|Relishes|Loves
+ENJOY|Relish|Savour
+ENOUGH|Adequate|Plenty
+ENSURE|Guarantee|Secure
+ENTERS|Joins|Records
+ENTER|Join|Key in
+ENTIRE|Total|Complete
+ENTITY|Thing|Body
+ENTRIES|Records|Items
+ENTRY|Record|Item
+EPIC|Saga|Grand
+EQUAL|Peer|Match
+ERA|Age|Period
+ERRORS|Slips|Faults
+ERROR|Slip|Blunder
+ESCAPE|Flee|Getaway
+ESCORT|Guide|Chaperone
+ESSAYS|Articles|Attempts
+ESSAY|Article|Attempt
+ESTATE|Grounds|Inheritance
+ESTEEM|Regard|Admire
+ETHICS|Principles|Values
+ETHNIC|Racial|Folk
+EURO|Common coin|Single currency
+EVENTS|Happenings|Races
+EVENT|Happening|Race
+EVEN|Still|Equal
+EVERY|All|Each one
+EVER|Always|Forever
+EVE|Christmas ___|Night before
+EVIL|Bad|Sinful
+EXACT|Accurate|Demand
+EXAMS|Finals|Papers
+EXAM|Final|Paper
+EXISTS|Lives|Endures
+EXIST|Live|Survive
+EXIT|Leave|Door out
+EXOTIC|Tropical
+EXPOSE|Uncover|Exhibit
+EXTENT|Range|Degree
+EXTRA|Spare|Film walk-on
+EX|Former|Old flame
+EYED|Watched|Viewed
+EYES|Looks at|Sees
+EYE|Look at|Needle hole
+FABRIC|Material|Structure
+FACED|Fronted|Met
+FACES|Fronts|Meets
+FACE|Front
+FACTS|Data|Details
+FACT|Reality|Datum
+FAIL|Miss|Collapse
+FAIR|Pale|Carnival
+FAITH|Trust|Religion
+FAKE|Forgery|Pretend
+FALLEN|Toppled|Slain
+FALL|Tumble
+FALSE|Wrong|Fake
+FAME|Celebrity|Stardom
+FAMILY|Kin|Clan
+FAMOUS|Celebrated|Renowned
+FANS|Followers|Admirers
+FAN|Supporter
+FARE|Food|Get on
+FARMER|Rancher|Cultivator
+FARMS|Cultivates|Smallholdings
+FARM|Cultivate
+FAR|Remote|Much
+FAST|Fixed|Go without food
+FATAL|Lethal|Disastrous
+FATE|Fortune|Doom
+FATHER|Parent|Priest
+FAT|Chubby
+FAULT|Error
+FAVOR|Prefer|Good turn
+FAVOUR|Prefer|Good turn
+FA|Sol-___|Fourth note
+FEARED|Was afraid of|Worried
+FEAR|Terror|Phobia
+FEAST|Spread|Gorge
+FEEDS|Eats|Meals
+FEED|Fodder|Supply
+FEES|Prices|Payments
+FEE|Price|Payment
+FELLOW|Colleague
+FEMALE|Feminine|She
+FENCE|Railing|Sell stolen goods
+FEWER|Less|A smaller number of
+FEW|Handful
+FIBER|Thread|Strand
+FIELD|Pitch
+FIERCE|Wild|Intense
+FIFTY|Five tens|Half a ton
+FIGURE|Physique
+FIG|Leaf for a statue|Tree fruit
+FILE|Line
+FILING|Lodging|Metal shaving
+FILL|Stuff|Load
+FILMING|Recording|Shooting a movie
+FILMS|Pictures|Shoots
+FILM|Picture|Layer
+FINALS|Deciding matches|Last rounds
+FINAL|Ultimate|Decider
+FIND|Locate|Bargain
+FINEST|Top|Choicest
+FINISH|Conclude|Polish
+FIRED|Sacked|Baked
+FIRE|Flames
+FIRM|Steady
+FIRST|Earliest|Winner
+FISCAL|Monetary|Budgetary
+FIST|Punch|Hand
+FITS|Spasms
+FIT|In shape
+FIVE|Quintet|High ___
+FIXING|Mending|Rigging
+FIX|Mend|Jam
+FLAG|Wilt|Standard
+FLAMES|Fire|Old sweethearts
+FLASH|Sparkle|Moment
+FLAT|Dull|Burst tyre
+FLEET|Fast|Armada
+FLESH|Skin|Pulp
+FLIES|Insects|Rushes
+FLIGHT|Escape|Stairs
+FLOAT|Raft|Bob
+FLOOD|Overflow|Torrent
+FLOORS|Stuns|Levels
+FLOOR|Level|Stun
+FLOW|Current|Run
+FLUID|Flowing|Changeable
+FLU|Bug|Fever
+FLY|Pilot
+FOG|Haze|Murk
+FOLK|Kinfolk|Traditional music
+FOLLOWS|Tracks|Ensues
+FOOD|Grub|Fare
+FOOL|Trick|Dupe
+FOOT|Base|Pay, as a bill
+FORCE|Push|Strength
+FORGET|Overlook|Leave out
+FORMAT|Arrangement|Wipe a disk
+FORMED|Made|Moulded
+FORMER|Earlier|Ex
+FORMS|Papers|Takes shape
+FORM|Class
+FORTUNE|Fate|Wealth
+FORUM|Assembly|Message board
+FOUND|Located
+FOUR|Quartet|Number of seasons
+FRAMES|Shapes|Sets up
+FRAME|Chassis|Set up
+FRANK|Honest|Blunt
+FREAK|Anomaly|Fanatic
+FREEZE|Chill|Stand still
+FREE|Release
+FRESH|Cheeky|Crisp
+FRIED|Sauteed|Deep-cooked
+FRIEND|Mate|Ally
+FROG|Toad relative|Tadpole later
+FROST|Ice|Ground ice
+FRUIT|Result|Produce
+FRY|Small fish|Sizzle
+FUEL|Feed
+FULLY|Wholly|Totally
+FUN|Amusement|Playful
+FURY|Anger|Wrath
+FUR|Coat|Hair
+FUSION|Blend|Union
+FUTURE|Destiny|Later
+GAIN|Win|Increase
+GALAXY|Milky Way|Andromeda, e.g.
+GAMES|Sports|Olympics
+GAME|Willing
+GAMING|Video games|Playing
+GANG|Mob|Crew
+GAP|Interval
+GARAGE|Repair shop|Car port
+GARDEN|Backyard|Plot
+GAS|Petrol (US)|Chatter
+GATES|Doorways|Portals
+GATE|Doorway|Crowd size
+GATHER|Assemble|Infer
+GAUGE|Measure|Estimate
+GEAR|Cog|Kit
+GEM|Treasure|Stone
+GENERAL|Common|Broad
+GENES|Heredity|Chromosome parts
+GENEVA|Lake city in Switzerland|Convention city
+GENE|DNA segment|Inherited trait
+GENRE|Type
+GETS|Understands|Receives
+GET|Understand
+GHOST|Phantom|Spook
+GIANTS|Colossi|Ogres
+GIANT|Colossus
+GIFTS|Talents|Offerings
+GIFT|Talent
+GIG|Show|Job
+GIRLS|Daughters|Young women
+GIRL|Daughter
+GIVEN|Assumed|Inclined
+GIVING|Offering|Charitable
+GLAD|Pleased|Delighted
+GLASS|Pane|Mirror
+GLOBAL|International|Universal
+GLOBE|Planet|Orb
+GLORY|Honour|Splendour
+GLOW|Radiance|Beam
+GOALS|Targets|Scores
+GOAL|Score
+GOAT|Kid's parent|Greatest of all time
+GODS|Idols|Immortals
+GOD|Idol|Creator
+GOING|Departing|Working
+GOLDEN|Blond|Precious
+GOLD|First prize|Bullion
+GOLF|Links game|Putting sport
+GONE|Away|Used up
+GOODS|Wares|Products
+GOOD|Kind|Well-behaved
+GOSPEL|Truth|Church music
+GRAB|Seize|Clutch
+GRACE|Poise|Prayer before meals
+GRADES|Ranks|Scores
+GRADE|Rank
+GRAND|Thousand|Majestic
+GRAPH|Plot|Diagram
+GRASP|Clutch
+GRAY|Grey|Overcast
+GREAT|Fantastic
+GREEN|Inexperienced
+GREY|Silver|Dull
+GRID|Grill|Crossword pattern
+GRIP|Grasp|Handle
+GROUP|Gang
+GROWTH|Development|Swelling
+GROW|Cultivate
+GUARDS|Protects|Watchmen
+GUARD|Defend
+GUESS|Hunch|Suppose
+GUESTS|Callers|Diners
+GUEST|Caller|Invitee
+GUIDED|Steered|Escorted
+GUIDES|Escorts|Directs
+GUILTY|Culpable|Sheepish
+GUITAR|Six-string|Axe, to rockers
+GULF|Gap|Rift
+GUM|Glue|Tooth bed
+GUNS|Rifles|Pistols
+GUN|Pistol|Rifle
+GUT|Stomach
+GUYS|Lads|Blokes
+GUY|Chap
+GYM|Health club|Sports hall
+HACK|Writer for hire|Cough
+HAIL|Hello|Pelt
+HAIR|Mane|Fur
+HALF|Part|Semi

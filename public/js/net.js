@@ -49,7 +49,7 @@ export class RemoteGame {
     this.ws = ws;
     ws.onopen = () => {
       this.retry = 0;
-      this.sendRaw({ t: 'hello', name: this.name, token: store.get(`cc.token.${this.code}`) || undefined });
+      this.sendRaw({ t: 'hello', name: this.name, token: store.get(`cc.token.${this.code}`) || undefined, seen: seenClues() });
     };
     ws.onmessage = (ev) => {
       let msg;
@@ -80,3 +80,14 @@ export class RemoteGame {
 }
 
 export { store };
+
+/** Hashes of clue texts this browser has already been shown (newest last). */
+export function seenClues() {
+  try { return JSON.parse(store.get('cc.seenClues') || '[]'); } catch { return []; }
+}
+export function rememberClues(hashes) {
+  const seen = seenClues();
+  const have = new Set(seen);
+  const add = hashes.filter((h) => !have.has(h));
+  if (add.length) store.set('cc.seenClues', JSON.stringify([...seen, ...add].slice(-2000)));
+}

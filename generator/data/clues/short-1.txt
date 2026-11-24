@@ -1,0 +1,492 @@
+# New familiar words, three clues each (batch 1)
+THINK|Use your head|Ponder|Believe
+BACK|Rear|Spine side|Support, as a candidate
+REALLY|Truly|"Is that so?"|Very
+WORK|Job|Labour|Function properly
+THROUGH|Finished|From end to end|By way of
+LONG|Lengthy|Yearn|Not short
+BETWEEN|In the middle of|Among two|Shared by
+ANOTHER|One more|A different one|An extra
+THINGS|Objects|Stuff|Belongings
+THING|Object|Item|Gadget
+AGAIN|Once more|Anew|One more time
+MIGHT|Power|Strength|May
+SOMEONE|A person|Anybody|An important person
+COMPANY|Firm|Guests|Business
+DOING|Performing|Carrying out|Up to
+CALLED|Phoned|Named|Shouted
+HAVING|Owning|Possessing|Eating, as a meal
+THOUGHT|Idea|Notion|Pondered
+HOWEVER|But|Nevertheless|Still
+GETTING|Fetching|Becoming|Receiving
+LOOKING|Searching|Seeming|Gazing
+ALREADY|By now|Before this|So soon
+NOTHING|Zero|Not a thing|Zilch
+FULL|Stuffed|Brimming|Complete
+MAKING|Building|Creating|Earning
+SUPPORT|Back up|Prop|Encourage
+BELIEVE|Trust|Accept as true|Have faith
+THOUGH|Although|However|Even if
+SERVICE|Help|Upkeep, as for a car|Tennis opener
+COUNTRY|Nation|Rural area|Music genre with fiddles
+THANK|Show gratitude|Say ta|Credit
+TRYING|Attempting|Testing|Exhausting
+WORKING|Functioning|Employed|On the job
+HEALTH|Wellbeing|Fitness|Condition of body and mind
+BOOK|Novel|Reserve|Volume
+FRIENDS|Pals|Buddies|Close companions
+LOCAL|Nearby|Neighbourhood|Of the area
+POST|Mail|Pole|Publish online
+THANKS|Cheers|Gratitude|Ta
+TALK|Chat|Speak|Lecture
+CONTROL|Command|Steer|Rule
+PROBLEM|Trouble|Puzzle|Snag
+SOUTH|Opposite of north|Down on a map|Compass point
+HISTORY|The past|School subject|Record of events
+LOST|Missing|Mislaid|Beaten
+SEVERAL|A few|Some|More than two
+STARTED|Began|Kicked off|Jumped in surprise
+MATTER|Issue|Substance|Be important
+PLAYING|Having fun|Performing|On stage
+SAYING|Proverb|Adage|Remarking
+MEMBERS|Belongers to a club|Participants|Club roster
+SPECIAL|Unique|Exceptional|Daily dish deal
+MILLION|Six-zero number|A great many|Thousand thousand
+MORNING|Dawn hours|Before noon|Breakfast time
+POLICE|Cops|Law enforcers|Patrol
+CHECK|Verify|Restaurant bill|Chess threat
+FURTHER|More distant|Additional|Promote
+HEART|Love symbol|Ticker|Card suit
+MINUTES|Meeting notes|Sixty-second spans|Tiny
+CHILD|Kid|Youngster|Offspring
+MAJOR|Important|Army rank|Main subject at college
+PLAYERS|Team members|Gamers|Actors
+QUITE|Rather|Fairly|Completely
+TALKING|Chatting|Speaking|Conversing
+WORKS|Functions|Factory|Collected writings
+FRONT|Fore|Face|Leading edge
+LIST|Roll|Inventory|Lean, as a ship
+BRING|Carry|Fetch|Cause
+COLLEGE|University|Higher school|Campus place
+CURRENT|Present|Flow|Up to date
+EXAMPLE|Instance|Model|Sample
+PROGRAM|Show|Software|Schedule
+PROCESS|Procedure|Handle|Method
+STUDY|Learn|Den|Research
+OUTSIDE|Outdoors|Exterior|Beyond
+WORDS|Lyrics|Terms|Things in a dictionary
+INSTEAD|As an alternative|In place of|Rather
+MOMENT|Instant|Second|Twinkling
+MOTHER|Mum|Mom|Parent
+FIGHT|Battle|Brawl|Struggle
+FINE|Okay|Penalty|Thin
+RESULTS|Outcomes|Scores|Effects
+RUNNING|Jogging|Operating|In charge
+MISS|Fail to hit|Long for|Young lady
+PROJECT|Task|Undertaking|Throw onto a screen
+ACCOUNT|Bank holding|Report|Explanation
+INCLUDE|Contain|Cover|Add in
+PARENTS|Mum and dad|Folks|Guardians
+RECORD|Vinyl|Best ever|Write down
+SIMILAR|Alike|Comparable|Much the same
+COUNTY|Region|Shire|District
+PRIVATE|Personal|Secret|Army rank
+HIGHER|Taller|Above|Superior
+MEMBER|Belonger|Club joiner|Part
+PRESENT|Gift|Now|Here
+RESULT|Outcome|Score|Effect
+FINALLY|At last|Eventually|In the end
+POLICY|Plan|Rule|Insurance contract
+SOCIETY|Community|Club|The public
+AVERAGE|Mean|Ordinary|Typical
+CERTAIN|Sure|Definite|Some
+CHURCH|Chapel|Place of worship|Steeple site
+MEDICAL|Doctor's|Clinical|Health check
+PARK|Green|Leave the car|Playground place
+TRIED|Attempted|Tested|Had a go
+WORKED|Laboured|Functioned|Did the trick
+WORTH|Value|Merit|Deserving of
+BOOKS|Library stock|Novels|Accounts
+EXACTLY|Precisely|Just so|"Spot on!"
+GROUND|Earth|Floor|Field
+MEETING|Gathering|Session|Encounter
+PROVIDE|Supply|Give|Furnish
+SOUND|Noise|Healthy|Inlet of sea
+USUALLY|Normally|Generally|As a rule
+FOLLOW|Come after|Pursue|Understand
+LIVES|Exists|Dwells|A cat has nine
+READING|Perusing|Interpretation|Meter figure
+DRIVE|Steer|Motivation|Road trip
+FEDERAL|National|Of a union|Central government
+FEELING|Emotion|Sense|Hunch
+FELT|Fabric|Sensed|Touched
+MATCH|Game|Pair|Fire starter
+PICTURE|Photo|Image|Imagine
+CENTRAL|Middle|Main|Core
+CHANGES|Alters|Coins|Shifts
+FORWARD|Ahead|Bold|Pass along
+GROUPS|Bands|Clusters|Teams
+SCIENCE|Lab subject|Knowledge|Study of nature
+VARIOUS|Assorted|Many|Diverse
+BROTHER|Sibling|Brethren member|Bro
+LOWER|Reduce|Beneath|Let down
+NATURAL|Normal|Organic|Born talent
+QUALITY|Grade|Standard|Excellence
+AMAZING|Wonderful|Astonishing|Incredible
+BLOOD|Red fluid|Lineage|Gore
+RELATED|Linked|Kin|Told
+ARTICLE|Item|Story|"A" or "the"
+DECIDED|Chose|Resolved|Definite
+PERHAPS|Maybe|Possibly|Perchance
+RELEASE|Free|Let go|New album
+TURNED|Rotated|Became|Soured
+WRITTEN|Penned|Recorded|On paper
+COUNCIL|Board|Assembly|Local government
+FOREIGN|Overseas|Alien|Unfamiliar
+PICK|Choose|Guitar plectrum|Best of the bunch
+CHANGED|Altered|Swapped|Different now
+CRAZY|Mad|Wild|Nuts
+LOSS|Defeat|Bereavement|Opposite of gain
+POPULAR|Well liked|In demand|Trendy
+SYSTEMS|Methods|Networks|Set-ups
+VERSION|Edition|Account|Variant
+WRITING|Script|Penning|Authorship
+RULES|Laws|Governs|Regulations
+SUCCESS|Triumph|Hit|Victory
+WAITING|Holding on|Biding time|In line
+CREATED|Made|Invented|Formed
+MISSING|Lost|Absent|Gone
+RISK|Danger|Gamble|Hazard
+SCHOOLS|Academies|Fish groups|Teaches
+BUILD|Construct|Physique|Make
+DARK|Black|Gloomy|Unlit
+PERCENT|Per hundred|Rate|Out of one hundred
+ALLOWED|Permitted|Let|Okayed
+BOYS|Lads|Sons|Young men
+CULTURE|Arts|Civilisation|Yoghurt bacteria
+MARRIED|Wed|Hitched|Joined
+OFFICER|Constable|Ranking soldier|Executive
+PLACES|Spots|Puts|Locations
+RESPECT|Esteem|Honour|Regard
+RIVER|Stream|Flowing water|Waterway
+TONIGHT|This evening|After dark today|This night
+CENTURY|Hundred years|Cricket hundred|Era
+EXCEPT|But|Apart from|Exclude
+FUNNY|Comic|Amusing|Odd
+LIMITED|Restricted|Finite|Scarce
+MOVING|Touching|In motion|Relocating
+NETWORK|Web|System|Contacts
+STUDENT|Learner|Pupil|Scholar
+WEIGHT|Heaviness|Load|Dumbbell
+BEAT|Defeat|Rhythm|Whisk
+BROWN|Chocolate colour|Toast|Tan
+CAPITAL|Main city|Money|Upper-case
+DOUBLE|Twice|Twin|Duplicate
+EXPECT|Anticipate|Await|Suppose
+MOVED|Relocated|Touched|Stirred
+STATION|Depot|Stop|Rank
+WESTERN|Cowboy film|Occidental|From the west
+CONTENT|Satisfied|Substance|Happy
+CROSS|Angry|X|Go across
+FOCUS|Concentrate|Centre|Sharpness
+HUSBAND|Spouse|Partner|Save carefully
+JOIN|Connect|Sign up|Unite
+LEADING|Ahead|Foremost|Top
+LOVED|Adored|Cherished|Liked a lot
+MESSAGE|Note|Text|Point
+QUICKLY|Fast|Rapidly|Speedily
+SECTION|Part|Segment|Division
+SORT|Kind|Organise|Type
+CONTACT|Touch|Get in touch|Acquaintance
+WELCOME|Greet|Hello|Received gladly
+EARLIER|Before|Previously|Sooner
+FORCES|Armies|Compels|Powers
+LEAVING|Going|Departing|Quitting
+NUMBERS|Digits|Figures|Songs
+QUICK|Fast|Swift|Speedy
+STUDIES|Learns|Research|Dens
+WINNING|Victorious|Charming|Ahead
+EPISODE|Instalment|Incident|Part of a series
+JUSTICE|Fairness|Judge|Equity
+MANAGER|Boss|Supervisor|Head
+POSTED|Mailed|Shared online|Stationed
+SOUNDS|Noises|Seems|Tunes
+ABILITY|Skill|Talent|Capacity
+CALLING|Vocation|Phoning|Summoning
+COACH|Trainer|Bus|Tutor
+HAPPENS|Occurs|Takes place|Comes about
+HEAVY|Weighty|Hefty|Serious
+SUBJECT|Topic|Theme|Monarch's citizen
+JUDGE|Referee|Court official|Assess
+NAMED|Called|Titled|Identified
+PRODUCT|Goods|Result|Multiplication answer
+REGULAR|Normal|Routine|Frequent customer
+STORIES|Tales|Floors|Accounts
+WORKERS|Employees|Staff|Bees that toil
+ANNUAL|Yearly|Once a year|Plant that lasts one season
+ANYMORE|Nowadays|Any longer|Still
+BRAIN|Mind|Grey matter|Genius
+GROWING|Getting bigger|Increasing|Cultivating
+OPENING|Gap|Start|Premiere
+SPORTS|Games|Athletics|Wears proudly
+BIGGEST|Largest|Greatest|Hugest
+CIVIL|Polite|Courteous|Not military
+DEFENSE|Protection|Guard|Backline
+REASONS|Motives|Causes|Logic
+STOCK|Supply|Soup base|Share
+AWESOME|Great|Fantastic|Impressive
+BEACH|Shore|Sand strip|Coast
+CLEARLY|Plainly|Obviously|Distinctly
+IMAGINE|Picture|Fancy|Dream up
+PROTECT|Guard|Shield|Defend
+TELLING|Revealing|Saying|Significant
+ADDRESS|Home location|Speech|Deal with
+CALLS|Phones|Shouts|Visits
+DETAILS|Particulars|Facts|Specifics
+EASILY|Simply|Readily|Without effort
+SWEET|Sugary|Cute|Candy
+TOUCH|Feel|Contact|Small amount
+DRIVING|Motoring|Pushing|Forceful
+FISH|Angle|Swimmer|Trout or cod
+GREATER|Bigger|Larger|Superior
+LARGEST|Biggest|Greatest|Most sizeable
+MACHINE|Device|Engine|Apparatus
+OVERALL|Total|General|Work smock
+RECORDS|Archives|Albums|Notes down
+REPORTS|Accounts|Tells|Writes up
+CAPTAIN|Skipper|Leader|Ship's commander
+EFFECTS|Results|Belongings|Special film tricks
+EXPLAIN|Clarify|Describe|Account for
+HIGHLY|Very|Greatly|Extremely
+HOLDING|Gripping|Owning|Stock asset
+PARTIES|Celebrations|Factions|Bashes
+REALITY|Fact|Truth|Real life
+ADVICE|Counsel|Tips|Guidance
+BLOCK|Obstruct|Cube|City square
+CAUSED|Made happen|Produced|Brought about
+COMMENT|Remark|Note|Observation
+LIVED|Existed|Dwelled|Resided
+PRICES|Costs|Rates|Charges
+PRIMARY|Chief|First|Main
+PURPOSE|Aim|Goal|Intention
+SHOWING|Displaying|Screening|Revealing
+SICK|Ill|Unwell|Fed up
+TEACHER|Educator|Tutor|Instructor
+ECONOMY|Thrift|Trade system|Budget class
+MEANING|Sense|Definition|Intending
+MISSION|Task|Quest|Assignment
+TRULY|Really|Honestly|Genuinely
+WEATHER|Climate|Forecast subject|Survive
+CLAIMS|Asserts|Demands|Insurance requests
+COMPLEX|Complicated|Intricate|Building group
+EVENING|Dusk|Night|Levelling
+FREEDOM|Liberty|Independence|Release
+HIGHEST|Top|Tallest|Loftiest
+LIBRARY|Book collection|Reading room|Archive
+LOCATED|Found|Situated|Placed
+OFFERED|Proposed|Gave|Volunteered
+PUTTING|Placing|Golf stroke|Setting
+SECONDS|Moments|Extra helpings|Imperfect goods
+SHOWED|Displayed|Revealed|Proved
+SITTING|Seated|Session|Perched
+WALKING|Strolling|On foot|Hiking
+ACTUAL|Real|True|Genuine
+ATTEMPT|Try|Effort|Bid
+BROKE|Shattered|Penniless|Smashed
+CHANNEL|Strait|TV station|Route
+FELL|Dropped|Tumbled|Hill
+FINDING|Discovery|Locating|Verdict
+LEARNED|Studied|Scholarly|Picked up
+LOSING|Mislaying|Behind|Beaten
+REACHED|Arrived at|Got to|Stretched
+RECEIVE|Get|Accept|Welcome
+SIGNED|Autographed|Initialled|Contracted
+SPECIES|Kind|Type|Biological class
+TRAFFIC|Vehicles|Congestion|Trade
+WEARING|Dressed in|Tiring|Sporting
+AIRPORT|Terminal|Runway place|Flight hub
+ANIMALS|Creatures|Beasts|Zoo residents
+APPEARS|Seems|Shows up|Looks
+BEGIN|Start|Commence|Kick off
+KEEPING|Holding|Retaining|In harmony
+NOTES|Memos|Jottings|Musical tones
+PARTNER|Mate|Associate|Spouse
+SOURCES|Origins|Springs|Informants
+SQUARE|Four-sided shape|Plaza|Old-fashioned
+STOPPED|Halted|Ceased|Blocked
+WIND|Breeze|Gale|Coil
+WORRY|Fret|Concern|Anxiety
+BECOMES|Turns into|Suits|Grows
+BRAND|Make|Label|Logo
+COUNT|Number|Tally|Matter
+COVERED|Hidden|Insured|Wrapped
+DIGITAL|Electronic|Numeric|Computer-based
+FORCED|Compelled|Strained|Made
+FOURTH|One quarter|After third|Quarter
+MISSED|Longed for|Failed to hit|Overlooked
+MOSTLY|Chiefly|Mainly|Usually
+MOUTH|Lips|River end|Opening
+REALIZE|Grasp|Understand|Achieve
+SURFACE|Top|Outside|Come up
+TOTALLY|Completely|Entirely|Utterly
+WEDDING|Marriage|Nuptials|Bridal occasion
+ACTIONS|Deeds|Acts|Steps
+BENEFIT|Advantage|Profit|Perk
+BUDGET|Spending plan|Cheap|Allocate
+FAILED|Flunked|Fell short|Broke down
+FASHION|Style|Trend|Shape
+FEATURE|Trait|Main article|Highlight
+FUND|Finance|Savings|Kitty
+HEARING|Listening|Trial|Ear sense
+LARGER|Bigger|Greater|Roomier
+PROFILE|Side view|Bio|Image
+TARGET|Goal|Aim|Bullseye
+VILLAGE|Hamlet|Small town|Settlement
+LEADERS|Chiefs|Heads|Rulers
+PRIME|Best|First-rate|Get ready
+SELLING|Vending|Marketing|Trading
+SERVED|Waited on|Dished up|Opened, in tennis
+SILVER|Second-place medal|Metal|Grey
+EDITION|Issue|Version|Print run
+HEALTHY|Fit|Well|Wholesome
+NATIONS|Countries|States|Peoples
+REMAINS|Stays|Leftovers|Ruins
+SMALLER|Littler|Less|Tinier
+WILD|Untamed|Savage|Crazy
+WINNER|Champion|Victor|First place
+ARRIVED|Came|Got there|Reached
+CORRECT|Right|Fix|Accurate
+IMPROVE|Get better|Enhance|Upgrade
+PREVENT|Stop|Avert|Block
+REMOVED|Taken away|Distant|Erased
+TROUBLE|Problem|Bother|Difficulty
+DINNER|Evening meal|Supper|Main meal
+DOLLARS|Bucks|Greenbacks|US cash
+EASTERN|Oriental|From the east|East-facing
+FIFTH|One of five equal parts|After fourth|Musical interval
+PRODUCE|Make|Fruit and veg|Create
+PROUD|Pleased|Arrogant|Dignified
+REQUIRE|Need|Demand|Call for
+TELLS|Says|Informs|Gives away
+THINKS|Believes|Considers|Reckons
+WOOD|Timber|Forest|Lumber
+BRIDGE|Span|Card game|Ship's deck
+CARRIED|Bore|Took|Transported
+CLASSES|Lessons|Courses|Social ranks
+CONCEPT|Idea|Notion|Theory
+DEAR|Precious|Expensive|Darling
+DRUGS|Medicines|Pills|Remedies
+EFFORTS|Attempts|Tries|Labours
+HOUSING|Homes|Casing|Accommodation
+JOURNAL|Diary|Magazine|Log
+LABOR|Work|Childbirth|Toil
+LUCKY|Fortunate|Charmed|Blessed
+NEITHER|Not either|Nor|Not one or the other
+PATIENT|Calm|Tolerant|Hospital case
+SETTING|Location|Scene|Mounting
+TOUGH|Hard|Strong|Difficult
+ALIVE|Living|Lively|Kicking
+BALANCE|Equilibrium|Remainder|Steady
+CARDS|Deck|Greetings|Playing pieces
+KNOWING|Aware|Shrewd|Clued-in
+MANAGED|Coped|Ran|Handled
+REQUEST|Ask|Plea|Petition
+VEHICLE|Car|Means|Conveyance
+VOLUME|Book|Loudness|Capacity
+BEAUTY|Loveliness|Belle|Attractiveness
+BILLION|Thousand million|Huge number|Nine zeros
+BUYING|Purchasing|Shopping|Believing
+CORNER|Angle|Nook|Trap
+DEVELOP|Grow|Evolve|Process film
+GUIDE|Lead|Manual|Tour leader
+PAYING|Settling|Profitable|Footing the bill
+SUGGEST|Propose|Hint|Recommend
+VARIETY|Range|Assortment|Kind
+WEAPONS|Arms|Arsenal|Armaments
+YOUTH|Adolescence|Young person|Teenager
+EXCITED|Thrilled|Eager|Wound up
+FOREVER|Always|Eternally|For good
+FUNDS|Money|Capital|Finances
+OFFERS|Proposals|Bids|Deals
+ORDERED|Commanded|Tidy|Requested
+STATED|Said|Declared|Specified
+WINE|Red or white|Vino|Grape drink
+DROPPED|Fell|Let go|Fell off
+FIGURES|Numbers|Shapes|Works out
+JOINED|Connected|Signed up|United
+LIKES|Fancies|Enjoys|Social media hearts
+MENTION|Note|Refer to|Allusion
+NUCLEAR|Atomic|Central|Core
+SIDES|Teams|Edges|Flanks
+VICTORY|Win|Triumph|Success
+CLASSIC|Timeless|Vintage|Typical
+CLOTHES|Garments|Outfits|Attire
+ENTERED|Came in|Logged|Joined
+FAILURE|Flop|Fiasco|Breakdown
+INITIAL|First|Opening|Monogram letter
+KICK|Punt|Boot|Thrill
+LINKS|Connections|Golf course|Chain parts
+MASSIVE|Huge|Enormous|Heavy
+MATTERS|Issues|Counts|Affairs
+PICKED|Chose|Plucked|Selected
+PLENTY|Lots|Abundance|Enough
+PRINCE|Royal son|Heir|Little royal
+QUARTER|One fourth|District|Mercy
+SESSION|Meeting|Period|Sitting
+WATCHED|Viewed|Observed|Guarded
+WILLING|Ready|Eager|Game
+WINDOWS|Panes|Openings|Opportunities
+ZONE|Area|Region|Sector
+BEAR|Grizzly|Carry|Tolerate
+CLIMATE|Weather pattern|Mood|Atmosphere
+FLYING|Airborne|Rushing|Soaring
+HUNDRED|Century|Ten tens|Big number
+JOINT|Shared|Knuckle|Roast cut
+OPTIONS|Choices|Alternatives|Extras
+PLANTS|Flora|Factories|Sows
+PROMISE|Vow|Pledge|Potential
+TREATED|Cured|Handled|Spoiled
+TURNING|Bend|Spinning|Becoming
+COMMAND|Order|Control|Instruction
+CROWD|Throng|Mob|Gather
+DATING|Going out|Courting|Placing in time
+FILLED|Stuffed|Packed|Topped up
+FIXED|Mended|Set|Rigged
+FOREST|Woods|Jungle|Timberland
+MOON|Lunar body|Satellite|Night light
+POWERS|Abilities|Strengths|Fuels
+WINS|Victories|Triumphs|Gains
+BANKS|Shores|Vaults|Tilts
+BODIES|Groups|Figures|Corpses
+CHAIR|Seat|Lead a meeting|Armchair
+JUMP|Leap|Hop|Startle
+LAUNCH|Start|Release|Fire off
+LISTED|Named|Itemised|Leaned
+MINIMUM|Least|Lowest|Smallest amount
+PLANNED|Arranged|Intended|Designed
+SUPREME|Highest|Top|Ultimate
+SURVEY|Poll|Questionnaire|Inspect
+WRITER|Author|Novelist|Scribe
+YOUNGER|Junior|Less old|More youthful
+ANCIENT|Very old|Antique|Archaic
+CHARGES|Fees|Rushes|Accusations
+EXPRESS|Fast train|State|Rapid
+ILLEGAL|Unlawful|Banned|Criminal
+SHARED|Split|Common|Divided
+STUCK|Jammed|Glued|Trapped
+AFFAIRS|Matters|Business|Romances
+APPLIED|Put on|Practical|Sought a job
+ARTISTS|Painters|Creatives|Performers
+FACTOR|Element|Agent|Cause
+GRANT|Award|Allow|Subsidy
+GROWN|Adult|Raised|Matured
+PULLED|Tugged|Dragged|Drew
+SAVED|Rescued|Stored|Kept
+SMOKE|Fumes|Haze|Puff
+TESTING|Trying|Exam|Demanding
+ANGRY|Mad|Cross|Furious
+CONCERN|Worry|Interest|Business
+DISCUSS|Talk over|Debate|Chat about
+FALLING|Dropping|Tumbling|Declining
+FOX|Cunning animal|Sly one|Outwit
+HOLIDAY|Vacation|Break|Day off

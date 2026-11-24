@@ -25,7 +25,7 @@ const require = createRequire(import.meta.url);
 
 const argv = process.argv.slice(2);
 const topIdx = argv.indexOf('--top');
-const TOP_N = topIdx >= 0 ? Number(argv.splice(topIdx, 2)[1]) : 4500;
+const TOP_N = topIdx >= 0 ? Number(argv.splice(topIdx, 2)[1]) : 12000;
 let dictDir = argv[0];
 if (!dictDir) {
   dictDir = path.join(path.dirname(require.resolve('wordnet-db/package.json')), 'dict');
@@ -217,7 +217,7 @@ for (const f of fs.existsSync(clueDir) ? fs.readdirSync(clueDir).filter((x) => x
     const t = line.trim();
     if (!t || t.startsWith('#')) continue;
     const [w, ...c] = t.split('|').map((x) => x.trim());
-    if (w && c.length) hand[w.toUpperCase()] = c.filter(Boolean);
+    if (w && c.length) { const W = w.toUpperCase(); hand[W] = [...new Set([...(hand[W] || []), ...c.filter(Boolean)])]; }
   }
 }
 const final = {};
@@ -225,7 +225,7 @@ let rank = 0;
 for (const line of fs.readFileSync(path.join(here, 'data', 'common-words.txt'), 'utf8').split('\n')) {
   if (!line || line.startsWith('#')) continue;
   const [w, z] = line.split('\t');
-  if (w.length < 3 || w.length > 7 || !/[aeiouy]/.test(w) || blocked.has(w)) continue;
+  if (w.length < 3 || w.length > 10 || !/[aeiouy]/.test(w) || blocked.has(w)) continue;
   const base = baseOf(w);
   if (!base || badLemmas.has(base) || badLemmas.has(w) || blocked.has(base)) continue;
   const W = w.toUpperCase();
@@ -245,7 +245,8 @@ if (fs.existsSync(customPath)) {
   const custom = JSON.parse(fs.readFileSync(customPath, 'utf8'));
   for (const [w, v] of Object.entries(custom)) {
     if (w.startsWith('_')) continue;
-    final[w.toUpperCase()] = { f: v.f ?? 50, c: v.c, hand: true };
+    const W = w.toUpperCase();
+    final[W] = { f: v.f ?? 50, c: [...new Set([...v.c, ...(hand[W] || [])])], hand: true };
   }
 }
 
