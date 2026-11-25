@@ -273,7 +273,10 @@ function buildBoard(view) {
         const ct = document.createElement('div');
         ct.className = 'ct';
         ct.dataset.clue = cl.id;
-        ct.textContent = cl.text;
+        const tx = document.createElement('span');
+        tx.className = 'tx';
+        tx.textContent = cl.text;
+        ct.appendChild(tx);
         const ar = document.createElement('span');
         ar.className = `arrow ${cl.arrow}`;
         ar.textContent = ARROW[cl.arrow];
@@ -286,17 +289,103 @@ function buildBoard(view) {
   sizeBoard();
 }
 
+// The board fills the space between the clue bar and the hand. Cells may be a
+// little wider or taller than square, which gives clue text more room.
 function sizeBoard() {
   if (!ui.view) return;
   const { w, h } = ui.view.puzzle;
   const wrap = $('.board-wrap');
-  const top = wrap.getBoundingClientRect().top;
-  const availH = window.innerHeight - top - 170; // hand + buttons
-  const availW = $('.centre').clientWidth - 12 - (w - 1) * 2;
-  const cell = Math.max(22, Math.floor(Math.min(availW / w, Math.max(availH, 300) / h, 60)));
-  document.documentElement.style.setProperty('--cell-size', `${cell}px`);
+  const top = wrap.getBoundingClientRect().top + window.scrollY;
+  const after = $('.actions').getBoundingClientRect().bottom - wrap.getBoundingClientRect().bottom;
+  const availH = Math.max(window.innerHeight - top - after - 10, h * 22);
+  const availW = $('.centre').clientWidth;
+  const frame = 8, gap = 2;
+  let cw = (availW - frame - (w - 1) * gap) / w;
+  let ch = (availH - frame - (h - 1) * gap) / h;
+  cw = Math.min(cw, 72, ch * 1.6);
+  ch = Math.min(ch, 66, cw * 1.3);
+  cw = Math.max(20, Math.floor(cw)); ch = Math.max(20, Math.floor(ch));
+  const st = document.documentElement.style;
+  st.setProperty('--cell-w', `${cw}px`);
+  st.setProperty('--cell-h', `${ch}px`);
+  st.setProperty('--cell-size', `${Math.min(cw, ch)}px`);
+  fitClues(Math.min(15, Math.max(8, ch * 0.3, cw * 0.22)));
 }
-window.addEventListener('resize', sizeBoard);
+
+// Each clue gets the largest font that fits its half of the square without
+// breaking a word. Only very long words fall back to breaking mid-word.
+function fitClues(max) {
+  for (const ct of $$('#board .ct')) {
+    const tx = ct.firstChild;
+    ct.classList.remove('tight');
+    const fits = (px) => {
+      ct.style.fontSize = `${px}px`;
+      return tx.offsetHeight <= ct.clientHeight - 1 && tx.scrollWidth <= tx.clientWidth;
+    };
+    let lo = 6.5, hi = max;
+    if (fits(hi)) continue;
+    if (!fits(lo)) { ct.classList.add('tight'); continue; }
+    while (hi - lo > 0.4) { const mid = (lo + hi) / 2; if (fits(mid)) lo = mid; else hi = mid; }
+    fits(lo);
+  }
+}
+let resizeTimer;
+window.addEventListener('resize', () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(sizeBoard, 80); });
+document.fonts?.ready.then(() => sizeBoard());
+
+// ------------------------------------------------------------------ magnifier
+// Hovering a clue square (or tapping one on a touch screen) shows its clues
+// in large type. The magnifier button turns it on or off.
+const loupe = $('#loupe');
+let loupeOn = store.get('cc.loupe') !== 'off';
+function hideLoupe() { loupe.classList.add('hidden'); loupe.dataset.at = ''; }
+function syncLoupeButton() {
+  const b = $('#btn-loupe');
+  b.setAttribute('aria-pressed', String(loupeOn));
+  b.classList.toggle('on', loupeOn);
+  b.title = loupeOn ? 'Magnifier on' : 'Magnifier off';
+  if (!loupeOn) hideLoupe();
+}
+function showLoupe(cell) {
+  const at = `${cell.dataset.r},${cell.dataset.c}`;
+  const list = ui.cluesByAt?.get(at) || [];
+  if (!loupeOn || !list.length) return hideLoupe();
+  if (loupe.dataset.at === at && !loupe.classList.contains('hidden')) return;
+  loupe.dataset.at = at;
+  loupe.replaceChildren(...list.map((cl) => {
+    const row = document.createElement('div');
+    row.className = 'lrow';
+    const ar = document.createElement('b'); ar.textContent = ARROW[cl.arrow];
+    const tx = document.createElement('span'); tx.textContent = cl.text;
+    row.append(ar, tx);
+    return row;
+  }));
+  loupe.classList.remove('hidden');
+  const r = cell.getBoundingClientRect(), l = loupe.getBoundingClientRect();
+  const x = Math.min(Math.max(8, r.left + r.width / 2 - l.width / 2), window.innerWidth - l.width - 8);
+  const above = r.top - l.height - 10;
+  loupe.style.left = `${x}px`;
+  loupe.style.top = `${above >= 8 ? above : r.bottom + 10}px`;
+}
+$('#btn-loupe').addEventListener('click', () => {
+  loupeOn = !loupeOn;
+  store.set('cc.loupe', loupeOn ? 'on' : 'off');
+  syncLoupeButton();
+  toast(loupeOn ? 'Magnifier on' : 'Magnifier off');
+});
+syncLoupeButton();
+$('#board').addEventListener('pointerover', (e) => {
+  if (e.pointerType !== 'mouse') return;
+  const cell = e.target.closest('.cell.sq');
+  if (cell) showLoupe(cell); else hideLoupe();
+});
+$('#board').addEventListener('pointerleave', (e) => { if (e.pointerType === 'mouse') hideLoupe(); });
+document.addEventListener('pointerdown', (e) => {
+  if (e.pointerType === 'mouse') return;
+  const cell = e.target.closest?.('#board .cell.sq');
+  if (cell) showLoupe(cell); else hideLoupe();
+});
+window.addEventListener('scroll', hideLoupe, { passive: true });
 
 function cellEl(r, c) { return $('#board').children[r * ui.view.puzzle.w + c]; }
 function wordsAt(r, c) { return ui.view.puzzle.clues.filter((cl) => cellsOfClue(cl).some(([a, b]) => a === r && b === c)); }
