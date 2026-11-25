@@ -46,6 +46,13 @@
     <section id="screen-setup" class="screen">
       <button class="back" data-go="home" aria-label="Back">←</button>
       <h2 id="setup-title">Play vs Bot</h2>
+      <div class="group hidden" id="puzzle-group">
+        <h3>Puzzle</h3>
+        <div class="seg" id="special-seg" role="radiogroup">
+          <button data-special="" class="on">Everyday words<small>any size</small></button>
+          <button data-special="thanksgiving"><span aria-hidden="true">🦃</span> Thanksgiving<small>Large</small></button>
+        </div>
+      </div>
       <div class="group" id="size-group">
         <h3>Grid size</h3>
         <div class="seg" id="size-seg" role="radiogroup">
@@ -73,6 +80,7 @@
         </div>
       </div>
       <button class="big primary" id="setup-go">Start</button>
+      <button class="big hidden" id="setup-friend">Play it with a friend instead</button>
       <p class="hint" id="setup-hint"></p>
     </section>
 

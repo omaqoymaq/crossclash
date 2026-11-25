@@ -1,7 +1,7 @@
 // CrossClash server: one Cloudflare Worker that serves the static game from
 // /public and hosts private 1v1 rooms, one Durable Object per room.
 //
-//   POST /api/rooms            {size, timer}  -> {code}
+//   POST /api/rooms            {size, timer, special?}  -> {code}
 //   GET  /api/rooms/:code              -> {exists, size, seats}
 //   GET  /api/rooms/:code/ws           WebSocket (see public/js/net.js for the protocol)
 //
@@ -12,6 +12,10 @@ import { newGame, submit, swap, resign, tick, viewFor, TIMER_CHOICES, TIMEOUT_GR
 import regular from '../puzzles/regular.json';
 import large from '../puzzles/large.json';
 import xl from '../puzzles/xl.json';
+import thanksgiving from '../public/puzzles/special-thanksgiving.json';
+
+// themed one-off puzzles a room can be created with; add new specials here
+const SPECIALS = { thanksgiving };
 
 // every 4th puzzle is published for solo play, so rooms only use the others
 const ROOM_PUZZLES = Object.fromEntries(
@@ -32,14 +36,15 @@ export default {
 
     if (parts[1] === 'rooms' && parts.length === 2 && request.method === 'POST') {
       const body = await request.json().catch(() => ({}));
-      const size = ROOM_PUZZLES[body.size] ? body.size : 'regular';
+      const special = Object.hasOwn(SPECIALS, body.special) ? body.special : '';
+      const size = special ? SPECIALS[special].size : ROOM_PUZZLES[body.size] ? body.size : 'regular';
       const timer = TIMER_CHOICES.includes(Number(body.timer)) ? Number(body.timer) : 60;
       for (let attempt = 0; attempt < 5; attempt++) {
         const bytes = crypto.getRandomValues(new Uint8Array(6));
         const code = [...bytes].map((b) => CODE_ALPHABET[b % CODE_ALPHABET.length]).join('');
         const stub = env.ROOMS.get(env.ROOMS.idFromName(code));
-        const res = await stub.fetch(`https://room/init?code=${code}&size=${size}&timer=${timer}`, { method: 'POST' });
-        if (res.ok) return json({ code, size, timer });
+        const res = await stub.fetch(`https://room/init?code=${code}&size=${size}&timer=${timer}&special=${special}`, { method: 'POST' });
+        if (res.ok) return json({ code, size, timer, special });
       }
       return json({ error: 'Could not create a room, please try again' }, 503);
     }
@@ -87,6 +92,7 @@ export class Room {
         code: url.searchParams.get('code'),
         size: url.searchParams.get('size'),
         timer: Number(url.searchParams.get('timer')),
+        special: url.searchParams.get('special') || '',
         created: Date.now(),
         seats: [], // [{token, name}]
         game: null,
@@ -99,7 +105,7 @@ export class Room {
     const room = await this.load();
     if (url.pathname === '/info') {
       if (!room) return json({ exists: false }, 404);
-      return json({ exists: true, size: room.size, timer: room.timer, seats: room.seats.length, playing: !!room.game });
+      return json({ exists: true, size: room.size, timer: room.timer, special: room.special || '', seats: room.seats.length, playing: !!room.game });
     }
     if (url.pathname === '/ws') {
       if (request.headers.get('Upgrade') !== 'websocket') return new Response('Expected WebSocket', { status: 426 });
@@ -140,6 +146,8 @@ export class Room {
         code: r.code,
         size: r.size,
         timer: r.timer,
+        special: r.special || '',
+        title: SPECIALS[r.special]?.title || '',
         seat,
         seats: r.seats.map((s, i) => ({ name: s.name, online: online[i] })),
         rematch: r.rematch,
@@ -150,7 +158,7 @@ export class Room {
 
   startGame() {
     const r = this.room;
-    const pool = ROOM_PUZZLES[r.size];
+    const pool = SPECIALS[r.special] ? SPECIALS[r.special].puzzles : ROOM_PUZZLES[r.size];
     const unplayed = pool.filter((p) => !r.played.includes(p.id));
     const list = unplayed.length ? unplayed : pool;
     const puzzle = list[Math.floor(Math.random() * list.length)];

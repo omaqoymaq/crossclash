@@ -19,6 +19,7 @@ const prefs = {
   level: store.get('cc.level') || 'medium',
   timer: Number(store.get('cc.timer') ?? 60),
   mode: 'bot',
+  special: '', // themed puzzle for a friend room, '' for the everyday packs
 };
 if (!(prefs.timer in TIMER_LABEL)) prefs.timer = 60;
 const nameInput = $('#name');
@@ -31,13 +32,15 @@ function setupScreen(mode) {
   const solo = mode !== 'room';
   $('#setup-title').textContent = mode === 'special' ? 'Thanksgiving special' : solo ? 'Play vs Bot' : 'Create a private room';
   $('#level-group').classList.toggle('hidden', !solo);
-  $('#size-group').classList.toggle('hidden', mode === 'special');
+  $('#puzzle-group').classList.toggle('hidden', mode !== 'room');
+  $('#size-group').classList.toggle('hidden', mode === 'special' || (mode === 'room' && !!prefs.special));
+  $('#setup-friend').classList.toggle('hidden', mode !== 'special');
   $('#setup-go').textContent = solo ? 'Start game' : 'Create room';
   $('#setup-hint').textContent = mode === 'special'
     ? 'A Large grid where every word and clue is about Thanksgiving. You play the bot.'
     : solo ? 'The bot is clearly marked as a bot. It plays in your browser.'
     : 'You get a code and a link to send to one friend.';
-  for (const [seg, key, attr] of [['#size-seg', 'size', 'size'], ['#level-seg', 'level', 'level'], ['#timer-seg', 'timer', 'timer']]) {
+  for (const [seg, key, attr] of [['#size-seg', 'size', 'size'], ['#level-seg', 'level', 'level'], ['#timer-seg', 'timer', 'timer'], ['#special-seg', 'special', 'special']]) {
     $$(`${seg} button`).forEach((b) => b.classList.toggle('on', String(b.dataset[attr]) === String(prefs[key])));
   }
   show('setup');
@@ -49,7 +52,7 @@ document.addEventListener('click', (e) => {
   const to = go.dataset.go;
   if (to === 'home') goHome();
   else if (to === 'setup-bot') setupScreen('bot');
-  else if (to === 'setup-room') setupScreen('room');
+  else if (to === 'setup-room') { prefs.special = ''; setupScreen('room'); }
   else if (to === 'setup-special') setupScreen('special');
   else if (to === 'howto') $('#dlg-howto').showModal();
 });
@@ -61,13 +64,20 @@ for (const [seg, key, attr, num] of [['#size-seg', 'size', 'size'], ['#level-seg
     $$(`${seg} button`).forEach((x) => x.classList.toggle('on', x === b));
   });
 }
+$('#special-seg').addEventListener('click', (e) => {
+  const b = e.target.closest('button'); if (!b) return;
+  prefs.special = b.dataset.special;
+  $$('#special-seg button').forEach((x) => x.classList.toggle('on', x === b));
+  $('#size-group').classList.toggle('hidden', !!prefs.special);
+});
+$('#setup-friend').addEventListener('click', () => { prefs.special = 'thanksgiving'; setupScreen('room'); });
 $('#setup-go').addEventListener('click', async () => {
   if (prefs.mode === 'bot') return startBotGame();
   if (prefs.mode === 'special') return startBotGame('thanksgiving');
   const btn = $('#setup-go');
   btn.disabled = true;
   try {
-    const { code } = await createRoom(prefs.size, prefs.timer);
+    const { code } = await createRoom(prefs.size, prefs.timer, prefs.special);
     enterRoom(code);
   } catch (err) {
     $('#setup-hint').textContent = navigator.onLine === false ? 'You are offline. Rooms need a connection.' : err.message;
@@ -183,7 +193,7 @@ function enterRoom(code) {
   ui.room = null;
   game.on('room', (room) => {
     ui.room = room;
-    $('#lobby-rules').textContent = `${{ regular: 'Regular', large: 'Large', xl: 'ExtraLarge' }[room.size]} grid · ${TIMER_LABEL[room.timer] ?? ''} per turn`;
+    $('#lobby-rules').textContent = `${room.title ? `${room.title} · ` : ''}${{ regular: 'Regular', large: 'Large', xl: 'ExtraLarge' }[room.size]} grid · ${TIMER_LABEL[room.timer] ?? ''} per turn`;
     if (!ui.view) {
       $('#lobby-status').innerHTML = room.seats.length < 2 ? '<span class="dot"></span> Waiting for your friend…' : 'Starting…';
     }
