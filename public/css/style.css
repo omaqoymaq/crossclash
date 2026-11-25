@@ -270,6 +270,19 @@ body[data-screen=game] #app { max-width: 1680px; }
 @keyframes miss { 0%, 50% { opacity: 1; transform: translateX(0); } 10%, 30% { transform: translateX(-4px); } 20%, 40% { transform: translateX(4px); } 100% { opacity: 0; transform: translateY(14px) scale(.6); } }
 .board.solution .cell .sol { font: 800 calc(var(--cell-size) * .5)/1 var(--font-display); color: #9a94c9; }
 
+/* ---------- pencil notes ---------- */
+.cell .note {
+  font: 600 calc(var(--cell-size) * .5)/1 var(--font-body); color: #8d88b5; font-style: italic;
+  pointer-events: none; padding-top: 1px;
+}
+.board.pencil .cell.sel { box-shadow: inset 0 0 0 2.5px #8d88b5; background: #f1eefc; }
+.board.pencil .cell.sel::after {
+  content: '✎'; position: absolute; right: 2px; top: 1px; font-size: calc(var(--cell-size) * .26); color: #8d88b5; line-height: 1;
+}
+.pencil-btn { opacity: .55; }
+.pencil-btn.on { opacity: 1; background: rgba(255, 255, 255, .12); border-color: var(--glass-line); }
+.pencil-input { position: fixed; left: 0; bottom: 0; width: 1px; height: 1px; opacity: 0; border: 0; padding: 0; font-size: 16px; pointer-events: none; }
+
 /* ---------- magnifier ---------- */
 .loupe {
   position: fixed; z-index: 25; pointer-events: none; max-width: min(320px, 90vw); padding: 10px 14px; border-radius: 14px;
@@ -300,7 +313,7 @@ body[data-screen=game] #app { max-width: 1680px; }
 .rtile.on { transform: translateY(-10px); box-shadow: inset 0 2px 0 #fff, 0 5px 0 var(--tile-edge), 0 0 0 3px var(--a), 0 14px 26px var(--a-glow); }
 .rtile.used { display: none; }
 .rack.waiting .rtile { filter: saturate(.4) brightness(.75); }
-.actions { display: grid; grid-template-columns: auto auto 1fr 1fr 1.6fr; gap: 8px; }
+.actions { display: grid; grid-template-columns: auto auto auto 1fr 1fr 1.6fr; gap: 8px; }
 
 /* ---------- overlays ---------- */
 .toast {
@@ -337,8 +350,9 @@ dialog form { margin-top: 16px; display: flex; justify-content: flex-end; }
   .pscore { font-size: 1.5rem; }
   .mid { min-width: 84px; }
   .rtile { width: 50px; height: 56px; }
-  .actions { grid-template-columns: auto auto 1fr 1fr 1.4fr; gap: 6px; }
-  .actions button { padding: 10px 8px; }
+  .actions { grid-template-columns: auto auto auto 1fr 1fr 1.4fr; gap: 5px; }
+  .actions button { padding: 10px 7px; }
+  .actions button.icon { padding-inline: 8px; }
   #screen-game { padding-left: max(6px, env(safe-area-inset-left, 0px)); padding-right: max(6px, env(safe-area-inset-right, 0px)); }
 }
 /* short laptop screens: a slimmer header and hand leave more height for the board */

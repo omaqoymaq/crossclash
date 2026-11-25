@@ -214,13 +214,72 @@ let game = null;
 const ui = {
   view: null, sel: null, dir: 'across', armed: null, lastEvent: 0, cluesByAt: new Map(), mode: 'bot',
   showSolution: false, staged: [], stagedFor: null, autoSubmitted: null,
+  pencil: false, notes: new Map(), notesKey: '',
 };
+
+// ------------------------------------------------------------------ pencil notes
+// Draft letters a player jots on empty squares. They live only in this
+// browser: never sent to the server or the opponent, and ignored by scoring.
+function loadNotes(key) {
+  ui.notesKey = key;
+  ui.notes = new Map();
+  try {
+    const saved = JSON.parse(store.get('cc.notes') || 'null');
+    if (saved && saved.key === key) ui.notes = new Map(Object.entries(saved.notes));
+  } catch { /* ignore a damaged entry */ }
+}
+function saveNotes() {
+  store.set('cc.notes', JSON.stringify({ key: ui.notesKey, notes: Object.fromEntries(ui.notes) }));
+}
+function canNote(r, c) { return ui.view && ui.view.status === 'playing' && isEmpty(r, c); }
+function writeNote(letter) {
+  if (!ui.sel || !canNote(...ui.sel)) return;
+  ui.notes.set(ui.sel.join(','), letter);
+  saveNotes();
+  advanceNote(1);
+  render();
+}
+function eraseNote() {
+  if (!ui.sel) return;
+  const k = ui.sel.join(',');
+  if (ui.notes.has(k)) ui.notes.delete(k);
+  else { advanceNote(-1); ui.notes.delete(ui.sel.join(',')); }
+  saveNotes();
+  render();
+}
+// step along the active word to the next (or previous) empty square
+function advanceNote(step) {
+  const cl = activeClue();
+  if (!cl) return;
+  const cells = cellsOfClue(cl);
+  const idx = cells.findIndex(([a, b]) => a === ui.sel[0] && b === ui.sel[1]);
+  for (let k = idx + step; k >= 0 && k < cells.length; k += step) {
+    if (isEmpty(...cells[k])) { ui.sel = cells[k]; return; }
+  }
+}
+function setPencil(on) {
+  ui.pencil = on;
+  const b = $('#btn-pencil');
+  b.classList.toggle('on', on);
+  b.setAttribute('aria-pressed', String(on));
+  if (on) { ui.armed = null; focusPencil(); } else $('#pencil-input').blur();
+  render();
+}
+// a hidden text field brings up the phone keyboard while pencil mode is on
+const PENCIL_SENTINEL = '  ';
+function focusPencil() {
+  const inp = $('#pencil-input');
+  inp.value = PENCIL_SENTINEL;
+  inp.focus({ preventScroll: true });
+}
+
 
 function leaveGame() {
   if (game) game.destroy();
   game = null;
   ui.view = null;
   ui.staged = [];
+  if (ui.pencil) setPencil(false);
   for (const d of $$('dialog')) if (d.open) d.close();
   $('#coach').classList.add('hidden');
 }
@@ -236,6 +295,7 @@ function bindGame(g, remote = false) {
       logSeen[0] = 0; logSeen[1] = 0;
       $$('.log ol').forEach((ol) => { ol.innerHTML = ''; });
       buildBoard(view);
+      loadNotes(`${remote ? game.code || 'room' : 'bot'}:${view.puzzle.id}`);
       rememberClues(view.puzzle.clues.map((c) => clueHash(c.text)));
       ui.lastEvent = view.events.at(-1)?.n ?? 0;
       ui.showSolution = false;
@@ -423,6 +483,8 @@ function render() {
   const board = $('#board');
   board.classList.toggle('armed', ui.armed != null && myTurn());
   board.classList.toggle('solution', ui.showSolution);
+  board.classList.toggle('pencil', ui.pencil);
+  let notesDirty = false;
   const selWord = ui.sel ? activeClue() : null;
   const wordCells = new Set(selWord ? cellsOfClue(selWord).map(([a, b]) => `${a},${b}`) : []);
   const rack = myRack();
@@ -442,6 +504,14 @@ function render() {
     el.classList.toggle('filled', owner !== -1);
     el.classList.toggle('word', wordCells.has(`${r},${c}`));
     el.classList.toggle('sel', !!ui.sel && ui.sel[0] === r && ui.sel[1] === c);
+    const nk = `${r},${c}`;
+    if (owner !== -1 && ui.notes.has(nk)) { ui.notes.delete(nk); notesDirty = true; }
+    const noteL = owner === -1 && !st && !ui.showSolution ? ui.notes.get(nk) : '';
+    let note = el.querySelector('.note');
+    if (noteL) {
+      if (!note) { note = document.createElement('span'); note.className = 'note'; el.appendChild(note); }
+      note.textContent = noteL;
+    } else note?.remove();
     let tile = el.querySelector('.tile');
     if (owner !== -1 || st) {
       const cls = st ? 'p0 staged' : owner === 2 ? 'p2' : owner === me ? 'p0' : 'p1';
@@ -486,6 +556,7 @@ function render() {
   $('#bag-count').textContent = v.bagCount;
   $('#bag-label').classList.toggle('empty', v.bagCount === 0);
   $('#opp-tiles').textContent = `${opp.name} holds ${opp.rackCount}`;
+  if (notesDirty) saveNotes();
   renderClueBar();
 }
 
@@ -557,6 +628,10 @@ function activeClue() {
 function renderClueBar() {
   const bar = $('#clue-bar');
   const v = ui.view;
+  if (ui.pencil && !ui.sel) {
+    bar.textContent = 'Pencil: tap an empty square and type. Only you see notes. Backspace erases.';
+    return;
+  }
   if (!ui.sel) {
     bar.textContent = myTurn()
       ? (ui.armed != null ? 'Now tap the square where this tile goes.' : 'Lay out your tiles, then press Submit. Tap a square to read its clue.')
@@ -615,6 +690,19 @@ $('#board').addEventListener('click', (e) => {
     const cells = cellsOfClue(cl);
     ui.sel = cells.find(([a, b]) => isEmpty(a, b) && !stagedAt(a, b)) || cells[0];
     ui.dir = cl.dir;
+    if (ui.pencil) focusPencil();
+    render();
+    return;
+  }
+  if (ui.pencil) {
+    if (ui.sel && ui.sel[0] === r && ui.sel[1] === c) {
+      if (wordsAt(r, c).length > 1) ui.dir = ui.dir === 'across' ? 'down' : 'across';
+    } else {
+      ui.sel = [r, c];
+      const ws = wordsAt(r, c);
+      if (ws.length === 1) ui.dir = ws[0].dir;
+    }
+    focusPencil();
     render();
     return;
   }
@@ -643,6 +731,7 @@ $('#board').addEventListener('click', (e) => {
 });
 
 function onRackTap(i) {
+  if (ui.pencil) setPencil(false);
   if (!myTurn()) return toast('Wait for your turn');
   if (ui.sel && isEmpty(ui.sel[0], ui.sel[1]) && !stagedAt(ui.sel[0], ui.sel[1]) && ui.armed == null) {
     stage(i, ui.sel[0], ui.sel[1]);
@@ -668,9 +757,12 @@ function advance() {
 
 document.addEventListener('keydown', (e) => {
   if (document.body.dataset.screen !== 'game' || !ui.view || $$('dialog').some((d) => d.open)) return;
-  if (e.target.matches('input')) return;
+  if (e.target.matches('input:not(#pencil-input)')) return;
   const v = ui.view;
   const k = e.key.toUpperCase();
+  if (ui.pencil && /^[A-Z]$/.test(k) && !e.ctrlKey && !e.metaKey && !e.altKey) { e.preventDefault(); return writeNote(k); }
+  if (ui.pencil && (e.key === 'Backspace' || e.key === 'Delete')) { e.preventDefault(); return eraseNote(); }
+  if (ui.pencil && e.key === 'Enter') return;
   if (/^[A-Z]$/.test(k) && ui.sel && myTurn()) {
     const [r, c] = ui.sel;
     if (!isEmpty(r, c)) return;
@@ -697,7 +789,21 @@ document.addEventListener('keydown', (e) => {
     }
     render();
     e.preventDefault();
-  } else if (e.key === 'Escape') { ui.armed = null; ui.sel = null; render(); }
+  } else if (e.key === 'Escape') { ui.armed = null; ui.sel = null; if (ui.pencil) setPencil(false); render(); }
+});
+
+// phone keyboards often send no usable key code, so read the hidden field instead
+$('#pencil-input').addEventListener('input', () => {
+  const inp = $('#pencil-input');
+  const val = inp.value;
+  inp.value = PENCIL_SENTINEL;
+  if (!ui.pencil) return;
+  if (val.length < PENCIL_SENTINEL.length) return eraseNote();
+  for (const ch of val.replace(/[^a-z]/gi, '').toUpperCase()) writeNote(ch);
+});
+$('#btn-pencil').addEventListener('click', () => {
+  setPencil(!ui.pencil);
+  toast(ui.pencil ? 'Pencil on. Notes are only visible to you.' : 'Pencil off');
 });
 
 $('#btn-submit').addEventListener('click', doSubmit);
@@ -709,6 +815,7 @@ $('#dlg-menu').addEventListener('click', (e) => {
   if (!act) return;
   $('#dlg-menu').close();
   if (act === 'howto') $('#dlg-howto').showModal();
+  if (act === 'clear-notes') { ui.notes.clear(); saveNotes(); render(); toast('Pencil notes cleared'); }
   if (act === 'resign' && ui.view?.status === 'playing') game.resign();
   if (act === 'home') goHome();
 });

@@ -129,6 +129,7 @@
           <div class="actions">
             <button id="btn-menu" class="ghost icon" aria-label="Menu">☰</button>
             <button id="btn-loupe" class="ghost icon loupe-btn" aria-label="Magnifier for clues" aria-pressed="true">🔍</button>
+            <button id="btn-pencil" class="ghost icon pencil-btn" aria-label="Pencil notes" aria-pressed="false" title="Pencil notes (only you see them)">✏️</button>
             <button id="btn-swap" class="soft">Swap</button>
             <button id="btn-recall" class="soft">Recall</button>
             <button id="btn-submit" class="primary">Pass</button>
@@ -138,6 +139,7 @@
       </div>
       <div class="toast" id="toast"></div>
       <div class="loupe hidden" id="loupe" aria-hidden="true"></div>
+      <input id="pencil-input" class="pencil-input" type="text" inputmode="text" autocomplete="off" autocorrect="off" autocapitalize="characters" spellcheck="false" aria-label="Pencil note letter" tabindex="-1">
       <div class="coach hidden" id="coach"></div>
     </section>
   </div>
@@ -161,6 +163,7 @@
     <h2>Menu</h2>
     <div class="menu">
       <button data-act="howto">How to play</button>
+      <button data-act="clear-notes">Clear my pencil notes</button>
       <button data-act="resign" class="danger">Resign game</button>
       <button data-act="home">Leave to home</button>
     </div>
